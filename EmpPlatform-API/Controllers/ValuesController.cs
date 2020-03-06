@@ -3,11 +3,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using EmpPlatform_API.Data;
 using EmpPlatform_API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmpPlatform_API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ValuesController : ControllerBase
@@ -27,6 +29,7 @@ namespace EmpPlatform_API.Controllers
             return Ok(values);
         }
 
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetValue(int id)
         {
