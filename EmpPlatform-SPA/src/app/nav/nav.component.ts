@@ -9,11 +9,12 @@ import { AuthService } from "../_services/auth.service";
 export class NavComponent implements OnInit {
   model: any = {};
 
-  constructor(private authService: AuthService) {}
+  constructor(private authService: AuthService) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   login() {
-    this.authService.login(this.model).subscribe();
+    console.log(this.model);
+    //this.authService.login(this.model).subscribe();
   }
 }
