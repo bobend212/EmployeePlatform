@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,6 +26,8 @@ namespace EmpPlatform_API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
+            throw new Exception("GO AWAY!!");
+
             var values = await _context.Values.ToListAsync();
 
             return Ok(values);
