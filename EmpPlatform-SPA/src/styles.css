@@ -3,6 +3,10 @@
 @import "../node_modules/font-awesome/css/font-awesome.min.css";
 @import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
 
+@import "../node_modules/alertifyjs/build/css/alertify.min.css";
+@import "../node_modules/alertifyjs/build/css/themes/bootstrap.min.css";
+
+
 * {
   font-family: "Lora", serif;
 }
