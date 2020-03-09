@@ -1,16 +1,16 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
   <div class="container">
-    <a class="navbar-brand">Employee Platform |</a>
+    <a class="navbar-brand" [routerLink]="['/home']">Employee Platform |</a>
 
     <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Timesheet</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/timesheet']">Timesheet</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Workflow</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/workflow']">Workflow</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/projects']">Projects</a>
       </li>
     </ul>
 
