@@ -41,7 +41,7 @@ namespace EmpPlatform_API
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
             services.AddCors();
-            services.AddAutoMapper(typeof(ITimesheetRepository).Assembly);
+            services.AddAutoMapper(typeof(TimesheetRepository).Assembly);
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<ITimesheetRepository, TimesheetRepository>();
 
