@@ -4,13 +4,13 @@ using EmpPlatform_API.Models;
 
 namespace EmpPlatform_API.Data
 {
-    public interface IPlatformRepository
+    public interface ITimesheetRepository
     {
         void Add<T>(T entity) where T : class;
         void Delete<T>(T entity) where T : class;
         Task<bool> SaveAll();
-        Task<IEnumerable<User>> GetUsers();
-        Task<User> GetUser(int id);
+        Task<IEnumerable<Timesheet>> GetTimesheets();
+        Task<Timesheet> GetTimesheet(int id);
 
     }
 }

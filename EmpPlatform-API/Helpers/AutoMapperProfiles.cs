@@ -8,8 +8,8 @@ namespace EmpPlatform_API.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<User, UserForListDto>();
-            CreateMap<User, UserForDetailedDto>();
+            // CreateMap<User, UserForListDto>();
+            // CreateMap<User, UserForDetailedDto>();
         }
     }
 }

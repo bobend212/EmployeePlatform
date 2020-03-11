@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace EmpPlatform_API.Models
 {
@@ -7,16 +8,10 @@ namespace EmpPlatform_API.Models
     {
         public int Id { get; set; }
         public DateTime DateAdded { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime DatePicker { get; set; }
         public float Time { get; set; }
 
-        public Project Projects { get; set; }
-        public int ProjectId { get; set; }
-
-        public WorkType WorkTypes { get; set; }
-        public int WorkTypeId { get; set; }
-
-        public User Users { get; set; }
+        public User User { get; set; }
         public int UserId { get; set; }
     }
 }

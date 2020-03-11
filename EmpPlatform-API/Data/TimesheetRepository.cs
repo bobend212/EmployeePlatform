@@ -5,14 +5,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EmpPlatform_API.Data
 {
-    public class PlatformRepository : IPlatformRepository
+    public class TimesheetRepository : ITimesheetRepository
     {
         private readonly DataContext _context;
 
-        public PlatformRepository(DataContext context)
+        public TimesheetRepository(DataContext context)
         {
             _context = context;
         }
+
         public void Add<T>(T entity) where T : class
         {
             _context.Add(entity);
@@ -23,16 +24,16 @@ namespace EmpPlatform_API.Data
             _context.Remove(entity);
         }
 
-        public async Task<User> GetUser(int id)
+        public async Task<Timesheet> GetTimesheet(int id)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
-            return user;
+            var timesheet = await _context.Timesheets.Include(x => x.User).FirstOrDefaultAsync(x => x.Id == id);
+            return timesheet;
         }
 
-        public async Task<IEnumerable<User>> GetUsers()
+        public async Task<IEnumerable<Timesheet>> GetTimesheets()
         {
-            var users = await _context.Users.ToListAsync();
-            return users;
+            var timesheets = await _context.Timesheets.Include(x => x.User).ToListAsync();
+            return timesheets;
         }
 
         public async Task<bool> SaveAll()
