@@ -9,8 +9,7 @@ namespace EmpPlatform_API.Data
         void Add<T>(T entity) where T : class;
         void Delete<T>(T entity) where T : class;
         Task<bool> SaveAll();
-        Task<IEnumerable<Timesheet>> GetTimesheets();
-        Task<Timesheet> GetTimesheet(int id);
+        Task<IEnumerable<Timesheet>> GetTimesheet(int id);
 
     }
 }

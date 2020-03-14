@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using EmpPlatform_API.Models;
 using Microsoft.EntityFrameworkCore;
@@ -24,15 +25,9 @@ namespace EmpPlatform_API.Data
             _context.Remove(entity);
         }
 
-        public async Task<Timesheet> GetTimesheet(int id)
+        public async Task<IEnumerable<Timesheet>> GetTimesheet(int id)
         {
-            var timesheet = await _context.Timesheets.Include(x => x.User).FirstOrDefaultAsync(x => x.Id == id);
-            return timesheet;
-        }
-
-        public async Task<IEnumerable<Timesheet>> GetTimesheets()
-        {
-            var timesheets = await _context.Timesheets.Include(x => x.User).ToListAsync();
+            var timesheets = await _context.Timesheets.Where(x => x.UserId == id).ToListAsync();
             return timesheets;
         }
 

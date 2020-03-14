@@ -8,8 +8,9 @@ namespace EmpPlatform_API.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Timesheet, TimesheetForListDto>();
-            CreateMap<Timesheet, TimesheetForDetailedListDto>();
+            CreateMap<Timesheet, TimesheetForDetailedListDto>()
+                .ForMember(dest => dest.WeekNo, opt =>
+                    opt.MapFrom(src => src.DateAdded.CalculateWeekNumber()));
         }
     }
 }

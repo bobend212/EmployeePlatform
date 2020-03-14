@@ -22,24 +22,14 @@ namespace EmpPlatform_API.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetTimesheets()
-        {
-            var timesheets = await _repo.GetTimesheets();
-
-            var timesheetsToReturn = _mapper.Map<IEnumerable<TimesheetForListDto>>(timesheets);
-
-            return Ok(timesheetsToReturn);
-        }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTimesheet(int id)
         {
-            var timesheet = await _repo.GetTimesheet(id);
+            var timesheets = await _repo.GetTimesheet(id);
 
-            var timesheetToReturn = _mapper.Map<TimesheetForDetailedListDto>(timesheet);
+            var timesheetsToReturn = _mapper.Map<IEnumerable<TimesheetForDetailedListDto>>(timesheets);
 
-            return Ok(timesheetToReturn);
+            return Ok(timesheetsToReturn);
         }
     }
 }
