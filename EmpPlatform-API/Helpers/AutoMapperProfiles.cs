@@ -8,8 +8,13 @@ namespace EmpPlatform_API.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<User, UserForListDto>();
-            CreateMap<User, UsersForListDto>();
+            CreateMap<User, UserForListDto>()
+                .ForMember(dest => dest.DepartmentName, opt =>
+                {
+                    opt.MapFrom(src => src.Department.DepartmentName);
+                });
+
+            CreateMap<User, UserForDetailedDto>();
 
             CreateMap<Timesheet, TimesheetForDetailedListDto>()
                 .ForMember(dest => dest.WeekNo, opt =>

@@ -18,6 +18,10 @@ namespace EmpPlatform_API.Models
         public string Email { get; set; }
         public string Phone { get; set; }
 
+        public Department Department { get; set; }
+        public int DepartmentId { get; set; }
+
         public ICollection<Timesheet> Timesheets { get; set; }
+
     }
 }

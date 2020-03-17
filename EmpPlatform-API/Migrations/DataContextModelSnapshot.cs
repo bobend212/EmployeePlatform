@@ -16,6 +16,20 @@ namespace EmpPlatform_API.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.0");
 
+            modelBuilder.Entity("EmpPlatform_API.Models.Department", b =>
+                {
+                    b.Property<int>("DepartmentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("DepartmentName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("DepartmentId");
+
+                    b.ToTable("Departments");
+                });
+
             modelBuilder.Entity("EmpPlatform_API.Models.Timesheet", b =>
                 {
                     b.Property<int>("Id")
@@ -59,6 +73,9 @@ namespace EmpPlatform_API.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Email")
                         .HasColumnType("TEXT");
 
@@ -91,6 +108,8 @@ namespace EmpPlatform_API.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DepartmentId");
+
                     b.ToTable("Users");
                 });
 
@@ -113,6 +132,15 @@ namespace EmpPlatform_API.Migrations
                     b.HasOne("EmpPlatform_API.Models.User", "User")
                         .WithMany("Timesheets")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EmpPlatform_API.Models.User", b =>
+                {
+                    b.HasOne("EmpPlatform_API.Models.Department", "Department")
+                        .WithMany("Users")
+                        .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

@@ -18,7 +18,7 @@ export const appRoutes: Routes = [
     canActivate: [AuthGuard],
     children: [
       { path: "users", component: UsersComponent },
-      { path: "users:id", component: TimesheetDetailComponent },
+      //{ path: "users:id", component: TimesheetDetailComponent },
       {
         path: "user/edit",
         component: EditUserProfileComponent,

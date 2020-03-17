@@ -11,4 +11,5 @@ export interface User {
   email: string;
   phone: string;
   timesheets?: Timesheet[];
+  departmentName: string;
 }

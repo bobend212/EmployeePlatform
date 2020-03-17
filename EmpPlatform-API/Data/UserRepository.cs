@@ -27,13 +27,13 @@ namespace EmpPlatform_API.Data
 
         public async Task<User> GetUser(int id)
         {
-            var user = await _context.Users.Include(t => t.Timesheets).FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _context.Users.Include(t => t.Department).FirstOrDefaultAsync(u => u.Id == id);
             return user;
         }
 
         public async Task<IEnumerable<User>> GetUsers()
         {
-            var users = await _context.Users.Include(t => t.Timesheets).ToListAsync();
+            var users = await _context.Users.Include(t => t.Department).ToListAsync();
             return users;
         }
 

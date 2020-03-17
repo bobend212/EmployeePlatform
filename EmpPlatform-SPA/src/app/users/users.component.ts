@@ -15,7 +15,7 @@ export class UsersComponent implements OnInit {
   constructor(
     private userService: UserService,
     private alertify: AlertifyService
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.loadUsers();

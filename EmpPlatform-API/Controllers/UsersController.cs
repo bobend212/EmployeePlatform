@@ -27,7 +27,7 @@ namespace EmpPlatform_API.Controllers
         {
             var user = await _repo.GetUser(id);
 
-            var userToReturn = _mapper.Map<UserForListDto>(user);
+            var userToReturn = _mapper.Map<UserForDetailedDto>(user);
 
             return Ok(userToReturn);
         }
@@ -38,7 +38,7 @@ namespace EmpPlatform_API.Controllers
         {
             var users = await _repo.GetUsers();
 
-            var usersToReturn = _mapper.Map<IEnumerable<UsersForListDto>>(users);
+            var usersToReturn = _mapper.Map<IEnumerable<UserForListDto>>(users);
 
             return Ok(usersToReturn);
         }
