@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmpPlatform_API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200311172355_ExtendedTimesheetEntity")]
-    partial class ExtendedTimesheetEntity
+    [Migration("20200317122327_Test4")]
+    partial class Test4
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,7 +27,13 @@ namespace EmpPlatform_API.Migrations
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("DatePicker")
+                    b.Property<DateTime>("DatePicked")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProjectName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProjectNumber")
                         .HasColumnType("TEXT");
 
                     b.Property<float>("Time")
@@ -35,6 +41,9 @@ namespace EmpPlatform_API.Migrations
 
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("WorkType")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

@@ -1,282 +1,1168 @@
-[
-  {
-    "Username": "Iva",
+[{
+    "Username": "Sara",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2005-01-05",
-    "CreatedDate": "2011-10-16",
-    "LastActive": "2004-04-02",
-    "Firstname": "Iris",
-    "Lastname": "Key",
-    "Email": "iriskey@dreamia.com",
-    "Phone": "+48 (990) 488-2863",
-    "Timesheets": [
+    "HireDate": "2018-06-21",
+    "CreateDate": "2009-02-06",
+    "LastActive": "2007-05-11",
+    "Firstname": "Montoya",
+    "Lastname": "Faulkner",
+    "email": "montoyafaulkner@letpro.com",
+    "phone": "+48 (997) 482-2910",
+    "Timesheets": [{
+        "ProjectNumber": 19676,
+        "ProjectName": "Allison",
+        "WorkType": "Roof",
+        "Time": 4.67,
+        "DatePicked": "2019-11-20",
+        "DateAdded": "2019-08-07",
+        "UserId": 4
+      },
       {
-        "DateAdded": "2013-04-20",
-        "DatePicker": "2003-11-25",
-        "Time": 2.33
+        "ProjectNumber": 19463,
+        "ProjectName": "Sunriver",
+        "WorkType": "Sections",
+        "Time": 3.48,
+        "DatePicked": "2020-01-08",
+        "DateAdded": "2019-08-06",
+        "UserId": 8
       }
     ]
   },
   {
-    "Username": "Ana",
+    "Username": "Rhonda",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2008-08-01",
-    "CreatedDate": "2008-09-19",
-    "LastActive": "2008-12-25",
-    "Firstname": "Cash",
-    "Lastname": "Ayala",
-    "Email": "cashayala@dreamia.com",
-    "Phone": "+48 (858) 523-3671",
-    "Timesheets": [
-      {
-        "DateAdded": "2017-02-20",
-        "DatePicker": "2003-01-09",
-        "Time": 5.09
+    "HireDate": "2005-06-14",
+    "CreateDate": "2010-08-21",
+    "LastActive": "2006-08-14",
+    "Firstname": "Mercado",
+    "Lastname": "Prince",
+    "email": "mercadoprince@letpro.com",
+    "phone": "+48 (947) 472-3738",
+    "Timesheets": [{
+        "ProjectNumber": 18492,
+        "ProjectName": "Dowling",
+        "WorkType": "Checking",
+        "Time": 3.54,
+        "DatePicked": "2019-03-11",
+        "DateAdded": "2019-09-10",
+        "UserId": 7
       },
       {
-        "DateAdded": "2017-05-08",
-        "DatePicker": "2009-07-05",
-        "Time": 0.27
+        "ProjectNumber": 19888,
+        "ProjectName": "Glenshaw",
+        "WorkType": "Issuing",
+        "Time": 3.87,
+        "DatePicked": "2019-12-04",
+        "DateAdded": "2020-01-26",
+        "UserId": 5
       },
       {
-        "DateAdded": "2002-07-05",
-        "DatePicker": "2007-06-15",
-        "Time": 1.89
+        "ProjectNumber": 19192,
+        "ProjectName": "Elwood",
+        "WorkType": "Issuing",
+        "Time": 7.08,
+        "DatePicked": "2019-07-27",
+        "DateAdded": "2019-12-31",
+        "UserId": 6
       },
       {
-        "DateAdded": "2015-12-17",
-        "DatePicker": "2012-12-11",
-        "Time": 4.94
+        "ProjectNumber": 18320,
+        "ProjectName": "Coldiron",
+        "WorkType": "Sections",
+        "Time": 5.91,
+        "DatePicked": "2019-07-14",
+        "DateAdded": "2019-11-30",
+        "UserId": 8
       },
       {
-        "DateAdded": "2001-02-23",
-        "DatePicker": "2019-10-01",
-        "Time": 1.03
+        "ProjectNumber": 18868,
+        "ProjectName": "Sunbury",
+        "WorkType": "Checking",
+        "Time": 0.4,
+        "DatePicked": "2019-10-07",
+        "DateAdded": "2019-08-02",
+        "UserId": 3
       }
     ]
   },
   {
-    "Username": "Isabel",
+    "Username": "Esmeralda",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2013-07-11",
-    "CreatedDate": "2004-09-23",
-    "LastActive": "2010-05-30",
-    "Firstname": "Diana",
-    "Lastname": "Sawyer",
-    "Email": "dianasawyer@dreamia.com",
-    "Phone": "+48 (950) 413-3239",
-    "Timesheets": [
-      {
-        "DateAdded": "2012-02-11",
-        "DatePicker": "2010-11-24",
-        "Time": 2.97
+    "HireDate": "2005-02-06",
+    "CreateDate": "2008-02-15",
+    "LastActive": "2009-05-26",
+    "Firstname": "Rosario",
+    "Lastname": "Winters",
+    "email": "rosariowinters@letpro.com",
+    "phone": "+48 (858) 541-3459",
+    "Timesheets": [{
+        "ProjectNumber": 19679,
+        "ProjectName": "Crawfordsville",
+        "WorkType": "Panels",
+        "Time": 3.58,
+        "DatePicked": "2019-02-01",
+        "DateAdded": "2019-05-26",
+        "UserId": 10
       },
       {
-        "DateAdded": "2019-09-18",
-        "DatePicker": "2012-07-23",
-        "Time": 0.6
+        "ProjectNumber": 19453,
+        "ProjectName": "Mammoth",
+        "WorkType": "Issuing",
+        "Time": 5.54,
+        "DatePicked": "2019-01-13",
+        "DateAdded": "2019-09-28",
+        "UserId": 8
       },
       {
-        "DateAdded": "2008-07-29",
-        "DatePicker": "2012-11-01",
-        "Time": 0.37
+        "ProjectNumber": 19421,
+        "ProjectName": "Celeryville",
+        "WorkType": "Sections",
+        "Time": 6.63,
+        "DatePicked": "2019-06-16",
+        "DateAdded": "2019-01-29",
+        "UserId": 6
       }
     ]
   },
   {
-    "Username": "Corina",
+    "Username": "Leila",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2000-08-17",
-    "CreatedDate": "2004-01-07",
-    "LastActive": "2010-10-03",
-    "Firstname": "Adriana",
-    "Lastname": "Barker",
-    "Email": "adrianabarker@dreamia.com",
-    "Phone": "+48 (857) 406-3196",
-    "Timesheets": [
+    "HireDate": "2016-12-07",
+    "CreateDate": "2010-10-08",
+    "LastActive": "2007-05-07",
+    "Firstname": "Snider",
+    "Lastname": "Hall",
+    "email": "sniderhall@letpro.com",
+    "phone": "+48 (943) 403-3642",
+    "Timesheets": [{
+        "ProjectNumber": 18582,
+        "ProjectName": "Adamstown",
+        "WorkType": "Checking",
+        "Time": 2.67,
+        "DatePicked": "2019-06-06",
+        "DateAdded": "2019-05-03",
+        "UserId": 1
+      },
       {
-        "DateAdded": "2016-07-26",
-        "DatePicker": "2001-02-28",
-        "Time": 7.44
+        "ProjectNumber": 19747,
+        "ProjectName": "Coral",
+        "WorkType": "Floor",
+        "Time": 0.66,
+        "DatePicked": "2019-03-17",
+        "DateAdded": "2019-01-31",
+        "UserId": 8
+      },
+      {
+        "ProjectNumber": 19237,
+        "ProjectName": "Bowmansville",
+        "WorkType": "Floor",
+        "Time": 4.28,
+        "DatePicked": "2019-02-11",
+        "DateAdded": "2019-03-30",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 18970,
+        "ProjectName": "Hondah",
+        "WorkType": "Floor",
+        "Time": 3.88,
+        "DatePicked": "2020-01-04",
+        "DateAdded": "2019-01-22",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 18385,
+        "ProjectName": "Shelby",
+        "WorkType": "Checking",
+        "Time": 6.17,
+        "DatePicked": "2019-03-31",
+        "DateAdded": "2019-10-13",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 18560,
+        "ProjectName": "Dola",
+        "WorkType": "Floor",
+        "Time": 2.86,
+        "DatePicked": "2019-02-13",
+        "DateAdded": "2019-08-08",
+        "UserId": 3
+      },
+      {
+        "ProjectNumber": 19188,
+        "ProjectName": "Jenkinsville",
+        "WorkType": "Panels",
+        "Time": 0.61,
+        "DatePicked": "2019-07-12",
+        "DateAdded": "2019-01-01",
+        "UserId": 3
+      },
+      {
+        "ProjectNumber": 18567,
+        "ProjectName": "Crumpler",
+        "WorkType": "Panels",
+        "Time": 4.96,
+        "DatePicked": "2019-04-18",
+        "DateAdded": "2020-01-16",
+        "UserId": 9
+      },
+      {
+        "ProjectNumber": 19700,
+        "ProjectName": "Belleview",
+        "WorkType": "Issuing",
+        "Time": 1.26,
+        "DatePicked": "2019-10-01",
+        "DateAdded": "2019-05-11",
+        "UserId": 9
+      },
+      {
+        "ProjectNumber": 19767,
+        "ProjectName": "Joppa",
+        "WorkType": "Sections",
+        "Time": 1.91,
+        "DatePicked": "2019-02-15",
+        "DateAdded": "2019-09-26",
+        "UserId": 5
       }
     ]
   },
   {
-    "Username": "Corrine",
+    "Username": "Reva",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2017-09-13",
-    "CreatedDate": "2002-05-22",
-    "LastActive": "2009-02-25",
-    "Firstname": "Ora",
-    "Lastname": "Schroeder",
-    "Email": "oraschroeder@dreamia.com",
-    "Phone": "+48 (822) 562-2974",
-    "Timesheets": [
-      {
-        "DateAdded": "2010-12-13",
-        "DatePicker": "2001-03-12",
-        "Time": 1.93
+    "HireDate": "2005-06-09",
+    "CreateDate": "2005-10-31",
+    "LastActive": "2012-12-30",
+    "Firstname": "Reed",
+    "Lastname": "Christian",
+    "email": "reedchristian@letpro.com",
+    "phone": "+48 (914) 572-3973",
+    "Timesheets": [{
+        "ProjectNumber": 19319,
+        "ProjectName": "Chamizal",
+        "WorkType": "Floor",
+        "Time": 4.14,
+        "DatePicked": "2019-04-10",
+        "DateAdded": "2019-06-12",
+        "UserId": 3
       },
       {
-        "DateAdded": "2005-08-01",
-        "DatePicker": "2017-08-22",
-        "Time": 6.15
+        "ProjectNumber": 18155,
+        "ProjectName": "Greer",
+        "WorkType": "Floor",
+        "Time": 6.72,
+        "DatePicked": "2020-01-22",
+        "DateAdded": "2020-01-05",
+        "UserId": 9
       },
       {
-        "DateAdded": "2020-01-31",
-        "DatePicker": "2008-11-12",
-        "Time": 1.95
+        "ProjectNumber": 19915,
+        "ProjectName": "Watchtower",
+        "WorkType": "Issuing",
+        "Time": 4.27,
+        "DatePicked": "2019-10-14",
+        "DateAdded": "2019-12-01",
+        "UserId": 7
+      },
+      {
+        "ProjectNumber": 18561,
+        "ProjectName": "Nadine",
+        "WorkType": "Sections",
+        "Time": 4.09,
+        "DatePicked": "2019-06-21",
+        "DateAdded": "2019-07-12",
+        "UserId": 8
+      },
+      {
+        "ProjectNumber": 18989,
+        "ProjectName": "Jackpot",
+        "WorkType": "Panels",
+        "Time": 1.24,
+        "DatePicked": "2019-07-11",
+        "DateAdded": "2019-06-15",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 18149,
+        "ProjectName": "Brule",
+        "WorkType": "Panels",
+        "Time": 4.89,
+        "DatePicked": "2019-05-09",
+        "DateAdded": "2019-07-08",
+        "UserId": 3
+      },
+      {
+        "ProjectNumber": 18377,
+        "ProjectName": "Hoagland",
+        "WorkType": "Slab",
+        "Time": 4.74,
+        "DatePicked": "2020-01-10",
+        "DateAdded": "2019-07-05",
+        "UserId": 2
       }
     ]
   },
   {
-    "Username": "Johnston",
+    "Username": "Janet",
     "Password": "password",
-    "Gender": "male",
-    "HireDate": "2010-10-07",
-    "CreatedDate": "2012-03-28",
-    "LastActive": "2012-11-09",
-    "Firstname": "Robyn",
-    "Lastname": "Perry",
-    "Email": "robynperry@dreamia.com",
-    "Phone": "+48 (898) 577-3608",
-    "Timesheets": [
-      {
-        "DateAdded": "2014-02-16",
-        "DatePicker": "2003-03-24",
-        "Time": 5.75
+    "Gender": "female",
+    "HireDate": "2014-12-01",
+    "CreateDate": "2006-08-13",
+    "LastActive": "2007-07-18",
+    "Firstname": "Chang",
+    "Lastname": "Mcclure",
+    "email": "changmcclure@letpro.com",
+    "phone": "+48 (924) 586-3530",
+    "Timesheets": [{
+        "ProjectNumber": 18691,
+        "ProjectName": "Cawood",
+        "WorkType": "Checking",
+        "Time": 3.5,
+        "DatePicked": "2019-07-24",
+        "DateAdded": "2019-12-19",
+        "UserId": 6
       },
       {
-        "DateAdded": "2007-10-08",
-        "DatePicker": "2003-03-27",
-        "Time": 3.85
+        "ProjectNumber": 19138,
+        "ProjectName": "Disautel",
+        "WorkType": "Checking",
+        "Time": 0.3,
+        "DatePicked": "2019-12-29",
+        "DateAdded": "2019-07-31",
+        "UserId": 8
       },
       {
-        "DateAdded": "2014-06-02",
-        "DatePicker": "2015-08-14",
-        "Time": 6.53
+        "ProjectNumber": 19671,
+        "ProjectName": "Westphalia",
+        "WorkType": "Checking",
+        "Time": 4.32,
+        "DatePicked": "2020-01-05",
+        "DateAdded": "2019-02-07",
+        "UserId": 9
       },
       {
-        "DateAdded": "2018-12-07",
-        "DatePicker": "2007-03-02",
-        "Time": 3.63
+        "ProjectNumber": 19864,
+        "ProjectName": "Condon",
+        "WorkType": "Sections",
+        "Time": 2.31,
+        "DatePicked": "2019-12-20",
+        "DateAdded": "2019-11-28",
+        "UserId": 1
       },
       {
-        "DateAdded": "2015-08-10",
-        "DatePicker": "2008-12-23",
-        "Time": 4.23
+        "ProjectNumber": 18362,
+        "ProjectName": "Witmer",
+        "WorkType": "Roof",
+        "Time": 2.42,
+        "DatePicked": "2019-12-01",
+        "DateAdded": "2019-03-20",
+        "UserId": 5
+      },
+      {
+        "ProjectNumber": 19159,
+        "ProjectName": "Onton",
+        "WorkType": "Checking",
+        "Time": 0.55,
+        "DatePicked": "2019-01-08",
+        "DateAdded": "2019-10-21",
+        "UserId": 7
+      },
+      {
+        "ProjectNumber": 18118,
+        "ProjectName": "Northridge",
+        "WorkType": "Roof",
+        "Time": 0.86,
+        "DatePicked": "2019-07-10",
+        "DateAdded": "2019-12-02",
+        "UserId": 7
       }
     ]
   },
   {
-    "Username": "Barry",
+    "Username": "Vilma",
     "Password": "password",
-    "Gender": "male",
-    "HireDate": "2011-05-19",
-    "CreatedDate": "2010-09-24",
-    "LastActive": "2007-07-12",
-    "Firstname": "Giles",
-    "Lastname": "Odom",
-    "Email": "gilesodom@dreamia.com",
-    "Phone": "+48 (976) 573-2258",
-    "Timesheets": [
-      {
-        "DateAdded": "2017-12-14",
-        "DatePicker": "2013-04-23",
-        "Time": 2.64
+    "Gender": "female",
+    "HireDate": "2010-11-14",
+    "CreateDate": "2016-07-16",
+    "LastActive": "2012-06-29",
+    "Firstname": "Hammond",
+    "Lastname": "William",
+    "email": "hammondwilliam@letpro.com",
+    "phone": "+48 (882) 490-3883",
+    "Timesheets": [{
+        "ProjectNumber": 18662,
+        "ProjectName": "Grandview",
+        "WorkType": "Issuing",
+        "Time": 1.26,
+        "DatePicked": "2019-11-23",
+        "DateAdded": "2019-01-16",
+        "UserId": 7
       },
       {
-        "DateAdded": "2001-05-20",
-        "DatePicker": "2020-07-31",
-        "Time": 3.04
+        "ProjectNumber": 18167,
+        "ProjectName": "Centerville",
+        "WorkType": "Panels",
+        "Time": 6.82,
+        "DatePicked": "2019-11-16",
+        "DateAdded": "2019-01-05",
+        "UserId": 9
       },
       {
-        "DateAdded": "2014-02-03",
-        "DatePicker": "2009-01-22",
-        "Time": 3.95
+        "ProjectNumber": 18153,
+        "ProjectName": "Abrams",
+        "WorkType": "Slab",
+        "Time": 5.68,
+        "DatePicked": "2019-03-20",
+        "DateAdded": "2019-04-20",
+        "UserId": 9
+      },
+      {
+        "ProjectNumber": 19768,
+        "ProjectName": "Freelandville",
+        "WorkType": "Slab",
+        "Time": 5.72,
+        "DatePicked": "2020-01-04",
+        "DateAdded": "2019-03-19",
+        "UserId": 1
       }
     ]
   },
   {
-    "Username": "Hoover",
+    "Username": "Lavonne",
     "Password": "password",
-    "Gender": "male",
-    "HireDate": "2008-02-24",
-    "CreatedDate": "2005-11-30",
-    "LastActive": "2016-06-29",
-    "Firstname": "Ilene",
-    "Lastname": "Rush",
-    "Email": "ilenerush@dreamia.com",
-    "Phone": "+48 (879) 470-3327",
-    "Timesheets": [
+    "Gender": "female",
+    "HireDate": "2014-04-09",
+    "CreateDate": "2016-02-11",
+    "LastActive": "2020-04-27",
+    "Firstname": "Tania",
+    "Lastname": "Kelley",
+    "email": "taniakelley@letpro.com",
+    "phone": "+48 (898) 541-2658",
+    "Timesheets": [{
+        "ProjectNumber": 19854,
+        "ProjectName": "Logan",
+        "WorkType": "Checking",
+        "Time": 2.75,
+        "DatePicked": "2019-09-24",
+        "DateAdded": "2019-09-27",
+        "UserId": 1
+      },
       {
-        "DateAdded": "2012-10-01",
-        "DatePicker": "2017-12-05",
-        "Time": 4.15
+        "ProjectNumber": 18303,
+        "ProjectName": "Chesapeake",
+        "WorkType": "Checking",
+        "Time": 5.66,
+        "DatePicked": "2019-08-03",
+        "DateAdded": "2019-02-03",
+        "UserId": 7
       }
     ]
   },
   {
-    "Username": "Lewis",
+    "Username": "Avis",
     "Password": "password",
-    "Gender": "male",
-    "HireDate": "2014-05-08",
-    "CreatedDate": "2003-06-02",
-    "LastActive": "2003-03-31",
-    "Firstname": "Wall",
-    "Lastname": "Cherry",
-    "Email": "wallcherry@dreamia.com",
-    "Phone": "+48 (920) 549-3428",
-    "Timesheets": [
-      {
-        "DateAdded": "2010-08-09",
-        "DatePicker": "2013-06-24",
-        "Time": 6.38
+    "Gender": "female",
+    "HireDate": "2014-08-02",
+    "CreateDate": "2015-11-06",
+    "LastActive": "2020-07-22",
+    "Firstname": "Reyes",
+    "Lastname": "Morse",
+    "email": "reyesmorse@letpro.com",
+    "phone": "+48 (851) 505-2385",
+    "Timesheets": [{
+        "ProjectNumber": 19263,
+        "ProjectName": "Chapin",
+        "WorkType": "Floor",
+        "Time": 4.79,
+        "DatePicked": "2019-11-08",
+        "DateAdded": "2019-08-31",
+        "UserId": 8
       },
       {
-        "DateAdded": "2011-02-19",
-        "DatePicker": "2001-04-28",
-        "Time": 7.27
+        "ProjectNumber": 19879,
+        "ProjectName": "Wescosville",
+        "WorkType": "Roof",
+        "Time": 2.05,
+        "DatePicked": "2020-01-25",
+        "DateAdded": "2019-08-17",
+        "UserId": 2
       },
       {
-        "DateAdded": "2012-04-06",
-        "DatePicker": "2013-01-28",
-        "Time": 7.64
+        "ProjectNumber": 18881,
+        "ProjectName": "Russellville",
+        "WorkType": "Checking",
+        "Time": 2.67,
+        "DatePicked": "2019-07-24",
+        "DateAdded": "2019-08-05",
+        "UserId": 8
       },
       {
-        "DateAdded": "2012-02-16",
-        "DatePicker": "2002-07-25",
-        "Time": 0.29
+        "ProjectNumber": 19301,
+        "ProjectName": "Roeville",
+        "WorkType": "Roof",
+        "Time": 4.59,
+        "DatePicked": "2019-12-28",
+        "DateAdded": "2019-02-17",
+        "UserId": 6
+      },
+      {
+        "ProjectNumber": 19643,
+        "ProjectName": "Harleigh",
+        "WorkType": "Floor",
+        "Time": 2.19,
+        "DatePicked": "2019-02-16",
+        "DateAdded": "2019-09-15",
+        "UserId": 1
+      },
+      {
+        "ProjectNumber": 19493,
+        "ProjectName": "Hemlock",
+        "WorkType": "Sections",
+        "Time": 4.73,
+        "DatePicked": "2019-07-09",
+        "DateAdded": "2019-01-14",
+        "UserId": 9
       }
     ]
   },
   {
-    "Username": "Burks",
+    "Username": "Trisha",
     "Password": "password",
-    "Gender": "male",
-    "HireDate": "2009-03-08",
-    "CreatedDate": "2020-04-24",
-    "LastActive": "2016-11-14",
-    "Firstname": "Riddle",
-    "Lastname": "Evans",
-    "Email": "riddleevans@dreamia.com",
-    "Phone": "+48 (968) 405-3469",
-    "Timesheets": [
-      {
-        "DateAdded": "2008-01-08",
-        "DatePicker": "2005-01-06",
-        "Time": 4.5
+    "Gender": "female",
+    "HireDate": "2013-04-14",
+    "CreateDate": "2007-01-14",
+    "LastActive": "2010-05-09",
+    "Firstname": "Booth",
+    "Lastname": "Wooten",
+    "email": "boothwooten@letpro.com",
+    "phone": "+48 (900) 420-3432",
+    "Timesheets": [{
+        "ProjectNumber": 18227,
+        "ProjectName": "Bascom",
+        "WorkType": "Issuing",
+        "Time": 2.66,
+        "DatePicked": "2019-01-04",
+        "DateAdded": "2019-04-26",
+        "UserId": 5
       },
       {
-        "DateAdded": "2018-02-26",
-        "DatePicker": "2002-12-31",
-        "Time": 2.97
+        "ProjectNumber": 19871,
+        "ProjectName": "Nicut",
+        "WorkType": "Floor",
+        "Time": 0.34,
+        "DatePicked": "2019-08-14",
+        "DateAdded": "2019-11-25",
+        "UserId": 7
+      },
+      {
+        "ProjectNumber": 18737,
+        "ProjectName": "Sexton",
+        "WorkType": "Sections",
+        "Time": 6.65,
+        "DatePicked": "2019-08-16",
+        "DateAdded": "2019-05-14",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 19021,
+        "ProjectName": "Carrizo",
+        "WorkType": "Panels",
+        "Time": 3.16,
+        "DatePicked": "2019-05-21",
+        "DateAdded": "2020-01-15",
+        "UserId": 5
+      },
+      {
+        "ProjectNumber": 19131,
+        "ProjectName": "Klondike",
+        "WorkType": "Checking",
+        "Time": 3.02,
+        "DatePicked": "2019-02-07",
+        "DateAdded": "2019-05-27",
+        "UserId": 5
+      },
+      {
+        "ProjectNumber": 19862,
+        "ProjectName": "Chamberino",
+        "WorkType": "Panels",
+        "Time": 7.63,
+        "DatePicked": "2020-01-24",
+        "DateAdded": "2019-01-17",
+        "UserId": 5
       }
     ]
+  },
+  {
+    "Username": "Patton",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2016-08-07",
+    "CreateDate": "2019-01-08",
+    "LastActive": "2018-03-27",
+    "Firstname": "Johnston",
+    "Lastname": "Carrillo",
+    "email": "johnstoncarrillo@letpro.com",
+    "phone": "+48 (995) 562-2704",
+    "Timesheets": [{
+        "ProjectNumber": 19018,
+        "ProjectName": "Hamilton",
+        "WorkType": "Slab",
+        "Time": 1.6,
+        "DatePicked": "2019-04-16",
+        "DateAdded": "2019-09-21",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 18573,
+        "ProjectName": "Harrodsburg",
+        "WorkType": "Slab",
+        "Time": 5.24,
+        "DatePicked": "2019-09-02",
+        "DateAdded": "2019-04-30",
+        "UserId": 7
+      }
+    ]
+  },
+  {
+    "Username": "Cobb",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2017-07-13",
+    "CreateDate": "2020-03-23",
+    "LastActive": "2007-09-12",
+    "Firstname": "Gallegos",
+    "Lastname": "Saunders",
+    "email": "gallegossaunders@letpro.com",
+    "phone": "+48 (921) 543-3518",
+    "Timesheets": [{
+        "ProjectNumber": 19840,
+        "ProjectName": "Ada",
+        "WorkType": "Roof",
+        "Time": 7.41,
+        "DatePicked": "2019-11-12",
+        "DateAdded": "2019-02-22",
+        "UserId": 2
+      },
+      {
+        "ProjectNumber": 18658,
+        "ProjectName": "Homeland",
+        "WorkType": "Checking",
+        "Time": 5.7,
+        "DatePicked": "2019-07-09",
+        "DateAdded": "2019-12-06",
+        "UserId": 2
+      },
+      {
+        "ProjectNumber": 18923,
+        "ProjectName": "Corriganville",
+        "WorkType": "Roof",
+        "Time": 6.48,
+        "DatePicked": "2019-06-07",
+        "DateAdded": "2019-09-03",
+        "UserId": 1
+      },
+      {
+        "ProjectNumber": 18490,
+        "ProjectName": "Soham",
+        "WorkType": "Checking",
+        "Time": 4.61,
+        "DatePicked": "2019-09-16",
+        "DateAdded": "2019-11-04",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 18282,
+        "ProjectName": "Greer",
+        "WorkType": "Floor",
+        "Time": 6.45,
+        "DatePicked": "2019-02-10",
+        "DateAdded": "2019-12-23",
+        "UserId": 7
+      },
+      {
+        "ProjectNumber": 19235,
+        "ProjectName": "Turpin",
+        "WorkType": "Checking",
+        "Time": 4.76,
+        "DatePicked": "2019-11-28",
+        "DateAdded": "2019-09-12",
+        "UserId": 9
+      }
+    ]
+  },
+  {
+    "Username": "Shaw",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2016-08-31",
+    "CreateDate": "2010-06-13",
+    "LastActive": "2005-01-16",
+    "Firstname": "Frost",
+    "Lastname": "Gilmore",
+    "email": "frostgilmore@letpro.com",
+    "phone": "+48 (877) 468-2853",
+    "Timesheets": [{
+        "ProjectNumber": 19647,
+        "ProjectName": "Leming",
+        "WorkType": "Slab",
+        "Time": 1.12,
+        "DatePicked": "2019-08-05",
+        "DateAdded": "2019-02-24",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 18072,
+        "ProjectName": "Wiscon",
+        "WorkType": "Panels",
+        "Time": 2.93,
+        "DatePicked": "2019-09-07",
+        "DateAdded": "2019-11-29",
+        "UserId": 1
+      },
+      {
+        "ProjectNumber": 18048,
+        "ProjectName": "Sedley",
+        "WorkType": "Floor",
+        "Time": 7.66,
+        "DatePicked": "2019-08-11",
+        "DateAdded": "2019-01-06",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 19895,
+        "ProjectName": "Elrama",
+        "WorkType": "Issuing",
+        "Time": 1.72,
+        "DatePicked": "2019-08-14",
+        "DateAdded": "2019-09-09",
+        "UserId": 5
+      }
+    ]
+  },
+  {
+    "Username": "Kirkland",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2008-10-20",
+    "CreateDate": "2007-01-02",
+    "LastActive": "2008-08-10",
+    "Firstname": "Branch",
+    "Lastname": "Dickson",
+    "email": "branchdickson@letpro.com",
+    "phone": "+48 (923) 597-2731",
+    "Timesheets": [{
+        "ProjectNumber": 18265,
+        "ProjectName": "Bainbridge",
+        "WorkType": "Issuing",
+        "Time": 4.48,
+        "DatePicked": "2019-08-30",
+        "DateAdded": "2019-09-15",
+        "UserId": 6
+      },
+      {
+        "ProjectNumber": 18601,
+        "ProjectName": "Chemung",
+        "WorkType": "Roof",
+        "Time": 1.96,
+        "DatePicked": "2019-09-22",
+        "DateAdded": "2019-10-11",
+        "UserId": 7
+      }
+    ]
+  },
+  {
+    "Username": "Sosa",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2015-03-14",
+    "CreateDate": "2017-11-21",
+    "LastActive": "2006-12-16",
+    "Firstname": "Jacqueline",
+    "Lastname": "Noble",
+    "email": "jacquelinenoble@letpro.com",
+    "phone": "+48 (960) 453-2863",
+    "Timesheets": [{
+      "ProjectNumber": 19138,
+      "ProjectName": "Sunbury",
+      "WorkType": "Panels",
+      "Time": 7.52,
+      "DatePicked": "2019-02-13",
+      "DateAdded": "2020-01-23",
+      "UserId": 8
+    }]
+  },
+  {
+    "Username": "Rojas",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2012-02-21",
+    "CreateDate": "2016-01-17",
+    "LastActive": "2020-01-05",
+    "Firstname": "Cara",
+    "Lastname": "Garrett",
+    "email": "caragarrett@letpro.com",
+    "phone": "+48 (929) 499-3394",
+    "Timesheets": [{
+        "ProjectNumber": 19377,
+        "ProjectName": "Sanford",
+        "WorkType": "Floor",
+        "Time": 3.67,
+        "DatePicked": "2019-11-09",
+        "DateAdded": "2019-07-17",
+        "UserId": 6
+      },
+      {
+        "ProjectNumber": 19597,
+        "ProjectName": "Wilsonia",
+        "WorkType": "Floor",
+        "Time": 4.59,
+        "DatePicked": "2019-10-13",
+        "DateAdded": "2019-01-26",
+        "UserId": 3
+      },
+      {
+        "ProjectNumber": 18469,
+        "ProjectName": "Somerset",
+        "WorkType": "Sections",
+        "Time": 3.75,
+        "DatePicked": "2019-02-11",
+        "DateAdded": "2019-10-09",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 19932,
+        "ProjectName": "Canoochee",
+        "WorkType": "Issuing",
+        "Time": 1.27,
+        "DatePicked": "2019-01-26",
+        "DateAdded": "2019-12-28",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 19823,
+        "ProjectName": "Sylvanite",
+        "WorkType": "Sections",
+        "Time": 1.87,
+        "DatePicked": "2019-11-29",
+        "DateAdded": "2019-01-24",
+        "UserId": 5
+      },
+      {
+        "ProjectNumber": 18063,
+        "ProjectName": "Aberdeen",
+        "WorkType": "Panels",
+        "Time": 7.12,
+        "DatePicked": "2019-02-20",
+        "DateAdded": "2019-12-19",
+        "UserId": 2
+      },
+      {
+        "ProjectNumber": 19132,
+        "ProjectName": "Falmouth",
+        "WorkType": "Issuing",
+        "Time": 2.21,
+        "DatePicked": "2019-09-29",
+        "DateAdded": "2019-03-24",
+        "UserId": 1
+      },
+      {
+        "ProjectNumber": 19195,
+        "ProjectName": "Abiquiu",
+        "WorkType": "Sections",
+        "Time": 3.41,
+        "DatePicked": "2019-01-07",
+        "DateAdded": "2019-12-16",
+        "UserId": 1
+      },
+      {
+        "ProjectNumber": 19481,
+        "ProjectName": "Loma",
+        "WorkType": "Floor",
+        "Time": 5.45,
+        "DatePicked": "2019-07-19",
+        "DateAdded": "2019-07-02",
+        "UserId": 5
+      }
+    ]
+  },
+  {
+    "Username": "Holt",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2014-03-25",
+    "CreateDate": "2006-06-05",
+    "LastActive": "2014-08-23",
+    "Firstname": "Coffey",
+    "Lastname": "Hubbard",
+    "email": "coffeyhubbard@letpro.com",
+    "phone": "+48 (977) 590-3388",
+    "Timesheets": [{
+        "ProjectNumber": 19582,
+        "ProjectName": "Helen",
+        "WorkType": "Issuing",
+        "Time": 3.01,
+        "DatePicked": "2019-08-09",
+        "DateAdded": "2019-07-18",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 18144,
+        "ProjectName": "Hayes",
+        "WorkType": "Floor",
+        "Time": 1.74,
+        "DatePicked": "2019-11-12",
+        "DateAdded": "2019-10-02",
+        "UserId": 9
+      },
+      {
+        "ProjectNumber": 18971,
+        "ProjectName": "Woodlake",
+        "WorkType": "Sections",
+        "Time": 0.55,
+        "DatePicked": "2019-08-19",
+        "DateAdded": "2020-01-06",
+        "UserId": 2
+      },
+      {
+        "ProjectNumber": 18376,
+        "ProjectName": "Groton",
+        "WorkType": "Panels",
+        "Time": 4.44,
+        "DatePicked": "2019-08-24",
+        "DateAdded": "2019-03-28",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 19506,
+        "ProjectName": "Jardine",
+        "WorkType": "Checking",
+        "Time": 7.11,
+        "DatePicked": "2019-07-27",
+        "DateAdded": "2019-01-05",
+        "UserId": 10
+      }
+    ]
+  },
+  {
+    "Username": "Cooke",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2007-06-27",
+    "CreateDate": "2007-06-24",
+    "LastActive": "2008-12-08",
+    "Firstname": "Graham",
+    "Lastname": "Rowe",
+    "email": "grahamrowe@letpro.com",
+    "phone": "+48 (884) 481-3614",
+    "Timesheets": [{
+        "ProjectNumber": 19182,
+        "ProjectName": "Malott",
+        "WorkType": "Roof",
+        "Time": 6.53,
+        "DatePicked": "2019-04-27",
+        "DateAdded": "2019-06-23",
+        "UserId": 8
+      },
+      {
+        "ProjectNumber": 19644,
+        "ProjectName": "Shelby",
+        "WorkType": "Roof",
+        "Time": 3.26,
+        "DatePicked": "2019-07-15",
+        "DateAdded": "2019-01-09",
+        "UserId": 5
+      },
+      {
+        "ProjectNumber": 18724,
+        "ProjectName": "Kempton",
+        "WorkType": "Checking",
+        "Time": 7.53,
+        "DatePicked": "2019-02-17",
+        "DateAdded": "2019-12-18",
+        "UserId": 4
+      },
+      {
+        "ProjectNumber": 19594,
+        "ProjectName": "Wedgewood",
+        "WorkType": "Sections",
+        "Time": 5.93,
+        "DatePicked": "2019-05-04",
+        "DateAdded": "2019-06-28",
+        "UserId": 2
+      },
+      {
+        "ProjectNumber": 19668,
+        "ProjectName": "Bennett",
+        "WorkType": "Slab",
+        "Time": 1.33,
+        "DatePicked": "2019-07-25",
+        "DateAdded": "2019-11-24",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 19617,
+        "ProjectName": "Waverly",
+        "WorkType": "Floor",
+        "Time": 0.58,
+        "DatePicked": "2019-10-11",
+        "DateAdded": "2019-05-10",
+        "UserId": 3
+      },
+      {
+        "ProjectNumber": 18124,
+        "ProjectName": "Goochland",
+        "WorkType": "Floor",
+        "Time": 4.7,
+        "DatePicked": "2019-11-25",
+        "DateAdded": "2019-10-31",
+        "UserId": 6
+      },
+      {
+        "ProjectNumber": 18262,
+        "ProjectName": "Topanga",
+        "WorkType": "Issuing",
+        "Time": 1.07,
+        "DatePicked": "2019-09-17",
+        "DateAdded": "2019-10-15",
+        "UserId": 5
+      },
+      {
+        "ProjectNumber": 19691,
+        "ProjectName": "Cornfields",
+        "WorkType": "Slab",
+        "Time": 0.84,
+        "DatePicked": "2019-12-04",
+        "DateAdded": "2019-12-26",
+        "UserId": 9
+      }
+    ]
+  },
+  {
+    "Username": "Bolton",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2008-05-29",
+    "CreateDate": "2015-09-08",
+    "LastActive": "2019-08-08",
+    "Firstname": "Valerie",
+    "Lastname": "Ward",
+    "email": "valerieward@letpro.com",
+    "phone": "+48 (842) 434-3003",
+    "Timesheets": [{
+        "ProjectNumber": 18890,
+        "ProjectName": "Hondah",
+        "WorkType": "Issuing",
+        "Time": 3.68,
+        "DatePicked": "2019-06-22",
+        "DateAdded": "2019-09-14",
+        "UserId": 8
+      },
+      {
+        "ProjectNumber": 18732,
+        "ProjectName": "Sidman",
+        "WorkType": "Floor",
+        "Time": 4.53,
+        "DatePicked": "2019-06-20",
+        "DateAdded": "2019-03-17",
+        "UserId": 9
+      },
+      {
+        "ProjectNumber": 19372,
+        "ProjectName": "Deercroft",
+        "WorkType": "Floor",
+        "Time": 3.24,
+        "DatePicked": "2019-09-14",
+        "DateAdded": "2019-07-12",
+        "UserId": 6
+      },
+      {
+        "ProjectNumber": 18279,
+        "ProjectName": "Succasunna",
+        "WorkType": "Issuing",
+        "Time": 5.29,
+        "DatePicked": "2019-12-28",
+        "DateAdded": "2019-01-16",
+        "UserId": 2
+      },
+      {
+        "ProjectNumber": 19589,
+        "ProjectName": "Chamizal",
+        "WorkType": "Issuing",
+        "Time": 5.32,
+        "DatePicked": "2019-03-08",
+        "DateAdded": "2019-11-28",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 19899,
+        "ProjectName": "Dawn",
+        "WorkType": "Checking",
+        "Time": 7.38,
+        "DatePicked": "2019-05-02",
+        "DateAdded": "2019-06-22",
+        "UserId": 8
+      },
+      {
+        "ProjectNumber": 18093,
+        "ProjectName": "Defiance",
+        "WorkType": "Roof",
+        "Time": 2.35,
+        "DatePicked": "2019-12-05",
+        "DateAdded": "2019-05-22",
+        "UserId": 10
+      },
+      {
+        "ProjectNumber": 19333,
+        "ProjectName": "Glendale",
+        "WorkType": "Checking",
+        "Time": 7.08,
+        "DatePicked": "2019-03-23",
+        "DateAdded": "2019-10-09",
+        "UserId": 1
+      },
+      {
+        "ProjectNumber": 19184,
+        "ProjectName": "Mammoth",
+        "WorkType": "Roof",
+        "Time": 4.1,
+        "DatePicked": "2019-01-09",
+        "DateAdded": "2019-02-24",
+        "UserId": 3
+      },
+      {
+        "ProjectNumber": 18096,
+        "ProjectName": "Savannah",
+        "WorkType": "Slab",
+        "Time": 0.8,
+        "DatePicked": "2019-03-19",
+        "DateAdded": "2019-11-14",
+        "UserId": 7
+      }
+    ]
+  },
+  {
+    "Username": "Dawson",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2018-07-14",
+    "CreateDate": "2016-07-07",
+    "LastActive": "2007-10-19",
+    "Firstname": "Prince",
+    "Lastname": "Mosley",
+    "email": "princemosley@letpro.com",
+    "phone": "+48 (989) 561-3308",
+    "Timesheets": [{
+      "ProjectNumber": 18276,
+      "ProjectName": "Herald",
+      "WorkType": "Checking",
+      "Time": 2.44,
+      "DatePicked": "2019-08-10",
+      "DateAdded": "2019-03-10",
+      "UserId": 2
+    }]
   }
 ]

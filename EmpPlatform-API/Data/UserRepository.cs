@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EmpPlatform_API.Data
 {
-    public class TimesheetRepository : ITimesheetRepository
+    public class UserRepository : IUserRepository
     {
         private readonly DataContext _context;
 
-        public TimesheetRepository(DataContext context)
+        public UserRepository(DataContext context)
         {
             _context = context;
         }
@@ -25,10 +25,16 @@ namespace EmpPlatform_API.Data
             _context.Remove(entity);
         }
 
-        public async Task<IEnumerable<Timesheet>> GetTimesheet(int id)
+        public async Task<User> GetUser(int id)
         {
-            var timesheets = await _context.Timesheets.Where(x => x.UserId == id).ToListAsync();
-            return timesheets;
+            var user = await _context.Users.Include(t => t.Timesheets).FirstOrDefaultAsync(u => u.Id == id);
+            return user;
+        }
+
+        public async Task<IEnumerable<User>> GetUsers()
+        {
+            var users = await _context.Users.Include(t => t.Timesheets).ToListAsync();
+            return users;
         }
 
         public async Task<bool> SaveAll()

@@ -1,0 +1,52 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-4">
+      <h1>{{user.firstname}} {{user.lastname}}</h1>
+    </div>
+    <div class="col-sm-8">
+      <div *ngIf="editForm.dirty" class="alert alert-info">
+        <strong>Information:</strong> You have made changes. Any unsaved changes will be lost!
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <div>
+            <strong>ID:</strong>
+            <p>{{user.id}}</p>
+          </div>
+          <div>
+            <strong>Gender:</strong>
+            <p>{{user.gender}}</p>
+          </div>
+          <div>
+            <strong>Last Active:</strong>
+            <p>{{user.lastActive | date: 'mediumDate'}}</p>
+          </div>
+          <div>
+            <strong>Employed Since:</strong>
+            <p>{{user.hireDate | date: 'mediumDate'}}</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button [disabled]="!editForm.dirty" form="editForm" class="btn btn-success btn-block">Save Changes</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-panel">
+
+
+        <form #editForm="ngForm" id="editForm" (ngSubmit)="updateUser()">
+          <h4>Email</h4>
+          <textarea class="form-control" name="introduction" rows="1" [(ngModel)]="user.email"></textarea>
+          <h4>Phone</h4>
+          <textarea class="form-control" name="lookingFor" rows="1" [(ngModel)]="user.phone"></textarea>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

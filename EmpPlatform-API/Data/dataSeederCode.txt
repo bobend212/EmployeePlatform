@@ -1,0 +1,27 @@
+[
+  '{{repeat(10)}}',
+  {
+    Username: '{{firstName("male")}}',
+    Password: 'password',
+    Gender: 'male',
+    HireDate: '{{date(new Date(2005,0,1), new Date(2020,11, 31), "YYYY-MM-dd")}}',
+    CreateDate: '{{date(new Date(2005,0,1), new Date(2020, 11, 31), "YYYY-MM-dd")}}',
+    LastActive: '{{date(new Date(2005,0,1), new Date(2020,11, 31), "YYYY-MM-dd")}}',
+    Firstname: '{{firstName()}}',
+    Lastname: '{{surname()}}',
+    email: '{{email()}}',
+    phone: '+48 {{phone()}}',
+    Timesheets: [
+      '{{repeat(1, 10)}}',
+      {
+        ProjectNumber: '{{integer(18000, 20000)}}',
+        ProjectName: '{{city()}}',
+        WorkType: '{{random("Panels", "Roof", "Issuing", "Checking", "Floor", "Sections", "Slab")}}',
+        Time: '{{floating(0.25, 7.75)}}',
+        DatePicked: '{{date(new Date(2019,0,1), new Date(2019,12,31),"YYYY-MM-dd")}}',
+        DateAdded: '{{date(new Date(2019,0,1), new Date(2019,12,31), "YYYY-MM-dd")}}',
+        UserId: '{{integer(1, 10)}}'
+      }
+    ]
+  }
+]

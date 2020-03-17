@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EmpPlatform_API.Migrations
 {
-    public partial class ExtendedTimesheetEntity : Migration
+    public partial class Test4 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -36,9 +36,12 @@ namespace EmpPlatform_API.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    DateAdded = table.Column<DateTime>(nullable: false),
-                    DatePicker = table.Column<DateTime>(nullable: false),
+                    ProjectNumber = table.Column<string>(nullable: true),
+                    ProjectName = table.Column<string>(nullable: true),
+                    WorkType = table.Column<string>(nullable: true),
                     Time = table.Column<float>(nullable: false),
+                    DatePicked = table.Column<DateTime>(nullable: false),
+                    DateAdded = table.Column<DateTime>(nullable: false),
                     UserId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

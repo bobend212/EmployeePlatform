@@ -44,6 +44,7 @@ namespace EmpPlatform_API
             services.AddAutoMapper(typeof(TimesheetRepository).Assembly);
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<ITimesheetRepository, TimesheetRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>

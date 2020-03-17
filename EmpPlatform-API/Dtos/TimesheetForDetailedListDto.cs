@@ -7,9 +7,12 @@ namespace EmpPlatform_API.Dtos
     public class TimesheetForDetailedListDto
     {
         public int Id { get; set; }
-        public int DaysAgoAdded { get; set; }
-        public DateTime DatePicker { get; set; }
+        public string ProjectNumber { get; set; }
+        public string ProjectName { get; set; }
+        public string WorkType { get; set; }
         public float Time { get; set; }
-        public ICollection<User> Users { get; set; }
+        public DateTime DatePicked { get; set; }
+        public DateTime DateAdded { get; set; }
+        public int WeekNo { get; set; }
     }
 }
