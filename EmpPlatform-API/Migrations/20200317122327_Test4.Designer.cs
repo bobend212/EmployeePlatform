@@ -9,13 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmpPlatform_API.Migrations
 {
     [DbContext(typeof(DataContext))]
-<<<<<<< HEAD:EmpPlatform-API/Migrations/20200317122327_Test4.Designer.cs
     [Migration("20200317122327_Test4")]
     partial class Test4
-=======
-    [Migration("20200314205037_test3")]
-    partial class test3
->>>>>>> 1dcf708197b70c1e81204e7b7c00adca2224a422:EmpPlatform-API/Migrations/20200314205037_test3.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
