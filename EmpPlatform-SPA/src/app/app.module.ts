@@ -51,4 +51,4 @@ import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

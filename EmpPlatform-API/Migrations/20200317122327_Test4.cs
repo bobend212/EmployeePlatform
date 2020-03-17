@@ -3,7 +3,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EmpPlatform_API.Migrations
 {
+<<<<<<< HEAD:EmpPlatform-API/Migrations/20200317122327_Test4.cs
     public partial class Test4 : Migration
+=======
+    public partial class test3 : Migration
+>>>>>>> 1dcf708197b70c1e81204e7b7c00adca2224a422:EmpPlatform-API/Migrations/20200314205037_test3.cs
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
