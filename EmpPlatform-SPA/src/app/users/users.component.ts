@@ -10,7 +10,7 @@ import { User } from "../_models/User";
 })
 export class UsersComponent implements OnInit {
   users: User[];
-  @Input() user: User;
+  dataSource = this.users;
 
   constructor(
     private userService: UserService,

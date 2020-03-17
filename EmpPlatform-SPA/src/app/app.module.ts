@@ -5,6 +5,7 @@ import { FormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 import { RouterModule } from "@angular/router";
+import { MatTableModule } from '@angular/material/table';
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -41,7 +42,8 @@ import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
     FormsModule,
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MatTableModule
   ],
   providers: [
     AuthService,

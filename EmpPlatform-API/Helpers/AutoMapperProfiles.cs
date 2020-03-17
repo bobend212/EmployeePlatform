@@ -14,7 +14,11 @@ namespace EmpPlatform_API.Helpers
                     opt.MapFrom(src => src.Department.DepartmentName);
                 });
 
-            CreateMap<User, UserForDetailedDto>();
+            CreateMap<User, UserForDetailedDto>()
+                .ForMember(dest => dest.DepartmentName, opt =>
+                {
+                    opt.MapFrom(src => src.Department.DepartmentName);
+                });
 
             CreateMap<Timesheet, TimesheetForDetailedListDto>()
                 .ForMember(dest => dest.WeekNo, opt =>
