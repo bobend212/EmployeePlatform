@@ -9,6 +9,7 @@ import { EditUserProfileComponent } from "./edit-user-profile/edit-user-profile.
 import { UserEditResolver } from "./_resolvers/user-edit.resolver";
 import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
 import { UsersDetailedComponent } from './users-detailed/users-detailed.component';
+import { UserDetailResolver } from './_resolvers/user-detail.resolver';
 
 export const appRoutes: Routes = [
   { path: "", component: HomeComponent },
@@ -18,7 +19,7 @@ export const appRoutes: Routes = [
     canActivate: [AuthGuard],
     children: [
       { path: "users", component: UsersComponent },
-      { path: "users/:id", component: UsersDetailedComponent },
+      { path: "users/:id", component: UsersDetailedComponent, resolve: { user: UserDetailResolver } },
       {
         path: "user/edit",
         component: EditUserProfileComponent,

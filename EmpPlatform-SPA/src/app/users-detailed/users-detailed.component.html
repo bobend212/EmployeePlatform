@@ -1,5 +1,13 @@
-<p>
-  {{user?.firstname}}
-  {{user?.lastname}}
-  {{user?.hireDate}}
-</p>
+<mat-card class="container detailed-user-card mt-5">
+  <p>ID: {{user.id}}</p>
+  <p>Gender: {{user.gender}}</p>
+  <p>Hire Date: {{user.hireDate | date: 'dd/mm/yyyy'}}</p>
+  <p>Created Date: {{user.createdDate | date: 'dd/mm/yyyy'}}</p>
+  <p>Last Active: {{user.lastActive | date: 'dd/mm/yyyy'}}</p>
+  <p>Firstname: {{user.firstname}}</p>
+  <p>Lastname: {{user.lastname}}</p>
+  <p>Email: {{user.email}}</p>
+  <p>Phone: {{user.phone}}</p>
+  <p>Department: {{user.departmentName}}</p>
+
+</mat-card>

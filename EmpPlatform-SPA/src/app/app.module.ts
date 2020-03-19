@@ -5,6 +5,7 @@ import { FormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 import { RouterModule } from "@angular/router";
+import { MatCardModule } from '@angular/material/card'
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -23,6 +24,7 @@ import { UserEditResolver } from "./_resolvers/user-edit.resolver";
 import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
 import { JwtModule } from '@auth0/angular-jwt';
 import { UsersDetailedComponent } from './users-detailed/users-detailed.component';
+import { UserDetailResolver } from './_resolvers/user-detail.resolver';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -55,13 +57,15 @@ export function tokenGetter() {
         whitelistedDomains: ['localhost:5000'],
         blacklistedRoutes: ['localhost:5000/api/auth']
       }
-    })
+    }),
+    MatCardModule
   ],
   providers: [
     AuthService,
     ErrorInterceptorProvider,
     UserEditResolver,
-    PreventUnsavedChanges
+    PreventUnsavedChanges,
+    UserDetailResolver
   ],
   bootstrap: [AppComponent]
 })
