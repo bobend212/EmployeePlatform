@@ -40,13 +40,18 @@
 
 
         <form #editForm="ngForm" id="editForm" (ngSubmit)="updateUser()">
+          <h4>Firstname</h4>
+          <textarea class="form-control" name="firstname" rows="1" [(ngModel)]="user.firstname"></textarea>
+          <h4>Lastname</h4>
+          <textarea class="form-control" name="lastname" rows="1" [(ngModel)]="user.lastname"></textarea>
           <h4>Email</h4>
-          <textarea class="form-control" name="introduction" rows="1" [(ngModel)]="user.email"></textarea>
+          <textarea class="form-control" name="email" rows="1" [(ngModel)]="user.email"></textarea>
           <h4>Phone</h4>
-          <textarea class="form-control" name="lookingFor" rows="1" [(ngModel)]="user.phone"></textarea>
+          <textarea class="form-control" name="phone" rows="1" [(ngModel)]="user.phone"></textarea>
         </form>
 
       </div>
+
     </div>
   </div>
 </div>

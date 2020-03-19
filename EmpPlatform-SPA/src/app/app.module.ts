@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 import { RouterModule } from "@angular/router";
 import { MatCardModule } from '@angular/material/card'
+import { MatInputModule } from '@angular/material/input';
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -58,7 +59,8 @@ export function tokenGetter() {
         blacklistedRoutes: ['localhost:5000/api/auth']
       }
     }),
-    MatCardModule
+    MatCardModule,
+    MatInputModule
   ],
   providers: [
     AuthService,

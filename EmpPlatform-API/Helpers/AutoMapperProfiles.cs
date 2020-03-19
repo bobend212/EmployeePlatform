@@ -20,6 +20,8 @@ namespace EmpPlatform_API.Helpers
                     opt.MapFrom(src => src.Department.DepartmentName);
                 });
 
+            CreateMap<UserForUpdateDto, User>();
+
             CreateMap<Timesheet, TimesheetForDetailedListDto>()
                 .ForMember(dest => dest.WeekNo, opt =>
                     opt.MapFrom(src => src.DateAdded.CalculateWeekNumber()));
