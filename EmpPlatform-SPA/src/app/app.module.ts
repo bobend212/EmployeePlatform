@@ -5,7 +5,6 @@ import { FormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 import { RouterModule } from "@angular/router";
-import { MatTableModule } from '@angular/material/table';
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -22,6 +21,12 @@ import { TimesheetDetailComponent } from "./timesheet-detail/timesheet-detail.co
 import { EditUserProfileComponent } from "./edit-user-profile/edit-user-profile.component";
 import { UserEditResolver } from "./_resolvers/user-edit.resolver";
 import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
+import { JwtModule } from '@auth0/angular-jwt';
+import { UsersDetailedComponent } from './users-detailed/users-detailed.component';
+
+export function tokenGetter() {
+  return localStorage.getItem('token');
+}
 
 @NgModule({
   declarations: [
@@ -34,7 +39,8 @@ import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
     TimesheetComponent,
     UsersComponent,
     TimesheetDetailComponent,
-    EditUserProfileComponent
+    EditUserProfileComponent,
+    UsersDetailedComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +49,13 @@ import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
-    MatTableModule
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: tokenGetter,
+        whitelistedDomains: ['localhost:5000'],
+        blacklistedRoutes: ['localhost:5000/api/auth']
+      }
+    })
   ],
   providers: [
     AuthService,

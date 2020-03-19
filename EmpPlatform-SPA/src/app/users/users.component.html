@@ -8,7 +8,7 @@
   </div>
 </div> -->
 
-<!-- <table class="table">
+<table class="table">
   <thead>
     <tr>
       <th scope="col">Firstname</th>
@@ -22,22 +22,8 @@
       <td>{{user.firstname}}</td>
       <td>{{user.lastname}}</td>
       <td>{{user.departmentName}}</td>
-      <td><button class="btn btn-primary" [routerLink]="['/']">Details</button> </td>
+      <!-- <td><button class="btn btn-primary" [routerLink]="['/']">Details</button> </td> -->
+      <button class="btn btn-primary" [routerLink]="['/users/', user.id]">Details</button>
     </tr>
   </tbody>
-</table> -->
-
-<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-
-  <!--- Note that these columns can be defined in any order.
-        The actual rendered columns are set as a property on the row definition" -->
-
-  <!-- Position Column -->
-
-  <th mat-header-cell *matHeaderCellDef> No. </th>
-  <th mat-header-cell *matHeaderCellDef> No. </th>
-  <th mat-header-cell *matHeaderCellDef> No. </th>
-  <tr *ngFor="let user of users">
-    <td mat-cell> {{user.firstname}} </td>
-  </tr>
 </table>

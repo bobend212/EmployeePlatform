@@ -5,10 +5,10 @@ import { WorkflowComponent } from "./workflow/workflow.component";
 import { ProjectsListComponent } from "./projects-list/projects-list.component";
 import { AuthGuard } from "./_guards/auth.guard";
 import { UsersComponent } from "./users/users.component";
-import { TimesheetDetailComponent } from "./timesheet-detail/timesheet-detail.component";
 import { EditUserProfileComponent } from "./edit-user-profile/edit-user-profile.component";
 import { UserEditResolver } from "./_resolvers/user-edit.resolver";
 import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
+import { UsersDetailedComponent } from './users-detailed/users-detailed.component';
 
 export const appRoutes: Routes = [
   { path: "", component: HomeComponent },
@@ -18,7 +18,7 @@ export const appRoutes: Routes = [
     canActivate: [AuthGuard],
     children: [
       { path: "users", component: UsersComponent },
-      //{ path: "users:id", component: TimesheetDetailComponent },
+      { path: "users/:id", component: UsersDetailedComponent },
       {
         path: "user/edit",
         component: EditUserProfileComponent,
