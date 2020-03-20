@@ -13,7 +13,6 @@ namespace EmpPlatform_API.Models
         public float Time { get; set; }
         public DateTime DatePicked { get; set; }
         public DateTime DateAdded { get; set; }
-
         public User User { get; set; }
         public int UserId { get; set; }
     }
