@@ -27,7 +27,7 @@ namespace EmpPlatform_API.Data
 
         public async Task<IEnumerable<Timesheet>> GetTimesheet(int id)
         {
-            var timesheets = await _context.Timesheets.Where(x => x.UserId == id).ToListAsync();
+            var timesheets = await _context.Timesheets.Include(wt => wt.WorkType).Include(p => p.Project).Where(x => x.UserId == id).ToListAsync();
             return timesheets;
         }
 

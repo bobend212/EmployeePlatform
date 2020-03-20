@@ -22,9 +22,17 @@ namespace EmpPlatform_API.Helpers
 
             CreateMap<UserForUpdateDto, User>();
 
-            CreateMap<Timesheet, TimesheetForDetailedListDto>()
+            CreateMap<Timesheet, TimesheetForIndividualWeeklyDto>()
                 .ForMember(dest => dest.WeekNo, opt =>
-                    opt.MapFrom(src => src.DateAdded.CalculateWeekNumber()));
+                    opt.MapFrom(src => src.DateAdded.CalculateWeekNumber()))
+                .ForMember(dest => dest.ProjectNumber, opt =>
+                    opt.MapFrom(src => src.Project.ProjectNumber))
+                .ForMember(dest => dest.ProjectName, opt =>
+                    opt.MapFrom(src => src.Project.ProjectName))
+                .ForMember(dest => dest.SiteName, opt =>
+                    opt.MapFrom(src => src.Project.SiteName))
+                .ForMember(dest => dest.WorkTypeName, opt =>
+                    opt.MapFrom(src => src.WorkType.WorkTypeName));
         }
     }
 }

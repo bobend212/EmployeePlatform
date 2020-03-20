@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmpPlatform_API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200317131931_departmentAdded")]
-    partial class departmentAdded
+    [Migration("20200320155451_test5")]
+    partial class test5
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,6 +32,37 @@ namespace EmpPlatform_API.Migrations
                     b.ToTable("Departments");
                 });
 
+            modelBuilder.Entity("EmpPlatform_API.Models.Project", b =>
+                {
+                    b.Property<int>("ProjectId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("DateAdded")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsFinished")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ProjectName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProjectNumber")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SiteName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ProjectId");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("Projects");
+                });
+
             modelBuilder.Entity("EmpPlatform_API.Models.Timesheet", b =>
                 {
                     b.Property<int>("Id")
@@ -44,11 +75,8 @@ namespace EmpPlatform_API.Migrations
                     b.Property<DateTime>("DatePicked")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ProjectName")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ProjectNumber")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("ProjectId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<float>("Time")
                         .HasColumnType("REAL");
@@ -56,12 +84,16 @@ namespace EmpPlatform_API.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("WorkType")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("WorkTypeId")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProjectId");
+
                     b.HasIndex("UserId");
+
+                    b.HasIndex("WorkTypeId");
 
                     b.ToTable("Timesheets");
                 });
@@ -129,11 +161,54 @@ namespace EmpPlatform_API.Migrations
                     b.ToTable("Values");
                 });
 
+            modelBuilder.Entity("EmpPlatform_API.Models.WorkType", b =>
+                {
+                    b.Property<int>("WorkTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("WorkTypeName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WorkTypeNumber")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("WorkTypeId");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("WorkTypes");
+                });
+
+            modelBuilder.Entity("EmpPlatform_API.Models.Project", b =>
+                {
+                    b.HasOne("EmpPlatform_API.Models.Department", "Department")
+                        .WithMany("Projects")
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("EmpPlatform_API.Models.Timesheet", b =>
                 {
+                    b.HasOne("EmpPlatform_API.Models.Project", "Project")
+                        .WithMany()
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("EmpPlatform_API.Models.User", "User")
                         .WithMany("Timesheets")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EmpPlatform_API.Models.WorkType", "WorkType")
+                        .WithMany()
+                        .HasForeignKey("WorkTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -142,6 +217,15 @@ namespace EmpPlatform_API.Migrations
                 {
                     b.HasOne("EmpPlatform_API.Models.Department", "Department")
                         .WithMany("Users")
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EmpPlatform_API.Models.WorkType", b =>
+                {
+                    b.HasOne("EmpPlatform_API.Models.Department", "Department")
+                        .WithMany("WorkTypes")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

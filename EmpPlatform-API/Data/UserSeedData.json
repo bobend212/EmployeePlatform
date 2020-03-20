@@ -1,3358 +1,3216 @@
 [
   {
-    "Username": "Decker",
-    "Username2": "Jewel",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2013-03-13",
-    "CreateDate": "2016-10-05",
-    "LastActive": "2018-07-17",
-    "Firstname": "Sellers",
-    "Lastname": "Aguirre",
-    "email": "sellersaguirre@lexicondo.com",
-    "phone": "+48 (899) 557-2522",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19570,
-        "ProjectName": "Walker",
-        "WorkType": "Panels",
-        "Time": 1.63,
-        "DatePicked": "2019-05-21",
-        "DateAdded": "2019-01-30",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18483,
-        "ProjectName": "Hillsboro",
-        "WorkType": "Sections",
-        "Time": 3,
-        "DatePicked": "2019-06-21",
-        "DateAdded": "2019-09-13",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18082,
-        "ProjectName": "Thornport",
-        "WorkType": "Issuing",
-        "Time": 4.91,
-        "DatePicked": "2019-06-03",
-        "DateAdded": "2019-10-13",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19780,
-        "ProjectName": "Tryon",
-        "WorkType": "Floor",
-        "Time": 3.28,
-        "DatePicked": "2019-12-13",
-        "DateAdded": "2019-04-08",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18794,
-        "ProjectName": "Caroleen",
-        "WorkType": "Panels",
-        "Time": 7.5,
-        "DatePicked": "2019-02-05",
-        "DateAdded": "2019-06-02",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19125,
-        "ProjectName": "Clara",
-        "WorkType": "Slab",
-        "Time": 0.52,
-        "DatePicked": "2019-09-07",
-        "DateAdded": "2019-10-31",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18592,
-        "ProjectName": "Winfred",
-        "WorkType": "Checking",
-        "Time": 3.31,
-        "DatePicked": "2020-01-28",
-        "DateAdded": "2019-05-06",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18005,
-        "ProjectName": "Catharine",
-        "WorkType": "Roof",
-        "Time": 1.07,
-        "DatePicked": "2019-09-15",
-        "DateAdded": "2019-02-19",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18119,
-        "ProjectName": "Germanton",
-        "WorkType": "Slab",
-        "Time": 7.02,
-        "DatePicked": "2019-05-09",
-        "DateAdded": "2019-11-12",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19468,
-        "ProjectName": "Belva",
-        "WorkType": "Roof",
-        "Time": 5.38,
-        "DatePicked": "2019-03-18",
-        "DateAdded": "2019-02-06",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Mathis",
-    "Username2": "Jolene",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2006-04-01",
-    "CreateDate": "2006-06-25",
-    "LastActive": "2014-08-17",
-    "Firstname": "Cardenas",
-    "Lastname": "Dillard",
-    "email": "cardenasdillard@lexicondo.com",
-    "phone": "+48 (858) 478-3319",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18933,
-        "ProjectName": "Jacksonburg",
-        "WorkType": "Sections",
-        "Time": 0.82,
-        "DatePicked": "2019-06-28",
-        "DateAdded": "2019-06-26",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19994,
-        "ProjectName": "Hayden",
-        "WorkType": "Roof",
-        "Time": 1.35,
-        "DatePicked": "2019-03-24",
-        "DateAdded": "2019-10-17",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19535,
-        "ProjectName": "Dargan",
-        "WorkType": "Roof",
-        "Time": 5.54,
-        "DatePicked": "2019-03-17",
-        "DateAdded": "2019-04-27",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18253,
-        "ProjectName": "Titanic",
-        "WorkType": "Floor",
-        "Time": 4.97,
-        "DatePicked": "2019-07-17",
-        "DateAdded": "2019-12-14",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19223,
-        "ProjectName": "Interlochen",
-        "WorkType": "Slab",
-        "Time": 2.14,
-        "DatePicked": "2019-09-13",
-        "DateAdded": "2019-07-11",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18833,
-        "ProjectName": "Hiseville",
-        "WorkType": "Roof",
-        "Time": 1.99,
-        "DatePicked": "2019-03-17",
-        "DateAdded": "2019-07-28",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19821,
-        "ProjectName": "Bannock",
-        "WorkType": "Sections",
-        "Time": 5.88,
-        "DatePicked": "2020-01-18",
-        "DateAdded": "2019-09-15",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18103,
-        "ProjectName": "Riviera",
-        "WorkType": "Issuing",
-        "Time": 3.64,
-        "DatePicked": "2019-10-21",
-        "DateAdded": "2019-03-05",
-        "UserId": 3
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Kerr",
-    "Username2": "Avila",
+    "Username": "Margaret",
     "Password": "password",
     "Gender": "male",
-    "HireDate": "2020-02-20",
-    "CreateDate": "2009-12-25",
-    "LastActive": "2015-04-29",
-    "Firstname": "Adeline",
-    "Lastname": "Petty",
-    "email": "adelinepetty@lexicondo.com",
-    "phone": "+48 (808) 582-3857",
+    "HireDate": "2016-04-03",
+    "CreateDate": "2018-06-07",
+    "LastActive": "2006-06-01",
+    "Firstname": "Fanny",
+    "Lastname": "Conway",
+    "email": "fannyconway@knowlysis.com",
+    "phone": "+48 (844) 534-2042",
+    "DepartmentId": 5,
     "Timesheets": [
       {
-        "ProjectNumber": 19233,
-        "ProjectName": "Sehili",
-        "WorkType": "Floor",
-        "Time": 1.35,
-        "DatePicked": "2020-01-01",
-        "DateAdded": "2019-11-26",
-        "UserId": 10
+        "userId": 12,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-25",
+        "Time": 1.32
       },
       {
-        "ProjectNumber": 18564,
-        "ProjectName": "Dawn",
-        "WorkType": "Sections",
-        "Time": 4.39,
-        "DatePicked": "2019-11-12",
-        "DateAdded": "2019-02-15",
-        "UserId": 3
+        "userId": 1,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-15",
+        "Time": 4.04
       },
       {
-        "ProjectNumber": 19227,
-        "ProjectName": "Saranap",
-        "WorkType": "Slab",
-        "Time": 2.1,
-        "DatePicked": "2019-12-29",
-        "DateAdded": "2019-11-11",
-        "UserId": 5
+        "userId": 11,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-07",
+        "Time": 2.26
       },
       {
-        "ProjectNumber": 18026,
-        "ProjectName": "Longbranch",
-        "WorkType": "Roof",
-        "Time": 3.2,
-        "DatePicked": "2020-01-22",
-        "DateAdded": "2019-11-21",
-        "UserId": 7
+        "userId": 25,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-13",
+        "Time": 3.91
       },
       {
-        "ProjectNumber": 18583,
-        "ProjectName": "Mooresburg",
-        "WorkType": "Roof",
-        "Time": 7.68,
-        "DatePicked": "2019-05-26",
-        "DateAdded": "2019-10-30",
-        "UserId": 8
+        "userId": 6,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-25",
+        "Time": 5.2
       },
       {
-        "ProjectNumber": 18927,
-        "ProjectName": "Kapowsin",
-        "WorkType": "Roof",
-        "Time": 2.47,
-        "DatePicked": "2019-05-20",
-        "DateAdded": "2019-06-05",
-        "UserId": 4
+        "userId": 47,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-24",
+        "Time": 6.49
       },
       {
-        "ProjectNumber": 19998,
-        "ProjectName": "Crisman",
-        "WorkType": "Panels",
-        "Time": 2.41,
-        "DatePicked": "2019-02-11",
-        "DateAdded": "2019-12-27",
-        "UserId": 9
+        "userId": 32,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-31",
+        "Time": 4.27
       },
       {
-        "ProjectNumber": 19628,
-        "ProjectName": "Rockingham",
-        "WorkType": "Floor",
-        "Time": 2.73,
-        "DatePicked": "2019-06-30",
-        "DateAdded": "2019-08-18",
-        "UserId": 5
+        "userId": 30,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-14",
+        "Time": 6.46
       },
       {
-        "ProjectNumber": 19259,
-        "ProjectName": "Eggertsville",
-        "WorkType": "Checking",
-        "Time": 6.54,
-        "DatePicked": "2020-01-10",
-        "DateAdded": "2019-11-28",
-        "UserId": 5
+        "userId": 38,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-24",
+        "Time": 2.03
       }
-    ],
-    "DepartmentId": 2
+    ]
+  },
+  {
+    "Username": "Chapman",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2020-12-13",
+    "CreateDate": "2018-11-01",
+    "LastActive": "2018-10-11",
+    "Firstname": "Margret",
+    "Lastname": "Whitfield",
+    "email": "margretwhitfield@knowlysis.com",
+    "phone": "+48 (915) 511-2155",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 9,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-22",
+        "Time": 6.6
+      },
+      {
+        "userId": 19,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-21",
+        "Time": 4.67
+      },
+      {
+        "userId": 5,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-14",
+        "Time": 6.4
+      },
+      {
+        "userId": 45,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-03",
+        "Time": 2.16
+      },
+      {
+        "userId": 4,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-11",
+        "Time": 2.29
+      },
+      {
+        "userId": 28,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-28",
+        "Time": 2.83
+      },
+      {
+        "userId": 48,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-06",
+        "Time": 3.02
+      },
+      {
+        "userId": 3,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-20",
+        "Time": 4.13
+      },
+      {
+        "userId": 31,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-07",
+        "Time": 0.42
+      }
+    ]
+  },
+  {
+    "Username": "Muriel",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2009-11-21",
+    "CreateDate": "2012-01-06",
+    "LastActive": "2009-06-20",
+    "Firstname": "Madden",
+    "Lastname": "Tanner",
+    "email": "maddentanner@knowlysis.com",
+    "phone": "+48 (819) 425-3555",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 18,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-14",
+        "Time": 5.38
+      },
+      {
+        "userId": 37,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-22",
+        "Time": 1.49
+      },
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-01",
+        "Time": 1.93
+      },
+      {
+        "userId": 42,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-20",
+        "Time": 2.55
+      },
+      {
+        "userId": 15,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-11",
+        "Time": 5.48
+      },
+      {
+        "userId": 26,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-21",
+        "Time": 1.31
+      },
+      {
+        "userId": 41,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-13",
+        "Time": 5.52
+      },
+      {
+        "userId": 9,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-04",
+        "Time": 1.24
+      },
+      {
+        "userId": 7,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-17",
+        "Time": 3.03
+      },
+      {
+        "userId": 40,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-17",
+        "Time": 0.72
+      }
+    ]
+  },
+  {
+    "Username": "Essie",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2012-10-08",
+    "CreateDate": "2006-11-12",
+    "LastActive": "2010-05-19",
+    "Firstname": "Penelope",
+    "Lastname": "Glenn",
+    "email": "penelopeglenn@knowlysis.com",
+    "phone": "+48 (894) 516-2291",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 10,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-27",
+        "Time": 6.89
+      },
+      {
+        "userId": 2,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-02",
+        "Time": 4.38
+      },
+      {
+        "userId": 42,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-28",
+        "Time": 2.87
+      },
+      {
+        "userId": 23,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-11",
+        "Time": 5.58
+      },
+      {
+        "userId": 19,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-21",
+        "Time": 2.11
+      },
+      {
+        "userId": 40,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-01",
+        "Time": 2.41
+      },
+      {
+        "userId": 31,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-06",
+        "Time": 7.56
+      },
+      {
+        "userId": 34,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-08",
+        "Time": 1.21
+      },
+      {
+        "userId": 49,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-18",
+        "Time": 2.24
+      },
+      {
+        "userId": 27,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-26",
+        "Time": 3.35
+      }
+    ]
+  },
+  {
+    "Username": "Hahn",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2015-03-11",
+    "CreateDate": "2012-04-09",
+    "LastActive": "2020-06-24",
+    "Firstname": "Douglas",
+    "Lastname": "Guy",
+    "email": "douglasguy@knowlysis.com",
+    "phone": "+48 (985) 474-3267",
+    "DepartmentId": 2,
+    "Timesheets": [
+      {
+        "userId": 18,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-21",
+        "Time": 1.54
+      },
+      {
+        "userId": 43,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-08",
+        "Time": 4.11
+      },
+      {
+        "userId": 12,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-05",
+        "Time": 5.02
+      },
+      {
+        "userId": 2,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-30",
+        "Time": 0.6
+      },
+      {
+        "userId": 9,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-02",
+        "Time": 7.1
+      },
+      {
+        "userId": 17,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-26",
+        "Time": 6.6
+      },
+      {
+        "userId": 19,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-08",
+        "Time": 1.86
+      },
+      {
+        "userId": 9,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-06",
+        "Time": 1.2
+      },
+      {
+        "userId": 42,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-21",
+        "Time": 0.78
+      },
+      {
+        "userId": 10,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-21",
+        "Time": 2.48
+      }
+    ]
+  },
+  {
+    "Username": "Bruce",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2016-10-26",
+    "CreateDate": "2007-01-23",
+    "LastActive": "2018-06-04",
+    "Firstname": "Schultz",
+    "Lastname": "Wells",
+    "email": "schultzwells@knowlysis.com",
+    "phone": "+48 (807) 437-2938",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 33,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-15",
+        "Time": 2.78
+      },
+      {
+        "userId": 50,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-30",
+        "Time": 1.81
+      }
+    ]
+  },
+  {
+    "Username": "Skinner",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2009-09-14",
+    "CreateDate": "2014-05-08",
+    "LastActive": "2006-12-16",
+    "Firstname": "Bridges",
+    "Lastname": "Gregory",
+    "email": "bridgesgregory@knowlysis.com",
+    "phone": "+48 (836) 462-3090",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 42,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-09",
+        "Time": 7.56
+      },
+      {
+        "userId": 1,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-28",
+        "Time": 5.46
+      },
+      {
+        "userId": 44,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-31",
+        "Time": 4.97
+      },
+      {
+        "userId": 35,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-25",
+        "Time": 2.89
+      },
+      {
+        "userId": 1,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-16",
+        "Time": 1.45
+      },
+      {
+        "userId": 5,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-07",
+        "Time": 3.38
+      },
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-07",
+        "Time": 2.24
+      }
+    ]
   },
   {
     "Username": "Barnes",
-    "Username2": "Shepherd",
     "Password": "password",
     "Gender": "male",
-    "HireDate": "2006-05-03",
-    "CreateDate": "2009-05-30",
-    "LastActive": "2010-11-17",
-    "Firstname": "Clark",
-    "Lastname": "House",
-    "email": "clarkhouse@lexicondo.com",
-    "phone": "+48 (934) 544-2894",
+    "HireDate": "2019-07-14",
+    "CreateDate": "2020-09-28",
+    "LastActive": "2007-03-18",
+    "Firstname": "Randi",
+    "Lastname": "Cotton",
+    "email": "randicotton@knowlysis.com",
+    "phone": "+48 (897) 565-3130",
+    "DepartmentId": 2,
     "Timesheets": [
       {
-        "ProjectNumber": 18643,
-        "ProjectName": "Convent",
-        "WorkType": "Issuing",
-        "Time": 6.1,
-        "DatePicked": "2019-12-08",
-        "DateAdded": "2019-06-20",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19125,
-        "ProjectName": "Jardine",
-        "WorkType": "Sections",
-        "Time": 3.84,
-        "DatePicked": "2019-08-22",
-        "DateAdded": "2020-01-04",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19731,
-        "ProjectName": "Fivepointville",
-        "WorkType": "Floor",
-        "Time": 6.93,
-        "DatePicked": "2020-01-11",
-        "DateAdded": "2019-01-14",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19308,
-        "ProjectName": "Tuttle",
-        "WorkType": "Roof",
-        "Time": 2.03,
-        "DatePicked": "2019-02-24",
-        "DateAdded": "2019-08-22",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19935,
-        "ProjectName": "Brandermill",
-        "WorkType": "Sections",
-        "Time": 1.17,
-        "DatePicked": "2019-02-19",
-        "DateAdded": "2019-09-17",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19877,
-        "ProjectName": "Trinway",
-        "WorkType": "Roof",
-        "Time": 2.27,
-        "DatePicked": "2019-07-16",
-        "DateAdded": "2019-12-30",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19179,
-        "ProjectName": "Waverly",
-        "WorkType": "Slab",
-        "Time": 5.03,
-        "DatePicked": "2019-12-06",
-        "DateAdded": "2019-11-13",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19645,
-        "ProjectName": "Kula",
-        "WorkType": "Issuing",
-        "Time": 1.06,
-        "DatePicked": "2019-05-07",
-        "DateAdded": "2019-01-19",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18466,
-        "ProjectName": "Madrid",
-        "WorkType": "Floor",
-        "Time": 0.92,
-        "DatePicked": "2019-07-29",
-        "DateAdded": "2019-05-04",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Rios",
-    "Username2": "Kathleen",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2007-03-05",
-    "CreateDate": "2006-06-27",
-    "LastActive": "2020-06-01",
-    "Firstname": "Crawford",
-    "Lastname": "Harmon",
-    "email": "crawfordharmon@lexicondo.com",
-    "phone": "+48 (891) 557-2707",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19277,
-        "ProjectName": "Gardners",
-        "WorkType": "Floor",
-        "Time": 3.5,
-        "DatePicked": "2019-12-13",
-        "DateAdded": "2019-02-28",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19373,
-        "ProjectName": "Succasunna",
-        "WorkType": "Issuing",
-        "Time": 5.45,
-        "DatePicked": "2020-01-16",
-        "DateAdded": "2019-08-02",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18554,
-        "ProjectName": "Brewster",
-        "WorkType": "Roof",
-        "Time": 2.62,
-        "DatePicked": "2019-01-03",
-        "DateAdded": "2019-08-16",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18322,
-        "ProjectName": "Belvoir",
-        "WorkType": "Floor",
-        "Time": 3.27,
-        "DatePicked": "2019-03-18",
-        "DateAdded": "2019-05-16",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18929,
-        "ProjectName": "Alamo",
-        "WorkType": "Roof",
-        "Time": 5.52,
-        "DatePicked": "2019-06-02",
-        "DateAdded": "2019-01-31",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19270,
-        "ProjectName": "Kenmar",
-        "WorkType": "Slab",
-        "Time": 3.88,
-        "DatePicked": "2020-01-28",
-        "DateAdded": "2019-09-18",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19376,
-        "ProjectName": "Calpine",
-        "WorkType": "Roof",
-        "Time": 6.29,
-        "DatePicked": "2019-08-16",
-        "DateAdded": "2019-06-30",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Blake",
-    "Username2": "Weiss",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2006-05-12",
-    "CreateDate": "2010-08-01",
-    "LastActive": "2007-05-03",
-    "Firstname": "Adriana",
-    "Lastname": "Weber",
-    "email": "adrianaweber@lexicondo.com",
-    "phone": "+48 (878) 496-2068",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19962,
-        "ProjectName": "Grapeview",
-        "WorkType": "Slab",
-        "Time": 3,
-        "DatePicked": "2019-05-01",
-        "DateAdded": "2019-06-12",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18924,
-        "ProjectName": "Wikieup",
-        "WorkType": "Panels",
-        "Time": 4.95,
-        "DatePicked": "2019-11-07",
-        "DateAdded": "2020-01-11",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18639,
-        "ProjectName": "Orick",
-        "WorkType": "Floor",
-        "Time": 2.21,
-        "DatePicked": "2019-02-04",
-        "DateAdded": "2019-09-19",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18161,
-        "ProjectName": "Southmont",
-        "WorkType": "Slab",
-        "Time": 2.27,
-        "DatePicked": "2019-04-04",
-        "DateAdded": "2019-12-25",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19122,
-        "ProjectName": "Fingerville",
-        "WorkType": "Slab",
-        "Time": 4.99,
-        "DatePicked": "2019-04-20",
-        "DateAdded": "2019-10-29",
-        "UserId": 6
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Sargent",
-    "Username2": "Latisha",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2006-02-14",
-    "CreateDate": "2008-01-24",
-    "LastActive": "2019-11-16",
-    "Firstname": "Justine",
-    "Lastname": "James",
-    "email": "justinejames@lexicondo.com",
-    "phone": "+48 (940) 403-2259",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19843,
-        "ProjectName": "Temperanceville",
-        "WorkType": "Issuing",
-        "Time": 1.83,
-        "DatePicked": "2019-10-11",
-        "DateAdded": "2019-10-06",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19776,
-        "ProjectName": "Cobbtown",
-        "WorkType": "Floor",
-        "Time": 1.5,
-        "DatePicked": "2019-09-28",
-        "DateAdded": "2019-12-26",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19446,
-        "ProjectName": "Logan",
-        "WorkType": "Slab",
-        "Time": 1.48,
-        "DatePicked": "2019-10-31",
-        "DateAdded": "2019-12-21",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18913,
-        "ProjectName": "Sunwest",
-        "WorkType": "Checking",
-        "Time": 3.04,
-        "DatePicked": "2019-03-31",
-        "DateAdded": "2019-02-04",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19718,
-        "ProjectName": "Osmond",
-        "WorkType": "Roof",
-        "Time": 7.66,
-        "DatePicked": "2019-08-10",
-        "DateAdded": "2019-01-19",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19680,
-        "ProjectName": "Ebro",
-        "WorkType": "Floor",
-        "Time": 4.26,
-        "DatePicked": "2019-10-12",
-        "DateAdded": "2019-08-28",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19395,
-        "ProjectName": "Neahkahnie",
-        "WorkType": "Floor",
-        "Time": 7.53,
-        "DatePicked": "2019-02-18",
-        "DateAdded": "2019-12-13",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18282,
-        "ProjectName": "Gulf",
-        "WorkType": "Issuing",
-        "Time": 5.09,
-        "DatePicked": "2019-11-05",
-        "DateAdded": "2019-08-06",
-        "UserId": 1
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Gilbert",
-    "Username2": "Schwartz",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2011-01-13",
-    "CreateDate": "2005-02-11",
-    "LastActive": "2014-02-03",
-    "Firstname": "Leticia",
-    "Lastname": "Waters",
-    "email": "leticiawaters@lexicondo.com",
-    "phone": "+48 (901) 492-2156",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18778,
-        "ProjectName": "Shindler",
-        "WorkType": "Roof",
-        "Time": 5.51,
-        "DatePicked": "2019-08-02",
-        "DateAdded": "2019-10-23",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18870,
-        "ProjectName": "Wadsworth",
-        "WorkType": "Issuing",
-        "Time": 4.52,
-        "DatePicked": "2019-04-11",
-        "DateAdded": "2019-12-29",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18500,
-        "ProjectName": "Woodruff",
-        "WorkType": "Issuing",
-        "Time": 2.26,
-        "DatePicked": "2019-03-26",
-        "DateAdded": "2019-12-30",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19667,
-        "ProjectName": "Carbonville",
-        "WorkType": "Floor",
-        "Time": 7.46,
-        "DatePicked": "2020-01-18",
-        "DateAdded": "2019-08-22",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19593,
-        "ProjectName": "Watchtower",
-        "WorkType": "Panels",
-        "Time": 0.91,
-        "DatePicked": "2019-01-29",
-        "DateAdded": "2019-06-15",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18017,
-        "ProjectName": "Day",
-        "WorkType": "Roof",
-        "Time": 5.41,
-        "DatePicked": "2019-03-08",
-        "DateAdded": "2019-05-20",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18297,
-        "ProjectName": "Bendon",
-        "WorkType": "Panels",
-        "Time": 3.72,
-        "DatePicked": "2019-05-20",
-        "DateAdded": "2019-04-20",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19567,
-        "ProjectName": "Coyote",
-        "WorkType": "Sections",
-        "Time": 5.75,
-        "DatePicked": "2019-08-21",
-        "DateAdded": "2019-01-25",
-        "UserId": 5
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Bauer",
-    "Username2": "Amalia",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2013-02-05",
-    "CreateDate": "2016-09-10",
-    "LastActive": "2005-02-16",
-    "Firstname": "Gwendolyn",
-    "Lastname": "Rose",
-    "email": "gwendolynrose@lexicondo.com",
-    "phone": "+48 (933) 418-3910",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18924,
-        "ProjectName": "Waterloo",
-        "WorkType": "Slab",
-        "Time": 3.02,
-        "DatePicked": "2019-04-01",
-        "DateAdded": "2019-07-26",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19368,
-        "ProjectName": "Knowlton",
-        "WorkType": "Issuing",
-        "Time": 1.79,
-        "DatePicked": "2019-01-08",
-        "DateAdded": "2019-08-11",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18959,
-        "ProjectName": "Allentown",
-        "WorkType": "Sections",
-        "Time": 6.13,
-        "DatePicked": "2019-07-05",
-        "DateAdded": "2019-10-09",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19677,
-        "ProjectName": "Albrightsville",
-        "WorkType": "Sections",
-        "Time": 3.03,
-        "DatePicked": "2019-01-07",
-        "DateAdded": "2019-09-09",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18983,
-        "ProjectName": "Bergoo",
-        "WorkType": "Panels",
-        "Time": 4.73,
-        "DatePicked": "2019-03-14",
-        "DateAdded": "2019-04-24",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Romero",
-    "Username2": "Nancy",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2006-03-15",
-    "CreateDate": "2011-06-18",
-    "LastActive": "2010-07-10",
-    "Firstname": "Hinton",
-    "Lastname": "Oneal",
-    "email": "hintononeal@lexicondo.com",
-    "phone": "+48 (944) 578-2374",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19964,
-        "ProjectName": "Shelby",
-        "WorkType": "Sections",
-        "Time": 0.46,
-        "DatePicked": "2019-12-06",
-        "DateAdded": "2019-12-23",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18577,
-        "ProjectName": "Kanauga",
-        "WorkType": "Panels",
-        "Time": 0.52,
-        "DatePicked": "2019-08-04",
-        "DateAdded": "2020-01-07",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19171,
-        "ProjectName": "Bainbridge",
-        "WorkType": "Floor",
-        "Time": 0.32,
-        "DatePicked": "2019-07-13",
-        "DateAdded": "2019-09-08",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18587,
-        "ProjectName": "Oneida",
-        "WorkType": "Floor",
-        "Time": 4.21,
-        "DatePicked": "2020-01-03",
-        "DateAdded": "2019-12-31",
-        "UserId": 6
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Sanchez",
-    "Username2": "Arnold",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2009-12-23",
-    "CreateDate": "2011-04-21",
-    "LastActive": "2007-06-26",
-    "Firstname": "Tasha",
-    "Lastname": "Barry",
-    "email": "tashabarry@lexicondo.com",
-    "phone": "+48 (852) 429-2726",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18656,
-        "ProjectName": "Tilden",
-        "WorkType": "Sections",
-        "Time": 2.8,
-        "DatePicked": "2019-09-20",
-        "DateAdded": "2019-09-04",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19950,
-        "ProjectName": "Enetai",
-        "WorkType": "Panels",
-        "Time": 4.82,
-        "DatePicked": "2019-02-12",
-        "DateAdded": "2019-06-19",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19064,
-        "ProjectName": "Leland",
-        "WorkType": "Sections",
-        "Time": 7.23,
-        "DatePicked": "2019-06-17",
-        "DateAdded": "2019-10-14",
-        "UserId": 4
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Stone",
-    "Username2": "Kristin",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2020-05-08",
-    "CreateDate": "2005-06-23",
-    "LastActive": "2017-10-26",
-    "Firstname": "Hughes",
-    "Lastname": "Collins",
-    "email": "hughescollins@lexicondo.com",
-    "phone": "+48 (992) 446-3509",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19348,
-        "ProjectName": "Bakersville",
-        "WorkType": "Sections",
-        "Time": 5.49,
-        "DatePicked": "2019-08-01",
-        "DateAdded": "2019-06-05",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18505,
-        "ProjectName": "Juarez",
-        "WorkType": "Checking",
-        "Time": 1.81,
-        "DatePicked": "2019-12-04",
-        "DateAdded": "2019-07-20",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18493,
-        "ProjectName": "Bentonville",
-        "WorkType": "Sections",
-        "Time": 2.55,
-        "DatePicked": "2019-09-25",
-        "DateAdded": "2019-12-19",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19782,
-        "ProjectName": "Avalon",
-        "WorkType": "Issuing",
-        "Time": 6.1,
-        "DatePicked": "2019-05-13",
-        "DateAdded": "2019-08-02",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18729,
-        "ProjectName": "Omar",
-        "WorkType": "Slab",
-        "Time": 6.7,
-        "DatePicked": "2019-03-18",
-        "DateAdded": "2019-02-22",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18106,
-        "ProjectName": "Hegins",
-        "WorkType": "Checking",
-        "Time": 4.63,
-        "DatePicked": "2019-12-02",
-        "DateAdded": "2019-04-05",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18368,
-        "ProjectName": "Savage",
-        "WorkType": "Checking",
-        "Time": 0.81,
-        "DatePicked": "2020-01-11",
-        "DateAdded": "2019-02-24",
-        "UserId": 2
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Craft",
-    "Username2": "Millicent",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2020-03-09",
-    "CreateDate": "2020-02-12",
-    "LastActive": "2006-04-21",
-    "Firstname": "Becky",
-    "Lastname": "George",
-    "email": "beckygeorge@lexicondo.com",
-    "phone": "+48 (803) 411-3898",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18699,
-        "ProjectName": "Spelter",
-        "WorkType": "Checking",
-        "Time": 3.41,
-        "DatePicked": "2019-08-02",
-        "DateAdded": "2019-04-16",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18898,
-        "ProjectName": "Dellview",
-        "WorkType": "Roof",
-        "Time": 2.39,
-        "DatePicked": "2019-12-19",
-        "DateAdded": "2019-09-15",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Sullivan",
-    "Username2": "Mann",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2019-11-17",
-    "CreateDate": "2017-01-03",
-    "LastActive": "2006-01-19",
-    "Firstname": "Day",
-    "Lastname": "Blake",
-    "email": "dayblake@lexicondo.com",
-    "phone": "+48 (915) 512-2480",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19172,
-        "ProjectName": "Balm",
-        "WorkType": "Floor",
-        "Time": 5.35,
-        "DatePicked": "2019-11-09",
-        "DateAdded": "2019-10-05",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19430,
-        "ProjectName": "Ivanhoe",
-        "WorkType": "Issuing",
-        "Time": 6.03,
-        "DatePicked": "2019-08-21",
-        "DateAdded": "2019-07-14",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Haynes",
-    "Username2": "Pearlie",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2013-07-31",
-    "CreateDate": "2016-05-10",
-    "LastActive": "2006-04-08",
-    "Firstname": "Barrera",
-    "Lastname": "Phelps",
-    "email": "barreraphelps@lexicondo.com",
-    "phone": "+48 (915) 570-2939",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18277,
-        "ProjectName": "Woodburn",
-        "WorkType": "Sections",
-        "Time": 2.12,
-        "DatePicked": "2020-01-17",
-        "DateAdded": "2019-04-16",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19353,
-        "ProjectName": "Bowie",
-        "WorkType": "Sections",
-        "Time": 6.14,
-        "DatePicked": "2019-08-29",
-        "DateAdded": "2019-09-29",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19703,
-        "ProjectName": "Leola",
-        "WorkType": "Checking",
-        "Time": 0.34,
-        "DatePicked": "2019-03-29",
-        "DateAdded": "2019-02-20",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19967,
-        "ProjectName": "Edgar",
-        "WorkType": "Floor",
-        "Time": 6.79,
-        "DatePicked": "2019-01-20",
-        "DateAdded": "2019-09-01",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19186,
-        "ProjectName": "Summertown",
-        "WorkType": "Floor",
-        "Time": 6.24,
-        "DatePicked": "2019-06-13",
-        "DateAdded": "2019-05-30",
-        "UserId": 5
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Graham",
-    "Username2": "Patton",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2014-04-09",
-    "CreateDate": "2006-12-29",
-    "LastActive": "2009-11-07",
-    "Firstname": "Hurley",
-    "Lastname": "Welch",
-    "email": "hurleywelch@lexicondo.com",
-    "phone": "+48 (968) 470-2765",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19826,
-        "ProjectName": "Franklin",
-        "WorkType": "Panels",
-        "Time": 7.75,
-        "DatePicked": "2019-01-21",
-        "DateAdded": "2020-01-28",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19352,
-        "ProjectName": "Tyro",
-        "WorkType": "Issuing",
-        "Time": 6.12,
+        "userId": 9,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
         "DatePicked": "2019-12-28",
-        "DateAdded": "2019-02-23",
-        "UserId": 7
+        "Time": 4.06
       },
       {
-        "ProjectNumber": 19337,
-        "ProjectName": "Clarksburg",
-        "WorkType": "Issuing",
-        "Time": 3.27,
-        "DatePicked": "2019-09-30",
-        "DateAdded": "2019-09-20",
-        "UserId": 10
+        "userId": 40,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-15",
+        "Time": 2.08
+      },
+      {
+        "userId": 22,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-05",
+        "Time": 7.16
+      },
+      {
+        "userId": 35,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-18",
+        "Time": 0.89
+      },
+      {
+        "userId": 44,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-23",
+        "Time": 4.64
+      },
+      {
+        "userId": 24,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-15",
+        "Time": 3.78
+      },
+      {
+        "userId": 30,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-12",
+        "Time": 1.81
+      },
+      {
+        "userId": 41,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-07",
+        "Time": 3.18
       }
-    ],
-    "DepartmentId": 5
+    ]
   },
   {
-    "Username": "White",
-    "Username2": "Boyd",
+    "Username": "Ayers",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2016-12-29",
-    "CreateDate": "2017-07-20",
-    "LastActive": "2006-07-12",
-    "Firstname": "Ingrid",
-    "Lastname": "Cardenas",
-    "email": "ingridcardenas@lexicondo.com",
-    "phone": "+48 (970) 424-3624",
+    "HireDate": "2018-01-05",
+    "CreateDate": "2016-05-12",
+    "LastActive": "2007-10-25",
+    "Firstname": "Fleming",
+    "Lastname": "Workman",
+    "email": "flemingworkman@knowlysis.com",
+    "phone": "+48 (973) 508-2560",
+    "DepartmentId": 3,
     "Timesheets": [
       {
-        "ProjectNumber": 18820,
-        "ProjectName": "Brambleton",
-        "WorkType": "Floor",
-        "Time": 5.92,
-        "DatePicked": "2019-03-21",
-        "DateAdded": "2019-07-18",
-        "UserId": 7
+        "userId": 25,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-14",
+        "Time": 4.16
       },
       {
-        "ProjectNumber": 18122,
-        "ProjectName": "Beechmont",
-        "WorkType": "Checking",
-        "Time": 2.15,
-        "DatePicked": "2019-04-09",
-        "DateAdded": "2019-11-06",
-        "UserId": 10
+        "userId": 5,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-27",
+        "Time": 3.08
       },
       {
-        "ProjectNumber": 19559,
-        "ProjectName": "Eagletown",
-        "WorkType": "Checking",
-        "Time": 0.33,
-        "DatePicked": "2019-08-16",
-        "DateAdded": "2020-01-25",
-        "UserId": 2
+        "userId": 38,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-29",
+        "Time": 3.47
       },
       {
-        "ProjectNumber": 18784,
-        "ProjectName": "Salvo",
-        "WorkType": "Checking",
-        "Time": 2.13,
-        "DatePicked": "2019-04-17",
-        "DateAdded": "2019-03-30",
-        "UserId": 1
+        "userId": 45,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-15",
+        "Time": 5.07
       },
       {
-        "ProjectNumber": 18753,
-        "ProjectName": "Nanafalia",
-        "WorkType": "Floor",
-        "Time": 2.79,
-        "DatePicked": "2019-03-24",
-        "DateAdded": "2019-01-25",
-        "UserId": 9
+        "userId": 4,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-02",
+        "Time": 2.69
+      },
+      {
+        "userId": 11,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-29",
+        "Time": 5.09
+      },
+      {
+        "userId": 9,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-02",
+        "Time": 4.97
       }
-    ],
-    "DepartmentId": 4
+    ]
   },
   {
-    "Username": "Jennings",
-    "Username2": "Phoebe",
+    "Username": "Jean",
     "Password": "password",
     "Gender": "male",
-    "HireDate": "2015-12-16",
-    "CreateDate": "2008-11-10",
-    "LastActive": "2007-05-20",
-    "Firstname": "Bette",
-    "Lastname": "Mcgee",
-    "email": "bettemcgee@lexicondo.com",
-    "phone": "+48 (923) 477-2817",
+    "HireDate": "2010-08-30",
+    "CreateDate": "2008-07-21",
+    "LastActive": "2019-11-01",
+    "Firstname": "Ellen",
+    "Lastname": "Wilder",
+    "email": "ellenwilder@knowlysis.com",
+    "phone": "+48 (808) 528-3273",
+    "DepartmentId": 1,
     "Timesheets": [
       {
-        "ProjectNumber": 18546,
-        "ProjectName": "Malott",
-        "WorkType": "Issuing",
-        "Time": 4.24,
-        "DatePicked": "2019-05-21",
-        "DateAdded": "2019-04-26",
-        "UserId": 3
+        "userId": 10,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-01",
+        "Time": 3.44
       },
       {
-        "ProjectNumber": 19144,
-        "ProjectName": "Dixonville",
-        "WorkType": "Sections",
-        "Time": 5.11,
-        "DatePicked": "2019-11-07",
-        "DateAdded": "2019-11-05",
-        "UserId": 3
+        "userId": 29,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-21",
+        "Time": 5.66
       },
       {
-        "ProjectNumber": 18572,
-        "ProjectName": "Kingstowne",
-        "WorkType": "Roof",
-        "Time": 2.45,
-        "DatePicked": "2020-01-19",
-        "DateAdded": "2019-01-05",
-        "UserId": 7
+        "userId": 12,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-04",
+        "Time": 5.79
       },
       {
-        "ProjectNumber": 18621,
-        "ProjectName": "Brenton",
-        "WorkType": "Slab",
-        "Time": 3.34,
-        "DatePicked": "2019-02-04",
-        "DateAdded": "2020-01-07",
-        "UserId": 10
+        "userId": 15,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-16",
+        "Time": 4.28
       },
       {
-        "ProjectNumber": 18945,
-        "ProjectName": "Cliffside",
-        "WorkType": "Roof",
-        "Time": 0.73,
-        "DatePicked": "2019-03-20",
-        "DateAdded": "2019-02-25",
-        "UserId": 6
+        "userId": 33,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-21",
+        "Time": 3.58
       },
       {
-        "ProjectNumber": 19797,
-        "ProjectName": "Gouglersville",
-        "WorkType": "Roof",
-        "Time": 3.46,
-        "DatePicked": "2019-03-18",
-        "DateAdded": "2019-08-26",
-        "UserId": 5
+        "userId": 46,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-24",
+        "Time": 4.51
       },
       {
-        "ProjectNumber": 19931,
-        "ProjectName": "Cuylerville",
-        "WorkType": "Roof",
-        "Time": 7.19,
-        "DatePicked": "2019-10-28",
-        "DateAdded": "2019-12-15",
-        "UserId": 2
+        "userId": 4,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-10",
+        "Time": 3.05
       },
       {
-        "ProjectNumber": 19413,
-        "ProjectName": "Trexlertown",
-        "WorkType": "Floor",
-        "Time": 6.39,
-        "DatePicked": "2019-02-19",
-        "DateAdded": "2019-01-23",
-        "UserId": 3
+        "userId": 32,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-29",
+        "Time": 5.78
       }
-    ],
-    "DepartmentId": 2
+    ]
+  },
+  {
+    "Username": "Kemp",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2017-04-27",
+    "CreateDate": "2008-05-04",
+    "LastActive": "2012-07-02",
+    "Firstname": "Lottie",
+    "Lastname": "Riggs",
+    "email": "lottieriggs@knowlysis.com",
+    "phone": "+48 (911) 500-3804",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 34,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-11",
+        "Time": 0.51
+      },
+      {
+        "userId": 5,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-04",
+        "Time": 1.1
+      },
+      {
+        "userId": 9,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-28",
+        "Time": 0.34
+      },
+      {
+        "userId": 16,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-04",
+        "Time": 7.3
+      },
+      {
+        "userId": 6,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-24",
+        "Time": 0.63
+      },
+      {
+        "userId": 45,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-02",
+        "Time": 5.73
+      },
+      {
+        "userId": 34,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-08",
+        "Time": 7.36
+      },
+      {
+        "userId": 18,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-28",
+        "Time": 4.38
+      },
+      {
+        "userId": 27,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-11",
+        "Time": 4.94
+      }
+    ]
+  },
+  {
+    "Username": "Mandy",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2015-08-31",
+    "CreateDate": "2006-06-19",
+    "LastActive": "2020-09-06",
+    "Firstname": "Shanna",
+    "Lastname": "Holt",
+    "email": "shannaholt@knowlysis.com",
+    "phone": "+48 (870) 461-2514",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 33,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-14",
+        "Time": 3.2
+      },
+      {
+        "userId": 34,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-18",
+        "Time": 4.91
+      },
+      {
+        "userId": 32,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-17",
+        "Time": 3.92
+      },
+      {
+        "userId": 11,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-06",
+        "Time": 5.25
+      },
+      {
+        "userId": 30,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-11",
+        "Time": 5.12
+      },
+      {
+        "userId": 21,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-11",
+        "Time": 3.28
+      },
+      {
+        "userId": 31,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-07",
+        "Time": 4.8
+      },
+      {
+        "userId": 23,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-14",
+        "Time": 3.68
+      },
+      {
+        "userId": 36,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-26",
+        "Time": 7.27
+      }
+    ]
+  },
+  {
+    "Username": "Freeman",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2018-12-26",
+    "CreateDate": "2010-09-08",
+    "LastActive": "2017-08-26",
+    "Firstname": "Suzette",
+    "Lastname": "Butler",
+    "email": "suzettebutler@knowlysis.com",
+    "phone": "+48 (805) 568-2976",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 7,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-22",
+        "Time": 4.07
+      },
+      {
+        "userId": 43,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-05",
+        "Time": 5.22
+      },
+      {
+        "userId": 33,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-04",
+        "Time": 6.91
+      },
+      {
+        "userId": 19,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-25",
+        "Time": 3.16
+      },
+      {
+        "userId": 32,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-21",
+        "Time": 7.68
+      },
+      {
+        "userId": 37,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-20",
+        "Time": 3.53
+      }
+    ]
+  },
+  {
+    "Username": "Harriett",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2020-09-26",
+    "CreateDate": "2010-08-13",
+    "LastActive": "2016-10-01",
+    "Firstname": "Phyllis",
+    "Lastname": "Boyd",
+    "email": "phyllisboyd@knowlysis.com",
+    "phone": "+48 (872) 404-3172",
+    "DepartmentId": 2,
+    "Timesheets": [
+      {
+        "userId": 36,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-28",
+        "Time": 2.9
+      },
+      {
+        "userId": 14,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-07",
+        "Time": 1.68
+      },
+      {
+        "userId": 21,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-29",
+        "Time": 5.39
+      }
+    ]
+  },
+  {
+    "Username": "Tanner",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2013-05-25",
+    "CreateDate": "2009-09-28",
+    "LastActive": "2006-10-31",
+    "Firstname": "Cleveland",
+    "Lastname": "Melendez",
+    "email": "clevelandmelendez@knowlysis.com",
+    "phone": "+48 (959) 549-2316",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 21,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-20",
+        "Time": 6.11
+      },
+      {
+        "userId": 16,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-05",
+        "Time": 3.42
+      },
+      {
+        "userId": 17,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-30",
+        "Time": 3.26
+      },
+      {
+        "userId": 16,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-22",
+        "Time": 7.46
+      },
+      {
+        "userId": 23,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-07",
+        "Time": 7.31
+      }
+    ]
+  },
+  {
+    "Username": "Earnestine",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2016-12-11",
+    "CreateDate": "2013-08-28",
+    "LastActive": "2014-10-30",
+    "Firstname": "Davenport",
+    "Lastname": "Huber",
+    "email": "davenporthuber@knowlysis.com",
+    "phone": "+48 (987) 550-3945",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-29",
+        "Time": 4.28
+      },
+      {
+        "userId": 4,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-27",
+        "Time": 6.35
+      },
+      {
+        "userId": 1,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-14",
+        "Time": 7.71
+      },
+      {
+        "userId": 6,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-26",
+        "Time": 5.23
+      },
+      {
+        "userId": 27,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-20",
+        "Time": 4.29
+      },
+      {
+        "userId": 23,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-28",
+        "Time": 4.66
+      },
+      {
+        "userId": 9,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-22",
+        "Time": 7.63
+      }
+    ]
+  },
+  {
+    "Username": "Marcie",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2008-03-21",
+    "CreateDate": "2005-12-25",
+    "LastActive": "2006-08-02",
+    "Firstname": "Lilly",
+    "Lastname": "Ward",
+    "email": "lillyward@knowlysis.com",
+    "phone": "+48 (997) 563-2079",
+    "DepartmentId": 2,
+    "Timesheets": [
+      {
+        "userId": 41,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-18",
+        "Time": 1.8
+      },
+      {
+        "userId": 48,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-20",
+        "Time": 3.19
+      },
+      {
+        "userId": 49,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-10",
+        "Time": 4.3
+      },
+      {
+        "userId": 28,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-21",
+        "Time": 6.29
+      },
+      {
+        "userId": 22,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-19",
+        "Time": 7.58
+      },
+      {
+        "userId": 8,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-10",
+        "Time": 2.53
+      }
+    ]
+  },
+  {
+    "Username": "Parker",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2011-12-22",
+    "CreateDate": "2020-12-18",
+    "LastActive": "2017-01-24",
+    "Firstname": "Monique",
+    "Lastname": "Montoya",
+    "email": "moniquemontoya@knowlysis.com",
+    "phone": "+48 (958) 414-2370",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 41,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-22",
+        "Time": 6.43
+      },
+      {
+        "userId": 9,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-01",
+        "Time": 6.11
+      },
+      {
+        "userId": 35,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-11",
+        "Time": 7.42
+      },
+      {
+        "userId": 2,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-07",
+        "Time": 0.95
+      },
+      {
+        "userId": 13,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-26",
+        "Time": 0.53
+      },
+      {
+        "userId": 41,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-11",
+        "Time": 4.48
+      },
+      {
+        "userId": 33,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-30",
+        "Time": 4.82
+      },
+      {
+        "userId": 46,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-25",
+        "Time": 1.05
+      },
+      {
+        "userId": 16,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-26",
+        "Time": 5.74
+      }
+    ]
+  },
+  {
+    "Username": "Cantrell",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2012-07-24",
+    "CreateDate": "2006-12-08",
+    "LastActive": "2015-10-06",
+    "Firstname": "Rivers",
+    "Lastname": "Golden",
+    "email": "riversgolden@knowlysis.com",
+    "phone": "+48 (893) 500-3552",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 12,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-02",
+        "Time": 2.63
+      },
+      {
+        "userId": 1,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-29",
+        "Time": 0.8
+      }
+    ]
+  },
+  {
+    "Username": "Gaines",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2014-11-01",
+    "CreateDate": "2016-04-07",
+    "LastActive": "2019-07-05",
+    "Firstname": "Alvarez",
+    "Lastname": "Haynes",
+    "email": "alvarezhaynes@knowlysis.com",
+    "phone": "+48 (924) 535-3565",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 11,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-01",
+        "Time": 5.75
+      }
+    ]
+  },
+  {
+    "Username": "Kim",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2008-06-27",
+    "CreateDate": "2013-02-18",
+    "LastActive": "2015-03-08",
+    "Firstname": "Millicent",
+    "Lastname": "Bird",
+    "email": "millicentbird@knowlysis.com",
+    "phone": "+48 (806) 598-2229",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 44,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-19",
+        "Time": 4.01
+      },
+      {
+        "userId": 19,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-07",
+        "Time": 3.25
+      },
+      {
+        "userId": 41,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-25",
+        "Time": 6.17
+      },
+      {
+        "userId": 34,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-08",
+        "Time": 4.61
+      },
+      {
+        "userId": 44,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-12",
+        "Time": 5.4
+      },
+      {
+        "userId": 38,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-16",
+        "Time": 7.75
+      },
+      {
+        "userId": 23,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-08",
+        "Time": 1.78
+      },
+      {
+        "userId": 22,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-07",
+        "Time": 1.44
+      },
+      {
+        "userId": 30,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-11",
+        "Time": 7.03
+      }
+    ]
+  },
+  {
+    "Username": "James",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2014-12-07",
+    "CreateDate": "2011-09-26",
+    "LastActive": "2019-04-18",
+    "Firstname": "Combs",
+    "Lastname": "Terry",
+    "email": "combsterry@knowlysis.com",
+    "phone": "+48 (869) 460-3878",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 43,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-23",
+        "Time": 6.48
+      },
+      {
+        "userId": 38,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-26",
+        "Time": 2.78
+      },
+      {
+        "userId": 16,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-17",
+        "Time": 6.36
+      },
+      {
+        "userId": 41,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-02",
+        "Time": 2.81
+      },
+      {
+        "userId": 1,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-09",
+        "Time": 1.05
+      },
+      {
+        "userId": 43,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-18",
+        "Time": 5.79
+      },
+      {
+        "userId": 5,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-18",
+        "Time": 6.13
+      },
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-18",
+        "Time": 3.46
+      },
+      {
+        "userId": 22,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-22",
+        "Time": 1.55
+      }
+    ]
+  },
+  {
+    "Username": "Jefferson",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2007-06-10",
+    "CreateDate": "2010-08-05",
+    "LastActive": "2014-03-25",
+    "Firstname": "Serena",
+    "Lastname": "Juarez",
+    "email": "serenajuarez@knowlysis.com",
+    "phone": "+48 (817) 452-3323",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 21,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-25",
+        "Time": 4.03
+      },
+      {
+        "userId": 27,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-24",
+        "Time": 2.16
+      },
+      {
+        "userId": 14,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-28",
+        "Time": 0.42
+      },
+      {
+        "userId": 39,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-27",
+        "Time": 6.04
+      },
+      {
+        "userId": 10,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-25",
+        "Time": 3.7
+      },
+      {
+        "userId": 11,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-28",
+        "Time": 4.51
+      },
+      {
+        "userId": 12,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-15",
+        "Time": 1.06
+      },
+      {
+        "userId": 19,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-20",
+        "Time": 7.26
+      },
+      {
+        "userId": 14,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-28",
+        "Time": 0.52
+      },
+      {
+        "userId": 9,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-12",
+        "Time": 5.8
+      }
+    ]
+  },
+  {
+    "Username": "Loretta",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2009-06-30",
+    "CreateDate": "2012-11-13",
+    "LastActive": "2018-02-28",
+    "Firstname": "Jones",
+    "Lastname": "Mueller",
+    "email": "jonesmueller@knowlysis.com",
+    "phone": "+48 (984) 587-3107",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 37,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-21",
+        "Time": 6.58
+      },
+      {
+        "userId": 27,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-26",
+        "Time": 4.02
+      },
+      {
+        "userId": 49,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-07",
+        "Time": 7.46
+      },
+      {
+        "userId": 48,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-04",
+        "Time": 2.6
+      },
+      {
+        "userId": 19,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-19",
+        "Time": 2.14
+      },
+      {
+        "userId": 4,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-06",
+        "Time": 6.07
+      }
+    ]
+  },
+  {
+    "Username": "Monica",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2014-07-14",
+    "CreateDate": "2006-02-17",
+    "LastActive": "2013-08-07",
+    "Firstname": "Crosby",
+    "Lastname": "Yang",
+    "email": "crosbyyang@knowlysis.com",
+    "phone": "+48 (893) 438-3367",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 44,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-24",
+        "Time": 2.35
+      },
+      {
+        "userId": 48,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-08",
+        "Time": 3.98
+      },
+      {
+        "userId": 20,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-12",
+        "Time": 7.43
+      },
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-24",
+        "Time": 0.86
+      },
+      {
+        "userId": 46,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-02",
+        "Time": 3.09
+      },
+      {
+        "userId": 28,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-08",
+        "Time": 3.09
+      },
+      {
+        "userId": 10,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-02",
+        "Time": 7.55
+      },
+      {
+        "userId": 49,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-07",
+        "Time": 3.09
+      }
+    ]
+  },
+  {
+    "Username": "Schneider",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2011-04-13",
+    "CreateDate": "2010-01-10",
+    "LastActive": "2011-06-13",
+    "Firstname": "Beatriz",
+    "Lastname": "Cantu",
+    "email": "beatrizcantu@knowlysis.com",
+    "phone": "+48 (803) 564-2005",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 40,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-11",
+        "Time": 1.73
+      },
+      {
+        "userId": 42,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-03",
+        "Time": 3.59
+      },
+      {
+        "userId": 5,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-24",
+        "Time": 0.88
+      },
+      {
+        "userId": 35,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-16",
+        "Time": 6.92
+      },
+      {
+        "userId": 20,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-02",
+        "Time": 3.39
+      },
+      {
+        "userId": 18,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-19",
+        "Time": 3.05
+      },
+      {
+        "userId": 37,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-17",
+        "Time": 1.73
+      }
+    ]
+  },
+  {
+    "Username": "Weaver",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2005-02-15",
+    "CreateDate": "2005-04-07",
+    "LastActive": "2018-12-13",
+    "Firstname": "Becky",
+    "Lastname": "Stuart",
+    "email": "beckystuart@knowlysis.com",
+    "phone": "+48 (971) 597-3129",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 33,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-23",
+        "Time": 4.05
+      },
+      {
+        "userId": 39,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-21",
+        "Time": 5.65
+      },
+      {
+        "userId": 42,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-04",
+        "Time": 2.16
+      },
+      {
+        "userId": 33,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-16",
+        "Time": 7.06
+      }
+    ]
   },
   {
     "Username": "Holman",
-    "Username2": "Daugherty",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2012-02-16",
+    "CreateDate": "2005-07-16",
+    "LastActive": "2007-07-18",
+    "Firstname": "Walton",
+    "Lastname": "Hopkins",
+    "email": "waltonhopkins@knowlysis.com",
+    "phone": "+48 (926) 571-3485",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 38,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-09",
+        "Time": 6.74
+      },
+      {
+        "userId": 42,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-19",
+        "Time": 0.98
+      }
+    ]
+  },
+  {
+    "Username": "Robin",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2016-08-21",
-    "CreateDate": "2017-10-12",
-    "LastActive": "2018-06-18",
-    "Firstname": "Craig",
-    "Lastname": "Booker",
-    "email": "craigbooker@lexicondo.com",
-    "phone": "+48 (875) 596-2899",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19270,
-        "ProjectName": "Loomis",
-        "WorkType": "Checking",
-        "Time": 5.51,
-        "DatePicked": "2019-07-29",
-        "DateAdded": "2019-08-07",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18220,
-        "ProjectName": "Chautauqua",
-        "WorkType": "Slab",
-        "Time": 4.19,
-        "DatePicked": "2019-02-20",
-        "DateAdded": "2019-11-14",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19676,
-        "ProjectName": "Abiquiu",
-        "WorkType": "Sections",
-        "Time": 4.36,
-        "DatePicked": "2019-10-03",
-        "DateAdded": "2019-05-07",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18474,
-        "ProjectName": "Tedrow",
-        "WorkType": "Panels",
-        "Time": 0.64,
-        "DatePicked": "2019-06-21",
-        "DateAdded": "2019-04-18",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Francis",
-    "Username2": "Angelina",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2011-05-02",
-    "CreateDate": "2017-08-15",
-    "LastActive": "2006-12-06",
-    "Firstname": "Coffey",
-    "Lastname": "Yates",
-    "email": "coffeyyates@lexicondo.com",
-    "phone": "+48 (961) 445-2797",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18218,
-        "ProjectName": "Unionville",
-        "WorkType": "Checking",
-        "Time": 5.6,
-        "DatePicked": "2019-10-10",
-        "DateAdded": "2019-06-21",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19375,
-        "ProjectName": "Morgandale",
-        "WorkType": "Checking",
-        "Time": 4.42,
-        "DatePicked": "2019-03-08",
-        "DateAdded": "2019-11-20",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18003,
-        "ProjectName": "Mahtowa",
-        "WorkType": "Issuing",
-        "Time": 1.03,
-        "DatePicked": "2019-02-17",
-        "DateAdded": "2019-10-30",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18905,
-        "ProjectName": "Rivera",
-        "WorkType": "Panels",
-        "Time": 2.71,
-        "DatePicked": "2019-06-23",
-        "DateAdded": "2019-11-15",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19859,
-        "ProjectName": "Elliston",
-        "WorkType": "Roof",
-        "Time": 3.47,
-        "DatePicked": "2019-04-28",
-        "DateAdded": "2019-03-22",
-        "UserId": 1
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Willis",
-    "Username2": "Alana",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2018-02-06",
-    "CreateDate": "2005-03-26",
-    "LastActive": "2012-09-01",
-    "Firstname": "Madge",
-    "Lastname": "Murray",
-    "email": "madgemurray@lexicondo.com",
-    "phone": "+48 (962) 591-3445",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19762,
-        "ProjectName": "Robinette",
-        "WorkType": "Roof",
-        "Time": 0.93,
-        "DatePicked": "2019-01-08",
-        "DateAdded": "2020-01-21",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19819,
-        "ProjectName": "Joes",
-        "WorkType": "Floor",
-        "Time": 4.61,
-        "DatePicked": "2019-10-24",
-        "DateAdded": "2019-08-18",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 18705,
-        "ProjectName": "Volta",
-        "WorkType": "Panels",
-        "Time": 6.48,
-        "DatePicked": "2019-11-09",
-        "DateAdded": "2019-11-08",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19297,
-        "ProjectName": "Celeryville",
-        "WorkType": "Sections",
-        "Time": 2.36,
-        "DatePicked": "2019-08-22",
-        "DateAdded": "2019-02-08",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19839,
-        "ProjectName": "Waiohinu",
-        "WorkType": "Issuing",
-        "Time": 3.01,
-        "DatePicked": "2019-06-01",
-        "DateAdded": "2019-10-25",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19218,
-        "ProjectName": "Galesville",
-        "WorkType": "Issuing",
-        "Time": 3.15,
-        "DatePicked": "2019-02-04",
-        "DateAdded": "2019-10-08",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19904,
-        "ProjectName": "Teasdale",
-        "WorkType": "Sections",
-        "Time": 2.95,
-        "DatePicked": "2020-01-28",
-        "DateAdded": "2019-07-12",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19594,
-        "ProjectName": "Topanga",
-        "WorkType": "Sections",
-        "Time": 0.67,
-        "DatePicked": "2019-11-09",
-        "DateAdded": "2019-10-09",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19163,
-        "ProjectName": "Orason",
-        "WorkType": "Panels",
-        "Time": 3.82,
-        "DatePicked": "2019-10-09",
-        "DateAdded": "2019-04-17",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Bryan",
-    "Username2": "Noreen",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2016-03-10",
-    "CreateDate": "2009-02-10",
-    "LastActive": "2019-03-11",
-    "Firstname": "Joyner",
-    "Lastname": "Mathis",
-    "email": "joynermathis@lexicondo.com",
-    "phone": "+48 (841) 575-2342",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19737,
-        "ProjectName": "Gorham",
-        "WorkType": "Slab",
-        "Time": 3.85,
-        "DatePicked": "2019-06-30",
-        "DateAdded": "2019-05-21",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19101,
-        "ProjectName": "Wawona",
-        "WorkType": "Roof",
-        "Time": 1.84,
-        "DatePicked": "2019-07-06",
-        "DateAdded": "2020-01-19",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19794,
-        "ProjectName": "Noxen",
-        "WorkType": "Sections",
-        "Time": 3.07,
-        "DatePicked": "2019-08-21",
-        "DateAdded": "2020-01-09",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19116,
-        "ProjectName": "Sutton",
-        "WorkType": "Slab",
-        "Time": 4.53,
-        "DatePicked": "2019-11-01",
-        "DateAdded": "2019-05-21",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18152,
-        "ProjectName": "Coral",
-        "WorkType": "Floor",
-        "Time": 6.04,
-        "DatePicked": "2019-02-17",
-        "DateAdded": "2019-02-04",
-        "UserId": 10
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Sharpe",
-    "Username2": "Erika",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2016-11-08",
-    "CreateDate": "2006-05-20",
-    "LastActive": "2005-01-24",
-    "Firstname": "Bernadine",
-    "Lastname": "Lane",
-    "email": "bernadinelane@lexicondo.com",
-    "phone": "+48 (878) 551-2073",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18177,
-        "ProjectName": "Twilight",
-        "WorkType": "Roof",
-        "Time": 7.39,
-        "DatePicked": "2019-06-11",
-        "DateAdded": "2019-09-06",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19153,
-        "ProjectName": "Blanco",
-        "WorkType": "Issuing",
-        "Time": 6.09,
-        "DatePicked": "2019-09-17",
-        "DateAdded": "2019-03-07",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18160,
-        "ProjectName": "Coleville",
-        "WorkType": "Issuing",
-        "Time": 6.36,
-        "DatePicked": "2019-11-30",
-        "DateAdded": "2019-09-02",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18548,
-        "ProjectName": "Boykin",
-        "WorkType": "Slab",
-        "Time": 6.88,
-        "DatePicked": "2019-12-09",
-        "DateAdded": "2019-12-17",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19218,
-        "ProjectName": "Enlow",
-        "WorkType": "Sections",
-        "Time": 1.61,
-        "DatePicked": "2019-10-24",
-        "DateAdded": "2019-05-17",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18555,
-        "ProjectName": "Edneyville",
-        "WorkType": "Sections",
-        "Time": 3.45,
-        "DatePicked": "2019-04-05",
-        "DateAdded": "2019-03-24",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 18637,
-        "ProjectName": "Hatteras",
-        "WorkType": "Issuing",
-        "Time": 6.65,
-        "DatePicked": "2019-03-09",
-        "DateAdded": "2019-08-18",
-        "UserId": 7
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Boyle",
-    "Username2": "Hanson",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2020-01-18",
-    "CreateDate": "2015-10-23",
-    "LastActive": "2008-02-13",
-    "Firstname": "Clare",
-    "Lastname": "Pearson",
-    "email": "clarepearson@lexicondo.com",
-    "phone": "+48 (905) 405-2122",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18279,
-        "ProjectName": "Dotsero",
-        "WorkType": "Panels",
-        "Time": 3.14,
-        "DatePicked": "2019-05-05",
-        "DateAdded": "2019-03-29",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19405,
-        "ProjectName": "Bawcomville",
-        "WorkType": "Slab",
-        "Time": 4.63,
-        "DatePicked": "2019-06-28",
-        "DateAdded": "2019-08-26",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19289,
-        "ProjectName": "Smock",
-        "WorkType": "Checking",
-        "Time": 2.76,
-        "DatePicked": "2019-02-28",
-        "DateAdded": "2019-12-28",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19627,
-        "ProjectName": "Taft",
-        "WorkType": "Checking",
-        "Time": 2.43,
-        "DatePicked": "2020-01-17",
-        "DateAdded": "2020-01-24",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Owen",
-    "Username2": "Nolan",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2017-11-09",
-    "CreateDate": "2013-01-12",
-    "LastActive": "2020-11-27",
-    "Firstname": "Brooke",
-    "Lastname": "Bean",
-    "email": "brookebean@lexicondo.com",
-    "phone": "+48 (998) 540-2930",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18126,
-        "ProjectName": "Siglerville",
-        "WorkType": "Sections",
-        "Time": 1.39,
-        "DatePicked": "2019-09-02",
-        "DateAdded": "2019-12-31",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19090,
-        "ProjectName": "Lisco",
-        "WorkType": "Panels",
-        "Time": 1.86,
-        "DatePicked": "2019-08-01",
-        "DateAdded": "2019-10-18",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18530,
-        "ProjectName": "Chapin",
-        "WorkType": "Issuing",
-        "Time": 0.75,
-        "DatePicked": "2019-06-14",
-        "DateAdded": "2019-05-11",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19223,
-        "ProjectName": "Wyoming",
-        "WorkType": "Checking",
-        "Time": 2.01,
-        "DatePicked": "2019-12-03",
-        "DateAdded": "2019-02-24",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18435,
-        "ProjectName": "Tioga",
-        "WorkType": "Issuing",
-        "Time": 1.84,
-        "DatePicked": "2019-03-04",
-        "DateAdded": "2019-06-27",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19188,
-        "ProjectName": "Gibbsville",
-        "WorkType": "Slab",
-        "Time": 7.19,
-        "DatePicked": "2019-09-01",
-        "DateAdded": "2019-11-12",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19607,
-        "ProjectName": "Greer",
-        "WorkType": "Issuing",
-        "Time": 7.24,
-        "DatePicked": "2019-02-01",
-        "DateAdded": "2019-08-12",
-        "UserId": 7
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Kelley",
-    "Username2": "Kerri",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2015-08-14",
-    "CreateDate": "2005-07-25",
-    "LastActive": "2010-10-22",
-    "Firstname": "Myrna",
-    "Lastname": "Dunn",
-    "email": "myrnadunn@lexicondo.com",
-    "phone": "+48 (959) 446-3460",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19117,
-        "ProjectName": "Homeland",
-        "WorkType": "Roof",
-        "Time": 7.36,
-        "DatePicked": "2019-05-14",
-        "DateAdded": "2019-11-18",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19142,
-        "ProjectName": "Garnet",
-        "WorkType": "Roof",
-        "Time": 6.5,
-        "DatePicked": "2019-03-05",
-        "DateAdded": "2019-01-02",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18309,
-        "ProjectName": "Summerfield",
-        "WorkType": "Roof",
-        "Time": 3.71,
-        "DatePicked": "2019-02-01",
-        "DateAdded": "2019-08-30",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19530,
-        "ProjectName": "Aberdeen",
-        "WorkType": "Checking",
-        "Time": 6.61,
-        "DatePicked": "2019-05-31",
-        "DateAdded": "2019-10-07",
-        "UserId": 6
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Reyes",
-    "Username2": "Barker",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2017-01-07",
-    "CreateDate": "2006-05-12",
-    "LastActive": "2014-08-12",
-    "Firstname": "Frankie",
-    "Lastname": "Cohen",
-    "email": "frankiecohen@lexicondo.com",
-    "phone": "+48 (814) 557-3080",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18147,
-        "ProjectName": "Faywood",
-        "WorkType": "Slab",
-        "Time": 6.81,
-        "DatePicked": "2019-09-16",
-        "DateAdded": "2019-01-20",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18367,
-        "ProjectName": "Riner",
-        "WorkType": "Slab",
-        "Time": 1.91,
-        "DatePicked": "2019-09-03",
-        "DateAdded": "2019-02-13",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19272,
-        "ProjectName": "Lacomb",
-        "WorkType": "Roof",
-        "Time": 0.33,
-        "DatePicked": "2019-09-11",
-        "DateAdded": "2019-01-09",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18924,
-        "ProjectName": "Nelson",
-        "WorkType": "Checking",
-        "Time": 2.62,
-        "DatePicked": "2019-03-23",
-        "DateAdded": "2019-07-15",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19001,
-        "ProjectName": "Craig",
-        "WorkType": "Slab",
-        "Time": 5.26,
-        "DatePicked": "2019-11-07",
-        "DateAdded": "2019-09-21",
-        "UserId": 3
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Watkins",
-    "Username2": "Smith",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2010-10-17",
-    "CreateDate": "2007-07-16",
-    "LastActive": "2015-06-09",
-    "Firstname": "Minerva",
-    "Lastname": "Bentley",
-    "email": "minervabentley@lexicondo.com",
-    "phone": "+48 (818) 465-3538",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18289,
-        "ProjectName": "Crucible",
-        "WorkType": "Floor",
-        "Time": 1.67,
-        "DatePicked": "2020-01-30",
-        "DateAdded": "2019-10-04",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19796,
-        "ProjectName": "Chesapeake",
-        "WorkType": "Roof",
-        "Time": 1.83,
-        "DatePicked": "2019-11-28",
-        "DateAdded": "2019-12-01",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 18761,
-        "ProjectName": "Clayville",
-        "WorkType": "Checking",
-        "Time": 6.58,
-        "DatePicked": "2019-12-26",
-        "DateAdded": "2019-09-09",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18455,
-        "ProjectName": "Hessville",
-        "WorkType": "Sections",
-        "Time": 5.33,
-        "DatePicked": "2019-08-15",
-        "DateAdded": "2019-09-08",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19351,
-        "ProjectName": "Hackneyville",
-        "WorkType": "Issuing",
-        "Time": 3.77,
-        "DatePicked": "2019-08-19",
-        "DateAdded": "2019-11-10",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19436,
-        "ProjectName": "Inkerman",
-        "WorkType": "Sections",
-        "Time": 6.71,
-        "DatePicked": "2019-08-10",
-        "DateAdded": "2019-01-16",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18677,
-        "ProjectName": "Tivoli",
-        "WorkType": "Issuing",
-        "Time": 7.08,
-        "DatePicked": "2019-05-10",
-        "DateAdded": "2019-06-19",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18690,
-        "ProjectName": "Kimmell",
-        "WorkType": "Checking",
-        "Time": 7.23,
-        "DatePicked": "2019-01-15",
-        "DateAdded": "2019-05-19",
-        "UserId": 2
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Molina",
-    "Username2": "Audra",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2009-05-12",
-    "CreateDate": "2017-11-21",
-    "LastActive": "2014-02-06",
-    "Firstname": "Joanna",
-    "Lastname": "Frye",
-    "email": "joannafrye@lexicondo.com",
-    "phone": "+48 (943) 497-2361",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19657,
-        "ProjectName": "Sedley",
-        "WorkType": "Issuing",
-        "Time": 2.16,
-        "DatePicked": "2019-01-27",
-        "DateAdded": "2019-05-24",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19292,
-        "ProjectName": "Verdi",
-        "WorkType": "Slab",
-        "Time": 4.17,
-        "DatePicked": "2019-06-06",
-        "DateAdded": "2019-04-08",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18684,
-        "ProjectName": "Munjor",
-        "WorkType": "Sections",
-        "Time": 6.64,
-        "DatePicked": "2019-04-28",
-        "DateAdded": "2019-02-27",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19846,
-        "ProjectName": "Wattsville",
-        "WorkType": "Roof",
-        "Time": 4.19,
-        "DatePicked": "2019-03-19",
-        "DateAdded": "2019-01-25",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18939,
-        "ProjectName": "Haena",
-        "WorkType": "Issuing",
-        "Time": 1.38,
-        "DatePicked": "2019-12-12",
-        "DateAdded": "2019-07-11",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18712,
-        "ProjectName": "Falmouth",
-        "WorkType": "Issuing",
-        "Time": 3.56,
-        "DatePicked": "2019-08-29",
-        "DateAdded": "2019-08-05",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 18706,
-        "ProjectName": "Coldiron",
-        "WorkType": "Issuing",
-        "Time": 4.17,
-        "DatePicked": "2019-02-20",
-        "DateAdded": "2019-11-01",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19956,
-        "ProjectName": "Carrizo",
-        "WorkType": "Checking",
-        "Time": 4.52,
-        "DatePicked": "2019-07-29",
-        "DateAdded": "2019-10-31",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18767,
-        "ProjectName": "Watrous",
-        "WorkType": "Floor",
-        "Time": 3.9,
-        "DatePicked": "2019-07-21",
-        "DateAdded": "2019-09-25",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19638,
-        "ProjectName": "Romeville",
-        "WorkType": "Slab",
-        "Time": 3.35,
-        "DatePicked": "2019-12-07",
-        "DateAdded": "2019-08-04",
-        "UserId": 10
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Hess",
-    "Username2": "Alissa",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2013-11-09",
+    "HireDate": "2020-10-30",
     "CreateDate": "2005-05-15",
-    "LastActive": "2012-12-05",
-    "Firstname": "Rhea",
-    "Lastname": "Steele",
-    "email": "rheasteele@lexicondo.com",
-    "phone": "+48 (910) 460-3900",
+    "LastActive": "2013-03-14",
+    "Firstname": "Grant",
+    "Lastname": "Todd",
+    "email": "granttodd@knowlysis.com",
+    "phone": "+48 (881) 518-2780",
+    "DepartmentId": 1,
     "Timesheets": [
       {
-        "ProjectNumber": 18594,
-        "ProjectName": "Chamberino",
-        "WorkType": "Slab",
-        "Time": 2.45,
-        "DatePicked": "2019-01-15",
-        "DateAdded": "2019-09-04",
-        "UserId": 6
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Mckee",
-    "Username2": "Butler",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2020-09-05",
-    "CreateDate": "2020-07-22",
-    "LastActive": "2007-04-10",
-    "Firstname": "Myers",
-    "Lastname": "French",
-    "email": "myersfrench@lexicondo.com",
-    "phone": "+48 (910) 586-3616",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19155,
-        "ProjectName": "Brandywine",
-        "WorkType": "Sections",
-        "Time": 3.77,
-        "DatePicked": "2019-09-07",
-        "DateAdded": "2019-04-12",
-        "UserId": 1
+        "userId": 28,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-10",
+        "Time": 7.66
       },
       {
-        "ProjectNumber": 19359,
-        "ProjectName": "Manila",
-        "WorkType": "Panels",
-        "Time": 5.46,
-        "DatePicked": "2019-04-27",
-        "DateAdded": "2020-01-24",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18075,
-        "ProjectName": "Blanford",
-        "WorkType": "Checking",
-        "Time": 2.82,
-        "DatePicked": "2019-07-03",
-        "DateAdded": "2019-07-04",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Wiggins",
-    "Username2": "Allie",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2009-08-07",
-    "CreateDate": "2013-03-28",
-    "LastActive": "2015-01-30",
-    "Firstname": "Erickson",
-    "Lastname": "Higgins",
-    "email": "ericksonhiggins@lexicondo.com",
-    "phone": "+48 (810) 413-2676",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19271,
-        "ProjectName": "Datil",
-        "WorkType": "Slab",
-        "Time": 6.78,
-        "DatePicked": "2019-02-08",
-        "DateAdded": "2019-03-02",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19809,
-        "ProjectName": "Silkworth",
-        "WorkType": "Sections",
-        "Time": 0.87,
-        "DatePicked": "2019-03-08",
-        "DateAdded": "2019-09-18",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18563,
-        "ProjectName": "Linganore",
-        "WorkType": "Issuing",
-        "Time": 3.97,
-        "DatePicked": "2019-01-14",
-        "DateAdded": "2019-10-18",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19980,
-        "ProjectName": "Guilford",
-        "WorkType": "Panels",
-        "Time": 6.1,
-        "DatePicked": "2019-10-15",
-        "DateAdded": "2019-12-23",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18159,
-        "ProjectName": "Weeksville",
-        "WorkType": "Floor",
-        "Time": 0.81,
-        "DatePicked": "2020-01-03",
-        "DateAdded": "2019-08-24",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18421,
-        "ProjectName": "Williston",
-        "WorkType": "Issuing",
-        "Time": 0.92,
-        "DatePicked": "2019-02-24",
-        "DateAdded": "2019-06-27",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19899,
-        "ProjectName": "Camas",
-        "WorkType": "Floor",
-        "Time": 4.83,
-        "DatePicked": "2019-09-29",
-        "DateAdded": "2019-11-01",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19378,
-        "ProjectName": "Rosine",
-        "WorkType": "Sections",
-        "Time": 6.44,
-        "DatePicked": "2019-08-10",
-        "DateAdded": "2019-08-28",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18503,
-        "ProjectName": "Soham",
-        "WorkType": "Checking",
-        "Time": 2.08,
-        "DatePicked": "2019-05-27",
-        "DateAdded": "2019-03-22",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Cummings",
-    "Username2": "Villarreal",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2018-12-22",
-    "CreateDate": "2015-12-23",
-    "LastActive": "2011-01-10",
-    "Firstname": "Berta",
-    "Lastname": "Suarez",
-    "email": "bertasuarez@lexicondo.com",
-    "phone": "+48 (899) 556-3570",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19602,
-        "ProjectName": "Kieler",
-        "WorkType": "Floor",
-        "Time": 6.82,
-        "DatePicked": "2019-03-05",
-        "DateAdded": "2019-03-29",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19047,
-        "ProjectName": "Newkirk",
-        "WorkType": "Issuing",
-        "Time": 0.5,
-        "DatePicked": "2019-07-20",
-        "DateAdded": "2019-07-24",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19085,
-        "ProjectName": "Rossmore",
-        "WorkType": "Roof",
-        "Time": 1.18,
-        "DatePicked": "2019-04-13",
-        "DateAdded": "2019-04-03",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18740,
-        "ProjectName": "Harold",
-        "WorkType": "Floor",
-        "Time": 6.6,
-        "DatePicked": "2019-03-01",
-        "DateAdded": "2019-03-27",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19467,
-        "ProjectName": "Barrelville",
-        "WorkType": "Panels",
-        "Time": 0.84,
-        "DatePicked": "2019-02-02",
-        "DateAdded": "2019-12-02",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19094,
-        "ProjectName": "Mayfair",
-        "WorkType": "Sections",
-        "Time": 5.57,
-        "DatePicked": "2019-03-01",
-        "DateAdded": "2019-03-01",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19941,
-        "ProjectName": "Masthope",
-        "WorkType": "Issuing",
-        "Time": 6.27,
-        "DatePicked": "2019-05-27",
-        "DateAdded": "2019-01-03",
-        "UserId": 7
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Paul",
-    "Username2": "Wilda",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2015-10-31",
-    "CreateDate": "2010-06-18",
-    "LastActive": "2005-02-05",
-    "Firstname": "Warren",
-    "Lastname": "Adkins",
-    "email": "warrenadkins@lexicondo.com",
-    "phone": "+48 (899) 440-3513",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18567,
-        "ProjectName": "Fostoria",
-        "WorkType": "Checking",
-        "Time": 1.23,
-        "DatePicked": "2019-09-13",
-        "DateAdded": "2019-01-04",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18793,
-        "ProjectName": "Garberville",
-        "WorkType": "Slab",
-        "Time": 0.55,
-        "DatePicked": "2019-04-03",
-        "DateAdded": "2019-11-03",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19262,
-        "ProjectName": "Brookfield",
-        "WorkType": "Roof",
-        "Time": 7.3,
-        "DatePicked": "2019-09-13",
-        "DateAdded": "2019-05-30",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19941,
-        "ProjectName": "Rivereno",
-        "WorkType": "Sections",
-        "Time": 7.74,
-        "DatePicked": "2019-04-01",
-        "DateAdded": "2019-01-09",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18355,
-        "ProjectName": "Moscow",
-        "WorkType": "Sections",
-        "Time": 1.65,
-        "DatePicked": "2019-06-08",
-        "DateAdded": "2019-09-05",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19135,
-        "ProjectName": "Wheatfields",
-        "WorkType": "Roof",
-        "Time": 6.1,
-        "DatePicked": "2019-05-20",
-        "DateAdded": "2020-01-20",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19394,
-        "ProjectName": "Oretta",
-        "WorkType": "Issuing",
-        "Time": 4.86,
-        "DatePicked": "2019-09-11",
-        "DateAdded": "2019-01-13",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19407,
-        "ProjectName": "Venice",
-        "WorkType": "Floor",
-        "Time": 3.87,
-        "DatePicked": "2019-01-18",
-        "DateAdded": "2019-07-30",
-        "UserId": 3
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Rosa",
-    "Username2": "Simon",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2014-02-25",
-    "CreateDate": "2014-09-16",
-    "LastActive": "2017-08-15",
-    "Firstname": "Burke",
-    "Lastname": "Warren",
-    "email": "burkewarren@lexicondo.com",
-    "phone": "+48 (841) 487-3550",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18163,
-        "ProjectName": "Juntura",
-        "WorkType": "Floor",
-        "Time": 2.42,
-        "DatePicked": "2019-01-17",
-        "DateAdded": "2020-01-26",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19212,
-        "ProjectName": "Rosewood",
-        "WorkType": "Issuing",
-        "Time": 7.41,
-        "DatePicked": "2019-11-01",
-        "DateAdded": "2019-08-13",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Barry",
-    "Username2": "Andrews",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2006-11-20",
-    "CreateDate": "2014-06-24",
-    "LastActive": "2020-12-10",
-    "Firstname": "Howell",
-    "Lastname": "Hurst",
-    "email": "howellhurst@lexicondo.com",
-    "phone": "+48 (904) 521-3668",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19668,
-        "ProjectName": "Starks",
-        "WorkType": "Floor",
-        "Time": 7.12,
-        "DatePicked": "2019-01-22",
-        "DateAdded": "2019-04-20",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19160,
-        "ProjectName": "Hamilton",
-        "WorkType": "Slab",
-        "Time": 3.46,
-        "DatePicked": "2019-08-19",
-        "DateAdded": "2019-07-25",
-        "UserId": 1
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Harvey",
-    "Username2": "Marlene",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2011-05-25",
-    "CreateDate": "2006-07-13",
-    "LastActive": "2006-04-04",
-    "Firstname": "Shirley",
-    "Lastname": "Glass",
-    "email": "shirleyglass@lexicondo.com",
-    "phone": "+48 (803) 502-3038",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18716,
-        "ProjectName": "Ryderwood",
-        "WorkType": "Panels",
-        "Time": 6.79,
-        "DatePicked": "2020-01-09",
-        "DateAdded": "2019-05-27",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19083,
-        "ProjectName": "Springhill",
-        "WorkType": "Panels",
-        "Time": 5,
-        "DatePicked": "2019-06-22",
-        "DateAdded": "2020-01-28",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18864,
-        "ProjectName": "Corriganville",
-        "WorkType": "Slab",
-        "Time": 1.71,
-        "DatePicked": "2019-04-24",
-        "DateAdded": "2019-05-04",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19340,
-        "ProjectName": "Camino",
-        "WorkType": "Floor",
-        "Time": 5.25,
+        "userId": 49,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
         "DatePicked": "2019-04-12",
-        "DateAdded": "2019-01-20",
-        "UserId": 1
+        "Time": 2.35
+      },
+      {
+        "userId": 16,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-27",
+        "Time": 7.47
+      },
+      {
+        "userId": 20,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-02",
+        "Time": 5.05
+      },
+      {
+        "userId": 30,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-07",
+        "Time": 1.56
+      },
+      {
+        "userId": 34,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-11",
+        "Time": 0.38
       }
-    ],
-    "DepartmentId": 3
+    ]
   },
   {
-    "Username": "Chan",
-    "Username2": "Burnett",
+    "Username": "Meghan",
     "Password": "password",
     "Gender": "female",
-    "HireDate": "2011-01-08",
-    "CreateDate": "2012-08-28",
-    "LastActive": "2014-07-06",
-    "Firstname": "Bates",
-    "Lastname": "Tran",
-    "email": "batestran@lexicondo.com",
-    "phone": "+48 (983) 555-2228",
+    "HireDate": "2013-06-11",
+    "CreateDate": "2019-12-09",
+    "LastActive": "2008-09-29",
+    "Firstname": "Jenkins",
+    "Lastname": "Little",
+    "email": "jenkinslittle@knowlysis.com",
+    "phone": "+48 (809) 549-2492",
+    "DepartmentId": 4,
     "Timesheets": [
       {
-        "ProjectNumber": 19998,
-        "ProjectName": "Elliott",
-        "WorkType": "Panels",
-        "Time": 7.25,
-        "DatePicked": "2019-01-22",
-        "DateAdded": "2019-11-23",
-        "UserId": 10
+        "userId": 3,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-22",
+        "Time": 5.41
       },
       {
-        "ProjectNumber": 19922,
-        "ProjectName": "Emison",
-        "WorkType": "Roof",
-        "Time": 0.83,
-        "DatePicked": "2019-06-15",
-        "DateAdded": "2019-04-19",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19740,
-        "ProjectName": "Grenelefe",
-        "WorkType": "Issuing",
-        "Time": 1.05,
-        "DatePicked": "2019-04-30",
-        "DateAdded": "2019-07-02",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19876,
-        "ProjectName": "Jugtown",
-        "WorkType": "Checking",
-        "Time": 3.14,
-        "DatePicked": "2019-07-05",
-        "DateAdded": "2019-09-24",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19415,
-        "ProjectName": "Edenburg",
-        "WorkType": "Floor",
-        "Time": 3.58,
-        "DatePicked": "2019-01-06",
-        "DateAdded": "2019-05-22",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18379,
-        "ProjectName": "Veyo",
-        "WorkType": "Panels",
-        "Time": 4.14,
-        "DatePicked": "2019-10-31",
-        "DateAdded": "2019-04-18",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 18181,
-        "ProjectName": "Carlton",
-        "WorkType": "Sections",
-        "Time": 5.87,
-        "DatePicked": "2019-10-30",
-        "DateAdded": "2020-01-04",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18982,
-        "ProjectName": "Brownlee",
-        "WorkType": "Slab",
-        "Time": 6.77,
-        "DatePicked": "2019-07-29",
-        "DateAdded": "2019-09-21",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Ayala",
-    "Username2": "Maddox",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2018-01-07",
-    "CreateDate": "2017-04-22",
-    "LastActive": "2008-09-12",
-    "Firstname": "Levy",
-    "Lastname": "Good",
-    "email": "levygood@lexicondo.com",
-    "phone": "+48 (943) 483-2219",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19835,
-        "ProjectName": "Orin",
-        "WorkType": "Floor",
-        "Time": 5.15,
-        "DatePicked": "2019-04-07",
-        "DateAdded": "2019-08-14",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19629,
-        "ProjectName": "Buxton",
-        "WorkType": "Roof",
-        "Time": 4.82,
-        "DatePicked": "2019-01-06",
-        "DateAdded": "2020-01-17",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18362,
-        "ProjectName": "Allamuchy",
-        "WorkType": "Sections",
-        "Time": 1.37,
-        "DatePicked": "2019-07-19",
-        "DateAdded": "2019-11-14",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18378,
-        "ProjectName": "Kenwood",
-        "WorkType": "Floor",
-        "Time": 1.64,
-        "DatePicked": "2019-05-21",
-        "DateAdded": "2019-11-24",
-        "UserId": 10
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Chavez",
-    "Username2": "Shanna",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2013-07-07",
-    "CreateDate": "2019-10-14",
-    "LastActive": "2018-12-26",
-    "Firstname": "Shelley",
-    "Lastname": "Moran",
-    "email": "shelleymoran@lexicondo.com",
-    "phone": "+48 (824) 529-3778",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18585,
-        "ProjectName": "Walland",
-        "WorkType": "Panels",
-        "Time": 0.93,
-        "DatePicked": "2019-07-10",
-        "DateAdded": "2019-01-25",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18436,
-        "ProjectName": "Harborton",
-        "WorkType": "Checking",
-        "Time": 5.13,
-        "DatePicked": "2019-05-13",
-        "DateAdded": "2019-06-15",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19228,
-        "ProjectName": "Finderne",
-        "WorkType": "Roof",
-        "Time": 5.94,
-        "DatePicked": "2019-07-17",
-        "DateAdded": "2019-12-19",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19503,
-        "ProjectName": "Wiscon",
-        "WorkType": "Issuing",
-        "Time": 0.27,
-        "DatePicked": "2019-02-27",
-        "DateAdded": "2019-05-12",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18335,
-        "ProjectName": "Santel",
-        "WorkType": "Checking",
-        "Time": 4.68,
-        "DatePicked": "2019-03-13",
-        "DateAdded": "2019-10-27",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19242,
-        "ProjectName": "Dale",
-        "WorkType": "Panels",
-        "Time": 2.1,
-        "DatePicked": "2020-01-24",
-        "DateAdded": "2019-11-20",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18147,
-        "ProjectName": "Russellville",
-        "WorkType": "Issuing",
-        "Time": 4.53,
-        "DatePicked": "2019-03-22",
-        "DateAdded": "2019-06-29",
-        "UserId": 7
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Miles",
-    "Username2": "Gilmore",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2010-07-07",
-    "CreateDate": "2018-06-13",
-    "LastActive": "2014-01-31",
-    "Firstname": "Hernandez",
-    "Lastname": "Beard",
-    "email": "hernandezbeard@lexicondo.com",
-    "phone": "+48 (954) 479-2454",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18894,
-        "ProjectName": "Bridgetown",
-        "WorkType": "Panels",
-        "Time": 2.75,
-        "DatePicked": "2019-10-18",
-        "DateAdded": "2019-01-11",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 18533,
-        "ProjectName": "Mappsville",
-        "WorkType": "Slab",
-        "Time": 1.2,
-        "DatePicked": "2019-05-09",
-        "DateAdded": "2019-02-28",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18685,
-        "ProjectName": "Advance",
-        "WorkType": "Panels",
-        "Time": 6.22,
-        "DatePicked": "2019-07-12",
-        "DateAdded": "2019-11-02",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19959,
-        "ProjectName": "Klagetoh",
-        "WorkType": "Checking",
-        "Time": 6.04,
-        "DatePicked": "2019-06-25",
-        "DateAdded": "2019-06-01",
-        "UserId": 10
-      }
-    ],
-    "DepartmentId": 4
-  },
-  {
-    "Username": "Bray",
-    "Username2": "Kirby",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2020-11-01",
-    "CreateDate": "2010-11-20",
-    "LastActive": "2013-12-01",
-    "Firstname": "Alexander",
-    "Lastname": "Fowler",
-    "email": "alexanderfowler@lexicondo.com",
-    "phone": "+48 (856) 540-3065",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18920,
-        "ProjectName": "Selma",
-        "WorkType": "Roof",
-        "Time": 6.11,
+        "userId": 46,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
         "DatePicked": "2020-01-14",
-        "DateAdded": "2019-02-11",
-        "UserId": 2
+        "Time": 2.48
       },
       {
-        "ProjectNumber": 18814,
-        "ProjectName": "Choctaw",
-        "WorkType": "Slab",
-        "Time": 7.38,
-        "DatePicked": "2019-04-23",
-        "DateAdded": "2019-06-11",
-        "UserId": 5
+        "userId": 8,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-02",
+        "Time": 5.33
       },
       {
-        "ProjectNumber": 18261,
-        "ProjectName": "Rushford",
-        "WorkType": "Sections",
-        "Time": 2.19,
-        "DatePicked": "2019-03-25",
-        "DateAdded": "2019-08-01",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19256,
-        "ProjectName": "Cloverdale",
-        "WorkType": "Floor",
-        "Time": 1.2,
-        "DatePicked": "2019-02-09",
-        "DateAdded": "2019-10-07",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19104,
-        "ProjectName": "Rodman",
-        "WorkType": "Roof",
-        "Time": 4.68,
-        "DatePicked": "2019-08-29",
-        "DateAdded": "2019-05-13",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19643,
-        "ProjectName": "Northridge",
-        "WorkType": "Slab",
-        "Time": 1.54,
-        "DatePicked": "2019-07-30",
-        "DateAdded": "2019-03-18",
-        "UserId": 2
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Powers",
-    "Username2": "Mejia",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2010-04-25",
-    "CreateDate": "2019-07-06",
-    "LastActive": "2014-04-08",
-    "Firstname": "Witt",
-    "Lastname": "Pena",
-    "email": "wittpena@lexicondo.com",
-    "phone": "+48 (990) 583-2516",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19854,
-        "ProjectName": "Vincent",
-        "WorkType": "Floor",
-        "Time": 0.3,
-        "DatePicked": "2020-01-09",
-        "DateAdded": "2019-05-22",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19164,
-        "ProjectName": "Echo",
-        "WorkType": "Roof",
-        "Time": 4.02,
-        "DatePicked": "2019-07-11",
-        "DateAdded": "2019-05-07",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19228,
-        "ProjectName": "Elbert",
-        "WorkType": "Panels",
-        "Time": 0.84,
-        "DatePicked": "2019-03-15",
-        "DateAdded": "2019-04-17",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 18880,
-        "ProjectName": "Cawood",
-        "WorkType": "Panels",
-        "Time": 2.68,
-        "DatePicked": "2019-03-13",
-        "DateAdded": "2019-10-15",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18588,
-        "ProjectName": "Slovan",
-        "WorkType": "Sections",
-        "Time": 6.43,
-        "DatePicked": "2019-11-29",
-        "DateAdded": "2019-08-30",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 18531,
-        "ProjectName": "Williams",
-        "WorkType": "Roof",
-        "Time": 0.39,
-        "DatePicked": "2019-09-15",
-        "DateAdded": "2019-09-20",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18067,
-        "ProjectName": "Morningside",
-        "WorkType": "Issuing",
-        "Time": 1.15,
-        "DatePicked": "2019-12-09",
-        "DateAdded": "2020-01-30",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19128,
-        "ProjectName": "Belfair",
-        "WorkType": "Issuing",
-        "Time": 1.63,
-        "DatePicked": "2019-08-26",
-        "DateAdded": "2019-03-23",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 18119,
-        "ProjectName": "Bartonsville",
-        "WorkType": "Checking",
-        "Time": 0.38,
-        "DatePicked": "2019-04-19",
-        "DateAdded": "2019-07-09",
-        "UserId": 9
-      }
-    ],
-    "DepartmentId": 2
-  },
-  {
-    "Username": "Knight",
-    "Username2": "Randall",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2012-06-06",
-    "CreateDate": "2006-06-21",
-    "LastActive": "2005-03-18",
-    "Firstname": "Candace",
-    "Lastname": "Tate",
-    "email": "candacetate@lexicondo.com",
-    "phone": "+48 (961) 600-2707",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18831,
-        "ProjectName": "Coinjock",
-        "WorkType": "Slab",
-        "Time": 2.33,
-        "DatePicked": "2020-01-13",
-        "DateAdded": "2019-10-09",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19742,
-        "ProjectName": "Mapletown",
-        "WorkType": "Checking",
-        "Time": 5.84,
-        "DatePicked": "2020-01-18",
-        "DateAdded": "2019-02-26",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 18921,
-        "ProjectName": "Oceola",
-        "WorkType": "Issuing",
-        "Time": 2.09,
-        "DatePicked": "2019-06-22",
-        "DateAdded": "2019-08-22",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 18956,
-        "ProjectName": "Newcastle",
-        "WorkType": "Panels",
-        "Time": 2.74,
-        "DatePicked": "2019-02-21",
-        "DateAdded": "2019-05-22",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 19285,
-        "ProjectName": "Boonville",
-        "WorkType": "Floor",
-        "Time": 1.39,
-        "DatePicked": "2019-04-28",
-        "DateAdded": "2019-10-02",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18872,
-        "ProjectName": "Hampstead",
-        "WorkType": "Sections",
-        "Time": 0.87,
-        "DatePicked": "2019-09-12",
-        "DateAdded": "2020-01-03",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19043,
-        "ProjectName": "Bowden",
-        "WorkType": "Roof",
-        "Time": 3.73,
-        "DatePicked": "2019-01-09",
-        "DateAdded": "2019-09-02",
-        "UserId": 7
-      }
-    ],
-    "DepartmentId": 1
-  },
-  {
-    "Username": "Mack",
-    "Username2": "Underwood",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2008-02-19",
-    "CreateDate": "2015-09-24",
-    "LastActive": "2015-09-23",
-    "Firstname": "Tanner",
-    "Lastname": "Mcdowell",
-    "email": "tannermcdowell@lexicondo.com",
-    "phone": "+48 (918) 462-2671",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18511,
-        "ProjectName": "Fruitdale",
-        "WorkType": "Slab",
-        "Time": 2.92,
-        "DatePicked": "2019-05-03",
-        "DateAdded": "2019-01-07",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 18262,
-        "ProjectName": "Westerville",
-        "WorkType": "Floor",
-        "Time": 5.73,
-        "DatePicked": "2019-05-14",
-        "DateAdded": "2019-12-17",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19758,
-        "ProjectName": "Hartsville/Hartley",
-        "WorkType": "Panels",
-        "Time": 3.98,
-        "DatePicked": "2019-10-04",
-        "DateAdded": "2019-06-01",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19520,
-        "ProjectName": "Linwood",
-        "WorkType": "Sections",
-        "Time": 4.21,
-        "DatePicked": "2019-01-07",
-        "DateAdded": "2019-11-16",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 19181,
-        "ProjectName": "Fairview",
-        "WorkType": "Floor",
-        "Time": 6.74,
-        "DatePicked": "2019-12-12",
-        "DateAdded": "2019-03-01",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18952,
-        "ProjectName": "Eureka",
-        "WorkType": "Roof",
-        "Time": 2.8,
-        "DatePicked": "2019-03-16",
-        "DateAdded": "2019-02-05",
-        "UserId": 5
-      },
-      {
-        "ProjectNumber": 18152,
-        "ProjectName": "Somerset",
-        "WorkType": "Panels",
-        "Time": 7.11,
-        "DatePicked": "2019-12-17",
-        "DateAdded": "2020-01-30",
-        "UserId": 8
-      },
-      {
-        "ProjectNumber": 18401,
-        "ProjectName": "Kirk",
-        "WorkType": "Sections",
-        "Time": 2.56,
+        "userId": 31,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
         "DatePicked": "2019-07-26",
-        "DateAdded": "2020-01-05",
-        "UserId": 8
+        "Time": 4.2
+      },
+      {
+        "userId": 23,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-27",
+        "Time": 2.15
+      },
+      {
+        "userId": 43,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-31",
+        "Time": 2.54
+      },
+      {
+        "userId": 30,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-28",
+        "Time": 3.25
+      },
+      {
+        "userId": 48,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-01",
+        "Time": 5.96
+      },
+      {
+        "userId": 21,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-16",
+        "Time": 7.61
       }
-    ],
-    "DepartmentId": 4
+    ]
   },
   {
-    "Username": "Barlow",
-    "Username2": "Mara",
+    "Username": "Melba",
     "Password": "password",
     "Gender": "male",
-    "HireDate": "2013-03-26",
-    "CreateDate": "2007-03-12",
-    "LastActive": "2005-10-25",
-    "Firstname": "Cindy",
-    "Lastname": "Christian",
-    "email": "cindychristian@lexicondo.com",
-    "phone": "+48 (934) 555-3291",
+    "HireDate": "2013-10-04",
+    "CreateDate": "2012-08-22",
+    "LastActive": "2007-12-18",
+    "Firstname": "Karen",
+    "Lastname": "Sullivan",
+    "email": "karensullivan@knowlysis.com",
+    "phone": "+48 (904) 451-2090",
+    "DepartmentId": 2,
     "Timesheets": [
       {
-        "ProjectNumber": 18755,
-        "ProjectName": "Nash",
-        "WorkType": "Slab",
-        "Time": 6.9,
-        "DatePicked": "2019-03-13",
-        "DateAdded": "2019-11-22",
-        "UserId": 10
+        "userId": 30,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-24",
+        "Time": 6.25
+      }
+    ]
+  },
+  {
+    "Username": "Stevenson",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2009-06-21",
+    "CreateDate": "2013-07-16",
+    "LastActive": "2011-11-03",
+    "Firstname": "Kaitlin",
+    "Lastname": "Quinn",
+    "email": "kaitlinquinn@knowlysis.com",
+    "phone": "+48 (827) 530-2143",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 12,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-07",
+        "Time": 0.5
       },
       {
-        "ProjectNumber": 18461,
-        "ProjectName": "Gasquet",
-        "WorkType": "Roof",
-        "Time": 5.23,
-        "DatePicked": "2019-12-29",
-        "DateAdded": "2019-04-25",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19053,
-        "ProjectName": "Grandview",
-        "WorkType": "Roof",
-        "Time": 1.81,
-        "DatePicked": "2020-01-11",
-        "DateAdded": "2019-06-10",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 18171,
-        "ProjectName": "Brethren",
-        "WorkType": "Floor",
-        "Time": 4.78,
-        "DatePicked": "2019-03-06",
-        "DateAdded": "2019-04-17",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19587,
-        "ProjectName": "Marenisco",
-        "WorkType": "Floor",
-        "Time": 4.29,
-        "DatePicked": "2019-02-08",
-        "DateAdded": "2019-09-26",
-        "UserId": 6
-      },
-      {
-        "ProjectNumber": 19503,
-        "ProjectName": "Kaka",
-        "WorkType": "Sections",
-        "Time": 7.35,
-        "DatePicked": "2019-01-02",
-        "DateAdded": "2019-09-01",
-        "UserId": 4
-      },
-      {
-        "ProjectNumber": 19430,
-        "ProjectName": "Tecolotito",
-        "WorkType": "Slab",
-        "Time": 3.47,
-        "DatePicked": "2019-12-08",
-        "DateAdded": "2019-04-06",
-        "UserId": 1
-      },
-      {
-        "ProjectNumber": 19003,
-        "ProjectName": "Robbins",
-        "WorkType": "Checking",
-        "Time": 3.31,
-        "DatePicked": "2019-11-24",
-        "DateAdded": "2019-12-09",
-        "UserId": 2
-      },
-      {
-        "ProjectNumber": 19045,
-        "ProjectName": "Worton",
-        "WorkType": "Slab",
-        "Time": 3.32,
+        "userId": 13,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
         "DatePicked": "2019-10-29",
-        "DateAdded": "2019-05-08",
-        "UserId": 8
-      }
-    ],
-    "DepartmentId": 5
-  },
-  {
-    "Username": "Gould",
-    "Username2": "Delores",
-    "Password": "password",
-    "Gender": "male",
-    "HireDate": "2015-07-05",
-    "CreateDate": "2007-10-27",
-    "LastActive": "2014-12-05",
-    "Firstname": "Miranda",
-    "Lastname": "Reynolds",
-    "email": "mirandareynolds@lexicondo.com",
-    "phone": "+48 (978) 499-3359",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19938,
-        "ProjectName": "Devon",
-        "WorkType": "Slab",
-        "Time": 5.11,
-        "DatePicked": "2019-05-08",
-        "DateAdded": "2019-01-08",
-        "UserId": 1
+        "Time": 5.09
       },
       {
-        "ProjectNumber": 18657,
-        "ProjectName": "Springdale",
-        "WorkType": "Panels",
-        "Time": 6.98,
+        "userId": 47,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-21",
+        "Time": 3.23
+      },
+      {
+        "userId": 8,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-10",
+        "Time": 3.29
+      }
+    ]
+  },
+  {
+    "Username": "Navarro",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2017-06-25",
+    "CreateDate": "2011-03-16",
+    "LastActive": "2012-05-07",
+    "Firstname": "Tammi",
+    "Lastname": "Holder",
+    "email": "tammiholder@knowlysis.com",
+    "phone": "+48 (955) 408-2734",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 1,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-27",
+        "Time": 3.37
+      },
+      {
+        "userId": 28,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-08",
+        "Time": 3.81
+      },
+      {
+        "userId": 4,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-06",
+        "Time": 0.35
+      },
+      {
+        "userId": 17,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-10",
+        "Time": 5.52
+      },
+      {
+        "userId": 26,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-30",
+        "Time": 0.72
+      },
+      {
+        "userId": 43,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-08",
+        "Time": 6.98
+      },
+      {
+        "userId": 33,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-23",
+        "Time": 4.88
+      },
+      {
+        "userId": 30,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-09",
+        "Time": 7.45
+      },
+      {
+        "userId": 47,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-16",
+        "Time": 5.48
+      }
+    ]
+  },
+  {
+    "Username": "Rosetta",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2007-09-18",
+    "CreateDate": "2006-06-30",
+    "LastActive": "2019-05-13",
+    "Firstname": "Jocelyn",
+    "Lastname": "Levine",
+    "email": "jocelynlevine@knowlysis.com",
+    "phone": "+48 (907) 435-2852",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 41,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
         "DatePicked": "2019-06-23",
-        "DateAdded": "2019-08-04",
-        "UserId": 1
+        "Time": 5.46
+      },
+      {
+        "userId": 10,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-05",
+        "Time": 4.52
       }
-    ],
-    "DepartmentId": 4
+    ]
   },
   {
-    "Username": "Stafford",
-    "Username2": "Dona",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2011-10-01",
-    "CreateDate": "2009-05-28",
-    "LastActive": "2009-06-08",
-    "Firstname": "Garner",
-    "Lastname": "Sanders",
-    "email": "garnersanders@lexicondo.com",
-    "phone": "+48 (965) 457-2228",
-    "Timesheets": [
-      {
-        "ProjectNumber": 19306,
-        "ProjectName": "Sylvanite",
-        "WorkType": "Panels",
-        "Time": 5.5,
-        "DatePicked": "2019-09-30",
-        "DateAdded": "2019-03-10",
-        "UserId": 10
-      },
-      {
-        "ProjectNumber": 19015,
-        "ProjectName": "Greenbackville",
-        "WorkType": "Slab",
-        "Time": 2.65,
-        "DatePicked": "2019-12-31",
-        "DateAdded": "2019-10-14",
-        "UserId": 3
-      },
-      {
-        "ProjectNumber": 19380,
-        "ProjectName": "Greenock",
-        "WorkType": "Issuing",
-        "Time": 4.52,
-        "DatePicked": "2019-03-14",
-        "DateAdded": "2019-10-04",
-        "UserId": 7
-      },
-      {
-        "ProjectNumber": 19118,
-        "ProjectName": "Crawfordsville",
-        "WorkType": "Issuing",
-        "Time": 4.1,
-        "DatePicked": "2019-08-30",
-        "DateAdded": "2019-09-03",
-        "UserId": 9
-      },
-      {
-        "ProjectNumber": 19583,
-        "ProjectName": "Delshire",
-        "WorkType": "Slab",
-        "Time": 4.18,
-        "DatePicked": "2019-07-02",
-        "DateAdded": "2019-02-02",
-        "UserId": 1
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Rosales",
-    "Username2": "Hickman",
+    "Username": "Turner",
     "Password": "password",
     "Gender": "male",
-    "HireDate": "2017-03-31",
-    "CreateDate": "2015-12-05",
-    "LastActive": "2015-10-16",
-    "Firstname": "Ball",
-    "Lastname": "Gregory",
-    "email": "ballgregory@lexicondo.com",
-    "phone": "+48 (938) 415-2710",
+    "HireDate": "2013-01-03",
+    "CreateDate": "2016-05-07",
+    "LastActive": "2020-08-21",
+    "Firstname": "Johnnie",
+    "Lastname": "Parker",
+    "email": "johnnieparker@knowlysis.com",
+    "phone": "+48 (810) 504-3831",
+    "DepartmentId": 1,
     "Timesheets": [
       {
-        "ProjectNumber": 18058,
-        "ProjectName": "Blodgett",
-        "WorkType": "Roof",
-        "Time": 5.99,
-        "DatePicked": "2019-10-30",
-        "DateAdded": "2019-07-25",
-        "UserId": 2
-      }
-    ],
-    "DepartmentId": 3
-  },
-  {
-    "Username": "Barron",
-    "Username2": "Earlene",
-    "Password": "password",
-    "Gender": "female",
-    "HireDate": "2006-10-09",
-    "CreateDate": "2008-09-18",
-    "LastActive": "2018-08-11",
-    "Firstname": "Hill",
-    "Lastname": "Wade",
-    "email": "hillwade@lexicondo.com",
-    "phone": "+48 (930) 534-3221",
-    "Timesheets": [
-      {
-        "ProjectNumber": 18311,
-        "ProjectName": "Eagleville",
-        "WorkType": "Roof",
-        "Time": 6.07,
-        "DatePicked": "2020-01-04",
-        "DateAdded": "2019-10-27",
-        "UserId": 10
+        "userId": 25,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-28",
+        "Time": 4.8
       },
       {
-        "ProjectNumber": 19108,
-        "ProjectName": "Leroy",
-        "WorkType": "Slab",
-        "Time": 7.3,
-        "DatePicked": "2019-06-30",
-        "DateAdded": "2019-04-30",
-        "UserId": 7
+        "userId": 28,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-21",
+        "Time": 3.08
       }
-    ],
-    "DepartmentId": 3
+    ]
+  },
+  {
+    "Username": "Trujillo",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2017-04-28",
+    "CreateDate": "2013-12-10",
+    "LastActive": "2019-07-25",
+    "Firstname": "Lola",
+    "Lastname": "Reeves",
+    "email": "lolareeves@knowlysis.com",
+    "phone": "+48 (997) 499-3836",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 8,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-01",
+        "Time": 0.98
+      },
+      {
+        "userId": 7,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-16",
+        "Time": 4.7
+      },
+      {
+        "userId": 3,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-14",
+        "Time": 7.35
+      },
+      {
+        "userId": 8,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-21",
+        "Time": 6.55
+      },
+      {
+        "userId": 13,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-23",
+        "Time": 1.16
+      },
+      {
+        "userId": 3,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-18",
+        "Time": 0.29
+      },
+      {
+        "userId": 42,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-09",
+        "Time": 6.86
+      },
+      {
+        "userId": 12,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-17",
+        "Time": 5.65
+      },
+      {
+        "userId": 50,
+        "projectId": 5,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-27",
+        "Time": 5.05
+      },
+      {
+        "userId": 40,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-02",
+        "Time": 1.69
+      }
+    ]
+  },
+  {
+    "Username": "Mccarty",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2013-07-29",
+    "CreateDate": "2010-10-27",
+    "LastActive": "2007-05-21",
+    "Firstname": "Socorro",
+    "Lastname": "Watts",
+    "email": "socorrowatts@knowlysis.com",
+    "phone": "+48 (953) 450-3566",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 24,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-20",
+        "Time": 1.62
+      },
+      {
+        "userId": 25,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-18",
+        "Time": 2.28
+      }
+    ]
+  },
+  {
+    "Username": "James",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2008-03-01",
+    "CreateDate": "2019-11-04",
+    "LastActive": "2008-03-22",
+    "Firstname": "Traci",
+    "Lastname": "Saunders",
+    "email": "tracisaunders@knowlysis.com",
+    "phone": "+48 (959) 468-2687",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 25,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-26",
+        "Time": 6.6
+      },
+      {
+        "userId": 36,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-04",
+        "Time": 6.85
+      },
+      {
+        "userId": 39,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-15",
+        "Time": 0.86
+      },
+      {
+        "userId": 15,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-26",
+        "Time": 5.21
+      },
+      {
+        "userId": 45,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-17",
+        "Time": 6.25
+      },
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-15",
+        "Time": 3.59
+      },
+      {
+        "userId": 48,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-24",
+        "Time": 1.62
+      },
+      {
+        "userId": 37,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-03",
+        "Time": 0.85
+      },
+      {
+        "userId": 43,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-04",
+        "Time": 4.9
+      },
+      {
+        "userId": 44,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-05-27",
+        "Time": 2.77
+      }
+    ]
+  },
+  {
+    "Username": "Mccarthy",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2005-06-25",
+    "CreateDate": "2010-10-18",
+    "LastActive": "2020-11-30",
+    "Firstname": "Porter",
+    "Lastname": "Bowman",
+    "email": "porterbowman@knowlysis.com",
+    "phone": "+48 (889) 593-3414",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 32,
+        "projectId": 2,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-20",
+        "Time": 7
+      },
+      {
+        "userId": 41,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-20",
+        "Time": 6.28
+      },
+      {
+        "userId": 15,
+        "projectId": 2,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-01",
+        "Time": 6.16
+      },
+      {
+        "userId": 28,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-10",
+        "Time": 6.74
+      },
+      {
+        "userId": 7,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-19",
+        "Time": 2.33
+      }
+    ]
+  },
+  {
+    "Username": "Merritt",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2010-10-20",
+    "CreateDate": "2008-03-14",
+    "LastActive": "2007-04-28",
+    "Firstname": "Stephens",
+    "Lastname": "Aguirre",
+    "email": "stephensaguirre@knowlysis.com",
+    "phone": "+48 (805) 432-2599",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 30,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-21",
+        "Time": 1.26
+      },
+      {
+        "userId": 36,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-02",
+        "Time": 2.92
+      },
+      {
+        "userId": 32,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-26",
+        "Time": 5.03
+      },
+      {
+        "userId": 32,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-05",
+        "Time": 6.68
+      },
+      {
+        "userId": 44,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-29",
+        "Time": 3.04
+      },
+      {
+        "userId": 8,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-26",
+        "Time": 4.65
+      },
+      {
+        "userId": 42,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-05",
+        "Time": 3.19
+      },
+      {
+        "userId": 15,
+        "projectId": 1,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-28",
+        "Time": 0.97
+      }
+    ]
+  },
+  {
+    "Username": "Frances",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2017-06-24",
+    "CreateDate": "2016-11-24",
+    "LastActive": "2012-12-19",
+    "Firstname": "Morgan",
+    "Lastname": "Blevins",
+    "email": "morganblevins@knowlysis.com",
+    "phone": "+48 (853) 462-2675",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 15,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-05",
+        "Time": 6.68
+      }
+    ]
+  },
+  {
+    "Username": "Clayton",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2015-12-23",
+    "CreateDate": "2005-11-03",
+    "LastActive": "2010-04-03",
+    "Firstname": "Poole",
+    "Lastname": "Hancock",
+    "email": "poolehancock@knowlysis.com",
+    "phone": "+48 (995) 404-2921",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 47,
+        "projectId": 5,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-16",
+        "Time": 5.34
+      },
+      {
+        "userId": 11,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-27",
+        "Time": 1.7
+      },
+      {
+        "userId": 11,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-11",
+        "Time": 6.24
+      },
+      {
+        "userId": 45,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-10",
+        "Time": 6.69
+      },
+      {
+        "userId": 26,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-25",
+        "Time": 6.22
+      },
+      {
+        "userId": 19,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-05",
+        "Time": 3.75
+      }
+    ]
+  },
+  {
+    "Username": "Alta",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2013-06-22",
+    "CreateDate": "2008-09-16",
+    "LastActive": "2005-08-31",
+    "Firstname": "Ingrid",
+    "Lastname": "Gallegos",
+    "email": "ingridgallegos@knowlysis.com",
+    "phone": "+48 (988) 523-3389",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 46,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-11",
+        "Time": 4.33
+      },
+      {
+        "userId": 32,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-26",
+        "Time": 4.71
+      },
+      {
+        "userId": 46,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-21",
+        "Time": 0.72
+      },
+      {
+        "userId": 7,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-17",
+        "Time": 2.93
+      },
+      {
+        "userId": 15,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-14",
+        "Time": 1.98
+      }
+    ]
+  },
+  {
+    "Username": "Genevieve",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2019-05-22",
+    "CreateDate": "2008-01-26",
+    "LastActive": "2017-04-10",
+    "Firstname": "Peterson",
+    "Lastname": "Hensley",
+    "email": "petersonhensley@knowlysis.com",
+    "phone": "+48 (890) 572-2004",
+    "DepartmentId": 3,
+    "Timesheets": [
+      {
+        "userId": 6,
+        "projectId": 2,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-05",
+        "Time": 6.66
+      },
+      {
+        "userId": 49,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-07",
+        "Time": 6.62
+      }
+    ]
+  },
+  {
+    "Username": "Courtney",
+    "Password": "password",
+    "Gender": "female",
+    "HireDate": "2005-11-24",
+    "CreateDate": "2010-01-04",
+    "LastActive": "2008-12-01",
+    "Firstname": "Hamilton",
+    "Lastname": "Chang",
+    "email": "hamiltonchang@knowlysis.com",
+    "phone": "+48 (924) 599-2058",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 37,
+        "projectId": 2,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-06",
+        "Time": 5.79
+      },
+      {
+        "userId": 32,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-28",
+        "Time": 1.89
+      },
+      {
+        "userId": 50,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-16",
+        "Time": 2.67
+      },
+      {
+        "userId": 28,
+        "projectId": 3,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-06",
+        "Time": 6.5
+      },
+      {
+        "userId": 15,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-26",
+        "Time": 0.78
+      },
+      {
+        "userId": 3,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-28",
+        "Time": 5.69
+      },
+      {
+        "userId": 7,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-17",
+        "Time": 2.84
+      },
+      {
+        "userId": 14,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-13",
+        "Time": 1.72
+      },
+      {
+        "userId": 38,
+        "projectId": 1,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-25",
+        "Time": 2.92
+      }
+    ]
+  },
+  {
+    "Username": "Joan",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2014-01-06",
+    "CreateDate": "2010-02-17",
+    "LastActive": "2007-05-07",
+    "Firstname": "Adriana",
+    "Lastname": "Flynn",
+    "email": "adrianaflynn@knowlysis.com",
+    "phone": "+48 (884) 411-3914",
+    "DepartmentId": 5,
+    "Timesheets": [
+      {
+        "userId": 22,
+        "projectId": 3,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-11",
+        "Time": 1.47
+      },
+      {
+        "userId": 39,
+        "projectId": 3,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-04-19",
+        "Time": 1.98
+      },
+      {
+        "userId": 27,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-14",
+        "Time": 3.3
+      },
+      {
+        "userId": 8,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-14",
+        "Time": 7.64
+      },
+      {
+        "userId": 4,
+        "projectId": 2,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-08",
+        "Time": 7.06
+      },
+      {
+        "userId": 5,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-10",
+        "Time": 7.59
+      },
+      {
+        "userId": 38,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-12-13",
+        "Time": 1.77
+      },
+      {
+        "userId": 44,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-03-04",
+        "Time": 6.05
+      },
+      {
+        "userId": 33,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-06",
+        "Time": 1.1
+      }
+    ]
+  },
+  {
+    "Username": "Juana",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2008-01-19",
+    "CreateDate": "2019-02-27",
+    "LastActive": "2007-03-07",
+    "Firstname": "Leona",
+    "Lastname": "Kelly",
+    "email": "leonakelly@knowlysis.com",
+    "phone": "+48 (973) 513-2190",
+    "DepartmentId": 4,
+    "Timesheets": [
+      {
+        "userId": 15,
+        "projectId": 4,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-10",
+        "Time": 7.21
+      },
+      {
+        "userId": 38,
+        "projectId": 4,
+        "workTypeId": 3,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-01-08",
+        "Time": 1.88
+      },
+      {
+        "userId": 35,
+        "projectId": 4,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-02",
+        "Time": 6.15
+      },
+      {
+        "userId": 41,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-09-26",
+        "Time": 4.19
+      }
+    ]
+  },
+  {
+    "Username": "Morton",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2009-02-15",
+    "CreateDate": "2012-06-08",
+    "LastActive": "2005-12-22",
+    "Firstname": "Avila",
+    "Lastname": "Atkinson",
+    "email": "avilaatkinson@knowlysis.com",
+    "phone": "+48 (850) 451-2461",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 37,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-20",
+        "Time": 6.11
+      },
+      {
+        "userId": 21,
+        "projectId": 1,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-05",
+        "Time": 2.8
+      },
+      {
+        "userId": 16,
+        "projectId": 3,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-07-07",
+        "Time": 2.53
+      }
+    ]
+  },
+  {
+    "Username": "Jeannine",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2011-08-02",
+    "CreateDate": "2007-06-28",
+    "LastActive": "2016-07-15",
+    "Firstname": "Carolyn",
+    "Lastname": "Neal",
+    "email": "carolynneal@knowlysis.com",
+    "phone": "+48 (928) 565-3020",
+    "DepartmentId": 2,
+    "Timesheets": [
+      {
+        "userId": 35,
+        "projectId": 1,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-06-20",
+        "Time": 5.52
+      },
+      {
+        "userId": 49,
+        "projectId": 4,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-28",
+        "Time": 0.74
+      },
+      {
+        "userId": 37,
+        "projectId": 1,
+        "workTypeId": 1,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-14",
+        "Time": 3.4
+      },
+      {
+        "userId": 7,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-11-24",
+        "Time": 7.56
+      },
+      {
+        "userId": 44,
+        "projectId": 3,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2020-01-03",
+        "Time": 5.92
+      },
+      {
+        "userId": 11,
+        "projectId": 5,
+        "workTypeId": 5,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-10-27",
+        "Time": 0.76
+      },
+      {
+        "userId": 11,
+        "projectId": 4,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-19",
+        "Time": 5.33
+      }
+    ]
+  },
+  {
+    "Username": "Johns",
+    "Password": "password",
+    "Gender": "male",
+    "HireDate": "2011-12-21",
+    "CreateDate": "2007-06-17",
+    "LastActive": "2018-12-29",
+    "Firstname": "Gayle",
+    "Lastname": "Lancaster",
+    "email": "gaylelancaster@knowlysis.com",
+    "phone": "+48 (878) 425-2218",
+    "DepartmentId": 1,
+    "Timesheets": [
+      {
+        "userId": 22,
+        "projectId": 5,
+        "workTypeId": 2,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-08-02",
+        "Time": 6.96
+      },
+      {
+        "userId": 24,
+        "projectId": 5,
+        "workTypeId": 4,
+        "dateAdded": "2020-03-20",
+        "DatePicked": "2019-02-14",
+        "Time": 3.5
+      }
+    ]
   }
 ]

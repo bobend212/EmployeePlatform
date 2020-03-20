@@ -27,7 +27,7 @@ namespace EmpPlatform_API.Controllers
         {
             var timesheets = await _repo.GetTimesheet(id);
 
-            var timesheetsToReturn = _mapper.Map<IEnumerable<TimesheetForDetailedListDto>>(timesheets);
+            var timesheetsToReturn = _mapper.Map<IEnumerable<TimesheetForIndividualWeeklyDto>>(timesheets);
 
             return Ok(timesheetsToReturn);
         }

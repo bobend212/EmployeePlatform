@@ -11,6 +11,7 @@ TODO List:
   - [x] register as new user
 
 - [ ] Timesheet
+  - [ ] Display individual timesheet weeks table for individual user 
   - [ ] Individual timesheet for weeks with input form
   - [ ] Individual timesheet for months
   - [ ] Individual timesheet for years
