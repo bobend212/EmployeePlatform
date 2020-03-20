@@ -1,6 +1,5 @@
 import { Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
-import { TimesheetComponent } from "./timesheet/timesheet.component";
 import { WorkflowComponent } from "./workflow/workflow.component";
 import { ProjectsListComponent } from "./projects-list/projects-list.component";
 import { AuthGuard } from "./_guards/auth.guard";
@@ -10,6 +9,8 @@ import { UserEditResolver } from "./_resolvers/user-edit.resolver";
 import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
 import { UsersDetailedComponent } from './users-detailed/users-detailed.component';
 import { UserDetailResolver } from './_resolvers/user-detail.resolver';
+import { TimesheetIndividualComponent } from './timesheets/timesheet-individual/timesheet-individual.component';
+import { TimesheetIndividualResolver } from './_resolvers/timesheet-individual.resolver';
 
 export const appRoutes: Routes = [
   { path: "", component: HomeComponent },
@@ -26,9 +27,9 @@ export const appRoutes: Routes = [
         resolve: { user: UserEditResolver },
         canDeactivate: [PreventUnsavedChanges]
       },
-      { path: "timesheet", component: TimesheetComponent },
       { path: "workflow", component: WorkflowComponent },
-      { path: "projects", component: ProjectsListComponent }
+      { path: "projects", component: ProjectsListComponent },
+      { path: "timesheet", component: TimesheetIndividualComponent, resolve: { timesheet: TimesheetIndividualResolver } }
     ]
   },
   { path: "**", redirectTo: "", pathMatch: "full" }

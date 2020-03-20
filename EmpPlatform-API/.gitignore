@@ -1,6 +1,8 @@
-# database files
+﻿# database files
 *.db-shm
 *.db-wal
+
+/notes.txt
 
 ###################
 # compiled source #

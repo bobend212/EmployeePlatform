@@ -16,16 +16,16 @@ import { RegisterComponent } from "./register/register.component";
 import { ErrorInterceptorProvider } from "./_services/error.interceptor";
 import { ProjectsListComponent } from "./projects-list/projects-list.component";
 import { WorkflowComponent } from "./workflow/workflow.component";
-import { TimesheetComponent } from "./timesheet/timesheet.component";
 import { appRoutes } from "./routes";
 import { UsersComponent } from "./users/users.component";
-import { TimesheetDetailComponent } from "./timesheet-detail/timesheet-detail.component";
 import { EditUserProfileComponent } from "./edit-user-profile/edit-user-profile.component";
 import { UserEditResolver } from "./_resolvers/user-edit.resolver";
 import { PreventUnsavedChanges } from "./_guards/prevent-unsaved-changes.guard";
 import { JwtModule } from '@auth0/angular-jwt';
 import { UsersDetailedComponent } from './users-detailed/users-detailed.component';
 import { UserDetailResolver } from './_resolvers/user-detail.resolver';
+import { TimesheetIndividualComponent } from './timesheets/timesheet-individual/timesheet-individual.component';
+import { TimesheetIndividualResolver } from './_resolvers/timesheet-individual.resolver';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -39,11 +39,10 @@ export function tokenGetter() {
     RegisterComponent,
     ProjectsListComponent,
     WorkflowComponent,
-    TimesheetComponent,
     UsersComponent,
-    TimesheetDetailComponent,
     EditUserProfileComponent,
-    UsersDetailedComponent
+    UsersDetailedComponent,
+    TimesheetIndividualComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +66,8 @@ export function tokenGetter() {
     ErrorInterceptorProvider,
     UserEditResolver,
     PreventUnsavedChanges,
-    UserDetailResolver
+    UserDetailResolver,
+    TimesheetIndividualResolver
   ],
   bootstrap: [AppComponent]
 })

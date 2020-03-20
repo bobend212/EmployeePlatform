@@ -1,10 +1,14 @@
+import { User } from './User';
+
 export interface Timesheet {
   id: number;
-  projectNumber: string;
+  user: User;
   projectName: string;
+  projectNumber: string;
+  siteName: string;
   workType: string;
-  time: number;
   datePicked: Date;
   dateAdded: Date;
+  time: number;
   weekNo: number;
 }
