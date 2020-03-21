@@ -22,7 +22,7 @@ export class TimesheetIndividualResolver implements Resolve<Timesheet> {
     return this.timesheetService.getTimesheet(this.authService.decodedToken.nameid).pipe(
       catchError(error => {
         this.alertify.error("Problem retrieving your data");
-        //this.router.navigate(["/users"]);
+        this.router.navigate(["/users"]);
         return of(null);
       })
     );

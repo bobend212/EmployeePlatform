@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from "@angular/core";
 import { User } from "../_models/User";
 import { ActivatedRoute } from "@angular/router";
 import { NgForm } from "@angular/forms";
-import { AlertifyService } from "../_services/Alertify.service";
+import { AlertifyService } from "../_services/alertify.service";
 import { UserService } from '../_services/user.service';
 import { AuthService } from '../_services/auth.service';
 import { Timesheet } from '../_models/Timesheet';
