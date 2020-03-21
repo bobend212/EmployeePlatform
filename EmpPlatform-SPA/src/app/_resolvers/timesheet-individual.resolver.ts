@@ -7,21 +7,22 @@ import { Observable, of } from "rxjs";
 import { catchError } from "rxjs/operators";
 import { AuthService } from "../_services/auth.service";
 import { Timesheet } from '../_models/Timesheet';
+import { TimesheetService } from '../_services/timesheet.service';
 
 @Injectable()
-export class TimesheetIndividualResolver implements Resolve<User> {
+export class TimesheetIndividualResolver implements Resolve<Timesheet> {
   constructor(
-    private userService: UserService,
+    private timesheetService: TimesheetService,
     private router: Router,
     private alertify: AlertifyService,
     private authService: AuthService
   ) { }
 
-  resolve(route: ActivatedRouteSnapshot): Observable<User> {
-    return this.userService.getUser(this.authService.decodedToken.nameid).pipe(
+  resolve(route: ActivatedRouteSnapshot): Observable<Timesheet> {
+    return this.timesheetService.getTimesheet(this.authService.decodedToken.nameid).pipe(
       catchError(error => {
         this.alertify.error("Problem retrieving your data");
-        this.router.navigate(["/users"]);
+        //this.router.navigate(["/users"]);
         return of(null);
       })
     );

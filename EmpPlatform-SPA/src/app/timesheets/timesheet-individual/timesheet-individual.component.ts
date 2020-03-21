@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { User } from 'src/app/_models/User';
 import { ActivatedRoute } from '@angular/router';
 import { Timesheet } from 'src/app/_models/Timesheet';
 import { AlertifyService } from 'src/app/_services/Alertify.service';
 import { UserService } from 'src/app/_services/user.service';
+import { AuthService } from 'src/app/_services/auth.service';
 
 @Component({
   selector: 'app-timesheet-individual',
@@ -12,25 +13,27 @@ import { UserService } from 'src/app/_services/user.service';
 })
 export class TimesheetIndividualComponent implements OnInit {
   timesheets: Timesheet[];
-  user: User[];
 
-  constructor(private route: ActivatedRoute, private alertify: AlertifyService, private userService: UserService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private alertify: AlertifyService,
+    private userService: UserService,
+    private authService: AuthService
+  ) { }
 
   ngOnInit() {
     this.route.data.subscribe(data => {
-      this.timesheets = Array.of(data["timesheet"]);
+      this.timesheets = data["timesheet"];
     });
   }
 
-  loadTimesheets() {
-    this.userService.getUsers().subscribe(
-      (user: User[]) => {
-        this.user = user;
-      },
-      error => {
-        this.alertify.error(error);
-      }
-    );
-  }
+  // updateUser() {
+  //   this.userService.updateUser(this.authService.decodedToken.nameid, this.user).subscribe(next => {
+  //     this.alertify.success('Profile updated successfully');
+  //     this.editForm.reset(this.user);
+  //   }, error => {
+  //     this.alertify.error(error);
+  //   });
 
+  // }
 }

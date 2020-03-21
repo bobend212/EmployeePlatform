@@ -2,7 +2,7 @@
 *.db-shm
 *.db-wal
 
-/notes.txt
+notes.txt
 
 ###################
 # compiled source #
