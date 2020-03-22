@@ -1,4 +1,11 @@
-<div *ngFor="let timesheet of timesheets">
-  <p>{{timesheet.projectNumber}} {{timesheet.projectName}}</p>
-
+<div>
+  <tabset [justified]="true">
+    <tab heading=" Basic title" id="tab1">
+      <div *ngFor="let timesheet of timesheets">
+        <p>{{timesheet.projectNumber}} {{timesheet.projectName}}</p>
+      </div>
+    </tab>
+    <tab heading="Basic Title 1">Basic content 1</tab>
+    <tab heading="Basic Title 2">Basic content 2</tab>
+  </tabset>
 </div>

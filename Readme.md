@@ -1,6 +1,6 @@
 ## WEB Employee Platform
 ---
- (20/03/2020)
+ (22/03/2020)
 
 TODO List:
 - [ ] Logging system
@@ -9,6 +9,7 @@ TODO List:
   - [x] Create user account system
   - [ ] register new user as admin
   - [x] register as new user
+  - [ ] Expand registration form (Reactive Forms in Angular)
 
 - [ ] Timesheet
   - [ ] Display individual timesheet weeks table for individual user 
