@@ -2,6 +2,7 @@ import { Timesheet } from "./Timesheet";
 
 export interface User {
   id: number;
+  username: string;
   gender: string;
   hireDate: Date;
   createdDate: Date;
@@ -12,4 +13,6 @@ export interface User {
   phone: string;
   timesheets?: Timesheet[];
   departmentName: string;
+  departmentId: number;
+
 }

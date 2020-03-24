@@ -5,6 +5,7 @@ namespace EmpPlatform_API.Dtos
     public class UserForDetailedDto
     {
         public int Id { get; set; }
+        public string Username { get; set; }
         public DateTime HireDate { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime LastActive { get; set; }
@@ -14,6 +15,7 @@ namespace EmpPlatform_API.Dtos
         public string Email { get; set; }
         public string Phone { get; set; }
         public string DepartmentName { get; set; }
+        public int DepartmentId { get; set; }
 
 
     }
