@@ -52,7 +52,7 @@ export class RegisterComponent implements OnInit {
       lastName: ['', Validators.required],
       gender: ['male'],
       hireDate: [null, Validators.required],
-      departmentName: ['', Validators.required]
+      departmentId: ['', Validators.required]
     }, { validator: this.passwordMatchValidator });
   }
 

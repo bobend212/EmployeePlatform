@@ -36,11 +36,12 @@ namespace EmpPlatform_API.Helpers
 
             CreateMap<Department, DepartmentsForListDto>();
 
-            CreateMap<UserForRegisterDto, User>()
-                .ForMember(dest => dest.DepartmentId, opt =>
-                {
-                    opt.MapFrom(src => src.DepartmentId);
-                });
+            CreateMap<UserForRegisterDto, User>();
+            // CreateMap<UserForRegisterDto, User>()
+            //     .ForPath(dest => dest.Department, opt =>
+            //     {
+            //         opt.MapFrom(src => src.DepartmentId);
+            //     });
 
             // CreateMap<UserForRegisterDto, UserForDetailedDto>()
             //     .ForMember(dest => dest.DepartmentName, opt =>

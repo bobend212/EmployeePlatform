@@ -36,6 +36,6 @@ export class EditUserProfileComponent implements OnInit {
     }, error => {
       this.alertify.error(error);
     });
-
   }
+  
 }
