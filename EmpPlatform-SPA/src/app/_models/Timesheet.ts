@@ -6,7 +6,7 @@ export interface Timesheet {
   projectName: string;
   projectNumber: string;
   siteName: string;
-  workType: string;
+  workTypeName: string;
   datePicked: Date;
   dateAdded: Date;
   time: number;

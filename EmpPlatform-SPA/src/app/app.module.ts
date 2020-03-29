@@ -9,6 +9,8 @@ import { BsDatepickerModule } from "ngx-bootstrap/datepicker";
 import { RouterModule } from "@angular/router";
 import { MatCardModule } from '@angular/material/card'
 import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table';
+import { TableModule } from 'primeng/table';
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -65,7 +67,9 @@ export function tokenGetter() {
       }
     }),
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    TableModule
   ],
   providers: [
     AuthService,

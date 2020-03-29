@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
   <tabset [justified]="true">
     <tab heading=" Basic title" id="tab1">
       <div *ngFor="let timesheet of timesheets">
@@ -8,4 +8,70 @@
     <tab heading="Basic Title 1">Basic content 1</tab>
     <tab heading="Basic Title 2">Basic content 2</tab>
   </tabset>
-</div>
+</div> -->
+
+<p-table [value]="timesheets" (onEditInit)="onEditInit($event)" (onEditCancel)="onEditCancel($event)">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Project Name</th>
+      <th>Project Number</th>
+      <th>Work Type</th>
+      <th>Time</th>
+      <th>Date</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-timesheet>
+    <tr>
+      <td pEditableColumn>
+        <p-cellEditor>
+          <ng-template pTemplate="input">
+            <input pInputText type="text" [(ngModel)]="timesheet.projectName" required>
+          </ng-template>
+          <ng-template pTemplate="output">
+            {{timesheet.projectName}}
+          </ng-template>
+        </p-cellEditor>
+      </td>
+      <td pEditableColumn>
+        <p-cellEditor>
+          <ng-template pTemplate="input">
+            <input pInputText type="text" [(ngModel)]="timesheet.projectNumber">
+          </ng-template>
+          <ng-template pTemplate="output">
+            {{timesheet.projectNumber}}
+          </ng-template>
+        </p-cellEditor>
+      </td>
+      <td pEditableColumn>
+        <p-cellEditor>
+          <ng-template pTemplate="input">
+            <input pInputText type="text" [(ngModel)]="timesheet.workTypeName">
+          </ng-template>
+          <ng-template pTemplate="output">
+            {{timesheet.workTypeName}}
+          </ng-template>
+        </p-cellEditor>
+      </td>
+      <td pEditableColumn>
+        <p-cellEditor>
+          <ng-template pTemplate="input">
+            <input pInputText type="text" [(ngModel)]="timesheet.time">
+          </ng-template>
+          <ng-template pTemplate="output">
+            {{timesheet.time}}
+          </ng-template>
+        </p-cellEditor>
+      </td>
+      <td pEditableColumn>
+        <p-cellEditor>
+          <ng-template pTemplate="input">
+            <input pInputText type="text" [(ngModel)]="timesheet.datePicked">
+          </ng-template>
+          <ng-template pTemplate="output">
+            {{timesheet.datePicked | date: 'mediumDate'}}
+          </ng-template>
+        </p-cellEditor>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>

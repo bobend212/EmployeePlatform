@@ -31,6 +31,12 @@ namespace EmpPlatform_API.Data
             return timesheets;
         }
 
+        public async Task<Timesheet> GetTimesheetById(int id, int timesheetId)
+        {
+            var timesheetById = await _context.Timesheets.Include(wt => wt.WorkType).Include(p => p.Project).Where(x => x.UserId == id).FirstOrDefaultAsync(z => z.Id == timesheetId);
+            return timesheetById;
+        }
+
         public async Task<bool> SaveAll()
         {
             return await _context.SaveChangesAsync() > 0;

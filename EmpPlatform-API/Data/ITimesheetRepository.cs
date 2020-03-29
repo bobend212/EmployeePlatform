@@ -10,6 +10,7 @@ namespace EmpPlatform_API.Data
         void Delete<T>(T entity) where T : class;
         Task<bool> SaveAll();
         Task<IEnumerable<Timesheet>> GetTimesheet(int id);
+        Task<Timesheet> GetTimesheetById(int id, int timesheetId);
 
     }
 }

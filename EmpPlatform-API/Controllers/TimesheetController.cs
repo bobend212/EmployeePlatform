@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
 using EmpPlatform_API.Data;
@@ -30,6 +32,22 @@ namespace EmpPlatform_API.Controllers
             var timesheetsToReturn = _mapper.Map<IEnumerable<TimesheetForIndividualWeeklyDto>>(timesheets);
 
             return Ok(timesheetsToReturn);
+        }
+
+        [HttpPut("{id}/{timesheetId}")]
+        public async Task<IActionResult> UpdateTimesheet(int id, int timesheetId, TimesheetForUpdateDto timesheetForUpdateDto)
+        {
+            if (id != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
+                return Unauthorized();
+
+            var timesheetFromRepo = await _repo.GetTimesheetById(id, timesheetId);
+
+            _mapper.Map(timesheetForUpdateDto, timesheetFromRepo);
+
+            if (await _repo.SaveAll())
+                return NoContent();
+
+            throw new Exception($"Updating user ID: {id}, timesheet ID: {timesheetId} failed.");
         }
     }
 }
