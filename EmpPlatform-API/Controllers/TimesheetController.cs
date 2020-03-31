@@ -17,11 +17,13 @@ namespace EmpPlatform_API.Controllers
     {
         private readonly ITimesheetRepository _repo;
         private readonly IMapper _mapper;
+        private readonly IUserRepository _repoUser;
 
-        public TimesheetController(ITimesheetRepository repo, IMapper mapper)
+        public TimesheetController(ITimesheetRepository repo, IUserRepository repoUser, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;
+            _repoUser = repoUser;
         }
 
         [HttpGet("{id}")]
@@ -34,20 +36,21 @@ namespace EmpPlatform_API.Controllers
             return Ok(timesheetsToReturn);
         }
 
-        [HttpPut("{id}/{timesheetId}")]
-        public async Task<IActionResult> UpdateTimesheet(int id, int timesheetId, TimesheetForUpdateDto timesheetForUpdateDto)
+        [HttpPut("{timesheetId}")]
+        public async Task<IActionResult> UpdateTimesheet(int timesheetId, TimesheetForUpdateDto timesheetForUpdateDto)
         {
-            if (id != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
-                return Unauthorized();
+            int userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var timesheetFromRepo = await _repo.GetTimesheetById(id, timesheetId);
+            var user = await _repoUser.GetUser(userId);
+
+            var timesheetFromRepo = await _repo.GetTimesheetById(userId, timesheetId);
 
             _mapper.Map(timesheetForUpdateDto, timesheetFromRepo);
 
             if (await _repo.SaveAll())
                 return NoContent();
 
-            throw new Exception($"Updating user ID: {id}, timesheet ID: {timesheetId} failed.");
+            throw new Exception($"Updating timesheet ID: {timesheetId} failed or unauthorized!");
         }
     }
 }

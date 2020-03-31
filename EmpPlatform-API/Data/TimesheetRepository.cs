@@ -31,9 +31,9 @@ namespace EmpPlatform_API.Data
             return timesheets;
         }
 
-        public async Task<Timesheet> GetTimesheetById(int id, int timesheetId)
+        public async Task<Timesheet> GetTimesheetById(int userId, int timesheetId)
         {
-            var timesheetById = await _context.Timesheets.Include(wt => wt.WorkType).Include(p => p.Project).Where(x => x.UserId == id).FirstOrDefaultAsync(z => z.Id == timesheetId);
+            var timesheetById = await _context.Timesheets.Include(wt => wt.WorkType).Include(p => p.Project).Where(x => x.UserId == userId).FirstOrDefaultAsync(z => z.Id == timesheetId);
             return timesheetById;
         }
 
