@@ -10,7 +10,7 @@
   </tabset>
 </div> -->
 
-<p-table [value]="timesheets" (onEditInit)="onEditInit($event)" (onEditCancel)="onEditCancel($event)">
+<!-- <p-table [value]="timesheets">
   <ng-template pTemplate="header">
     <tr>
       <th>Project Name</th>
@@ -74,4 +74,57 @@
       </td>
     </tr>
   </ng-template>
-</p-table>
+</p-table> -->
+
+<div class="grid-table">
+  <div class="thead">
+    <div class="tr">
+      <div class="td">Project</div>
+      <div class="td">WorkType</div>
+      <div class="td">Date</div>
+      <div class="td">Time</div>
+      <div class="td">
+        <button class="btn btn-outline-success" (click)="addTimesheetForm()">
+          <i class="fa fa-plus"></i> Add
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="tbody">
+    <form class="tr" [formGroup]="t" *ngFor="let t of timesheetsForms.controls" (submit)="recordSubmit(t)">
+      <div class="td">
+        <select class="form-control" formControlName="projectId">
+          <option *ngFor="let project of projectList" [value]="project.projectId">{{project.projectName}}</option>
+        </select>
+      </div>
+      <div class="td">
+        <select class="form-control" formControlName="workTypeId">
+          <option value="0">Select</option>
+          <option *ngFor="let workType of workTypesList" [value]="workType.workTypeId">{{workType.workTypeName}}
+          </option>
+        </select>
+      </div>
+      <div class="td">
+        <input class="form-control" formControlName="date" bsDatepicker [bsConfig]="bsConfig">
+      </div>
+      <div class="td">
+        <input class="form-control" formControlName="time">
+      </div>
+      <div class="td">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<p>Form value: {{timesheetsForms.value | json}}</p>
+<p>Form value: {{timesheetsForms.status | json}}</p>
+
+<!-- <div class="form-group">
+  <input [ngClass]="{'is-invalid': registerForm.get('hireDate').errors && registerForm.get('hireDate').touched}"
+    class="form-control" placeholder="Hire Date" formControlName="hireDate" type="text" bsDatepicker
+    [bsConfig]="bsConfig">
+  <div class="invalid-feedback"
+    *ngIf="registerForm.get('hireDate').touched && registerForm.get('hireDate').hasError('required')">Hire Date is
+    required</div>
+</div> -->

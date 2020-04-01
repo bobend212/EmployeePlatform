@@ -38,6 +38,9 @@ namespace EmpPlatform_API.Helpers
             CreateMap<Department, DepartmentsForListDto>();
 
             CreateMap<UserForRegisterDto, User>();
+
+            CreateMap<Project, ProjectsForListDto>();
+            CreateMap<WorkType, WorkTypesForListDto>();
         }
     }
 }

@@ -68,6 +68,22 @@ namespace EmpPlatform_API.Controllers
             return Ok();
         }
 
+        [HttpGet("projects")]
+        public async Task<IActionResult> GetProjects()
+        {
+            var projects = await _repo.GetProjects();
+            var projectsToReturn = _mapper.Map<IEnumerable<ProjectsForListDto>>(projects);
+            return Ok(projectsToReturn);
+        }
+
+        [HttpGet("worktypes")]
+        public async Task<IActionResult> GetWorkTypes()
+        {
+            var workTypes = await _repo.GetWorkTypes();
+            var workTypesToReturn = _mapper.Map<IEnumerable<WorkTypesForListDto>>(workTypes);
+            return Ok(workTypesToReturn);
+        }
+
         // [HttpPost("register")]
         // public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         // {

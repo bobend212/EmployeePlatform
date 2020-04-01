@@ -25,6 +25,18 @@ namespace EmpPlatform_API.Data
             _context.Remove(entity);
         }
 
+        public async Task<IEnumerable<Project>> GetProjects()
+        {
+            var projects = await _context.Projects.ToListAsync();
+            return projects;
+        }
+
+        public async Task<IEnumerable<WorkType>> GetWorkTypes()
+        {
+            var workTypes = await _context.WorkTypes.ToListAsync();
+            return workTypes;
+        }
+
         public async Task<IEnumerable<Timesheet>> GetTimesheet(int id)
         {
             var timesheets = await _context.Timesheets.Include(wt => wt.WorkType).Include(p => p.Project).Where(x => x.UserId == id).ToListAsync();

@@ -12,5 +12,10 @@ namespace EmpPlatform_API.Data
         Task<IEnumerable<Timesheet>> GetTimesheet(int id);
         Task<Timesheet> GetTimesheetById(int userId, int timesheetId);
 
+        //PROJECTS
+        Task<IEnumerable<Project>> GetProjects();
+        //WORK TYPES
+        Task<IEnumerable<WorkType>> GetWorkTypes();
+
     }
 }

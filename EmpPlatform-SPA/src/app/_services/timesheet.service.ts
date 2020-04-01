@@ -16,12 +16,29 @@ const httpOptions = {
 export class TimesheetService {
   baseUrl = environment.apiUrl;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  getTimesheet(id): Observable<Timesheet> {
-    return this.http.get<Timesheet>(
-      this.baseUrl + "timesheet/" + id,
-      httpOptions
-    );
+  // getTimesheet(id): Observable<Timesheet> {
+  //   return this.http.get<Timesheet>(
+  //     this.baseUrl + "timesheet/" + id,
+  //     httpOptions
+  //   );
+  // }
+
+  getTimesheet(id) {
+    return this.http.get(this.baseUrl + 'timesheet/' + id);
   }
+
+  getProjectsList() {
+    return this.http.get(this.baseUrl + 'timesheet/projects');
+  }
+
+  getWorkTypesList() {
+    return this.http.get(this.baseUrl + 'timesheet/worktypes');
+  }
+
+  postTimesheetRecord(formData) {
+    return this.http.post(this.baseUrl + 'timesheet', formData);
+  }
+
 }
