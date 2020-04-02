@@ -33,6 +33,8 @@ export class TimesheetIndividualComponent implements OnInit {
     // this.route.data.subscribe(data => {
     //   this.timesheets = data["timesheet"];
     // });
+    this.loadWorkTypes();
+    this.loadProjects();
 
     this.timesheetService.getTimesheet(this.authService.decodedToken.nameid).subscribe(
       res => {
@@ -40,7 +42,7 @@ export class TimesheetIndividualComponent implements OnInit {
           this.addTimesheetForm();
         else {
           //generate formarray as per the data received from BankAccont table
-          (res as []).forEach((timesheet: Timesheet) => {
+          (res as []).forEach((timesheet: any) => {
             this.timesheetsForms.push(this.fb.group({
               timesheetId: [timesheet.id],
               projectId: [timesheet.projectId],
@@ -58,13 +60,10 @@ export class TimesheetIndividualComponent implements OnInit {
       containerClass: 'theme-dark-blue'
     };
 
-    this.loadProjects();
-    this.loadWorkTypes();
+    // this.timesheetService.getWorkTypesList()
+    //   .subscribe(result => this.workTypesList = result as []);
 
-    this.timesheetService.getWorkTypesList()
-      .subscribe(result => this.workTypesList = result as []);
-
-    this.addTimesheetForm();
+    // this.addTimesheetForm();
   }
 
   loadWorkTypes() {
@@ -95,7 +94,7 @@ export class TimesheetIndividualComponent implements OnInit {
     this.timesheetsForms.push(this.fb.group({
       timesheetId: [0],
       projectId: [0],
-      workTypeId: [0],
+      workTypeId: [''],
       date: [''],
       time: [0]
     }));

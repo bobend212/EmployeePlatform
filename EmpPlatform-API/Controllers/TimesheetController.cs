@@ -65,7 +65,7 @@ namespace EmpPlatform_API.Controllers
             _repo.Add<Timesheet>(timesheetDto);
             await _repo.SaveAll();
 
-            return Ok();
+            return CreatedAtAction("GetTimesheet", new { id = timesheetDto.Id }, timesheetDto);
         }
 
         [HttpGet("projects")]

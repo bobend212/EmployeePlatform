@@ -33,7 +33,9 @@ namespace EmpPlatform_API.Helpers
                 .ForMember(dest => dest.SiteName, opt =>
                     opt.MapFrom(src => src.Project.SiteName))
                 .ForMember(dest => dest.WorkTypeName, opt =>
-                    opt.MapFrom(src => src.WorkType.WorkTypeName));
+                    opt.MapFrom(src => src.WorkType.WorkTypeName))
+                .ForMember(dest => dest.WorkTypeId, opt =>
+                    opt.MapFrom(src => src.WorkType.WorkTypeId));
 
             CreateMap<Department, DepartmentsForListDto>();
 

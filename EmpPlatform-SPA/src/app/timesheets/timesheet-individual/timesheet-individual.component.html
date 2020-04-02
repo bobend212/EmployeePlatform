@@ -91,7 +91,7 @@
     </div>
   </div>
   <div class="tbody">
-    <form class="tr" [formGroup]="t" *ngFor="let t of timesheetsForms.controls" (submit)="recordSubmit(t)">
+    <form class="tr" [formGroup]="fg" *ngFor="let fg of timesheetsForms.controls" (submit)="recordSubmit(fg)">
       <div class="td">
         <select class="form-control" formControlName="projectId">
           <option *ngFor="let project of projectList" [value]="project.projectId">{{project.projectName}}</option>
@@ -99,8 +99,7 @@
       </div>
       <div class="td">
         <select class="form-control" formControlName="workTypeId">
-          <option value="0">Select</option>
-          <option *ngFor="let workType of workTypesList" [value]="workType.workTypeId">{{workType.workTypeName}}
+          <option *ngFor="let workType of workTypesList" value="{{workType.workTypeId}}">{{workType.workTypeName}}
           </option>
         </select>
       </div>
@@ -111,14 +110,14 @@
         <input class="form-control" formControlName="time">
       </div>
       <div class="td">
-        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="submit"
+          [ngClass]="fg.get('timesheetId').value==0?'btn btn-success':'btn btn-outline-dark'">{{fg.get('timesheetId').value==0?'Submit':'Edit'}}</button>
       </div>
     </form>
   </div>
 </div>
 
 <p>Form value: {{timesheetsForms.value | json}}</p>
-<p>Form value: {{timesheetsForms.status | json}}</p>
 
 <!-- <div class="form-group">
   <input [ngClass]="{'is-invalid': registerForm.get('hireDate').errors && registerForm.get('hireDate').touched}"
