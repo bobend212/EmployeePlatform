@@ -41,4 +41,8 @@ export class TimesheetService {
     return this.http.post(this.baseUrl + 'timesheet', formData);
   }
 
+  putTimesheetRecord(formData) {
+    return this.http.put(this.baseUrl + 'timesheet/' + formData.timesheetId, formData);
+  }
+
 }

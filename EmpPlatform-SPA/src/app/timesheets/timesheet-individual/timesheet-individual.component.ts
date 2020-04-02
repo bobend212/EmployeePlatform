@@ -47,7 +47,7 @@ export class TimesheetIndividualComponent implements OnInit {
               timesheetId: [timesheet.id],
               projectId: [timesheet.projectId],
               workTypeId: [timesheet.workTypeId],
-              date: [timesheet.datePicked],
+              datePicked: [timesheet.datePicked],
               time: [timesheet.time]
             }));
           });
@@ -95,16 +95,22 @@ export class TimesheetIndividualComponent implements OnInit {
       timesheetId: [0],
       projectId: [0],
       workTypeId: [''],
-      date: [''],
+      datePicked: [''],
       time: [0]
     }));
   }
 
   recordSubmit(fg: FormGroup) {
-    this.timesheetService.postTimesheetRecord(fg.value)
-      .subscribe((res: any) => {
-        fg.patchValue({ timesheetId: res.timesheetId });
-      })
+    if (fg.value.timesheetId == 0)
+      this.timesheetService.postTimesheetRecord(fg.value)
+        .subscribe((res: any) => {
+          fg.patchValue({ timesheetId: res.timesheetId });
+        });
+    else
+      this.timesheetService.putTimesheetRecord(fg.value)
+        .subscribe((res: any) => {
+
+        })
   }
 
   // onEditInit(event): void {
