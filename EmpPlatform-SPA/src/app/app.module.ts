@@ -11,6 +11,7 @@ import { MatCardModule } from '@angular/material/card'
 import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { TableModule } from 'primeng/table';
+import { CalendarModule } from 'primeng/calendar';
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -30,6 +31,7 @@ import { UsersDetailedComponent } from './users-detailed/users-detailed.componen
 import { UserDetailResolver } from './_resolvers/user-detail.resolver';
 import { TimesheetIndividualComponent } from './timesheets/timesheet-individual/timesheet-individual.component';
 import { TimesheetIndividualResolver } from './_resolvers/timesheet-individual.resolver';
+import { MytimesheetComponent } from './timesheets/mytimesheet/mytimesheet.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -46,7 +48,8 @@ export function tokenGetter() {
     UsersComponent,
     EditUserProfileComponent,
     UsersDetailedComponent,
-    TimesheetIndividualComponent
+    TimesheetIndividualComponent,
+    MytimesheetComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +58,7 @@ export function tokenGetter() {
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    CalendarModule,
     BsDropdownModule.forRoot(),
     BsDatepickerModule.forRoot(),
     TabsModule.forRoot(),

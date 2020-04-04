@@ -21,7 +21,7 @@ export class NavComponent implements OnInit {
     }, error => {
       this.alertify.error(error);
     }, () => {
-      this.router.navigate(['/timesheet']);
+      this.router.navigate(['/mytimesheet']);
     });
   }
 

@@ -1,0 +1,68 @@
+<!-- <div *ngFor="let timesheet of timesheets">
+  <p>{{timesheet.projectNumber}} {{timesheet.projectName}}</p>
+</div> -->
+
+<!-- <div class="ui-g-12 ui-md-4">
+  <h3>Range</h3>
+  <p-calendar selectionMode="range" [readonlyInput]="true" [showWeek]="true"></p-calendar>
+</div> -->
+
+<!-- <div class="row">
+  <div class="col-xs-12 col-12 col-sm-6 col-md-5 form-group">
+    <input type="text" class="form-control" #dp="bsDatepicker" bsDatepicker [bsValue]="bsValue"
+      [bsConfig]="{ selectWeek: true, selectFromOtherMonth: true}" [(ngModel)]="startDate">
+  </div>
+</div>  -->
+
+<div class="col-xs-12 col-12 col-md-4 form-group">
+  <input type="text" class="form-control" [bsConfig]="bsConfig" bsDatepicker [(bsValue)]="bsValue"
+    [daysDisabled]="[0,2,3,4,5,6]">
+</div>
+
+<!-- <input type="text" [(ngModel)]="title" class="inputbox form-control">
+<p>{{title}}</p> -->
+
+<p>Start date: {{bsValue | date}}</p>
+<p>Start date: {{tues.setDate(bsValue.getDate() + 1) | date}}</p>
+<p>Week no: {{bsValue | date:'w'}}</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>{{bsValue | date:'EE, MMM d'}}</th>
+      <th>{{tues.setDate(bsValue.getDate() + 1) | date:'EE, MMM d'}}</th>
+      <th>{{tues.setDate(bsValue.getDate() + 2) | date:'EE, MMM d'}}</th>
+      <th>{{tues.setDate(bsValue.getDate() + 3) | date:'EE, MMM d'}}</th>
+      <th>{{tues.setDate(bsValue.getDate() + 4) | date:'EE, MMM d'}}</th>
+      <th>{{tues.setDate(bsValue.getDate() + 5) | date:'EE, MMM d'}}</th>
+      <th>{{tues.setDate(bsValue.getDate() + 6) | date:'EE, MMM d'}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>123</td>
+      <td>123</td>
+      <td>123</td>
+      <td>123</td>
+      <td>123</td>
+      <td>123</td>
+      <td>123</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-secondary" (click)="getMonday(startDate, 1)">1</button>
+  <button type="button" class="btn btn-secondary">2</button>
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+</div>
