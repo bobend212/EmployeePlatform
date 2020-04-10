@@ -12,6 +12,7 @@ import { UserDetailResolver } from './_resolvers/user-detail.resolver';
 import { TimesheetIndividualComponent } from './timesheets/timesheet-individual/timesheet-individual.component';
 import { TimesheetIndividualResolver } from './_resolvers/timesheet-individual.resolver';
 import { MytimesheetComponent } from './timesheets/mytimesheet/mytimesheet.component';
+import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 
 export const appRoutes: Routes = [
   { path: "", component: HomeComponent },
@@ -31,7 +32,8 @@ export const appRoutes: Routes = [
       { path: "workflow", component: WorkflowComponent },
       { path: "projects", component: ProjectsListComponent },
       { path: "timesheet", component: TimesheetIndividualComponent, resolve: { timesheet: TimesheetIndividualResolver } },
-      { path: "mytimesheet", component: MytimesheetComponent, resolve: { timesheet: TimesheetIndividualResolver } }
+      { path: "mytimesheet", component: MytimesheetComponent, resolve: { timesheet: TimesheetIndividualResolver } },
+      { path: "admin", component: AdminPanelComponent, data: { roles: ['Admin', 'Leader'] } }
     ]
   },
   { path: "**", redirectTo: "", pathMatch: "full" }

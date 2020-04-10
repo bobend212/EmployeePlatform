@@ -22,4 +22,8 @@ export class HomeComponent implements OnInit {
     this.registerMode = registerMode;
   }
 
+  logout() {
+    localStorage.removeItem('token');
+  }
+
 }

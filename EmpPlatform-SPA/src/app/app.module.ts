@@ -32,6 +32,13 @@ import { UserDetailResolver } from './_resolvers/user-detail.resolver';
 import { TimesheetIndividualComponent } from './timesheets/timesheet-individual/timesheet-individual.component';
 import { TimesheetIndividualResolver } from './_resolvers/timesheet-individual.resolver';
 import { MytimesheetComponent } from './timesheets/mytimesheet/mytimesheet.component';
+import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
+import { HasRoleDirective } from './_directives/hasRole.directive';
+import { UserManagementComponent } from './admin/user-management/user-management.component';
+import { ProjectManagementComponent } from './admin/project-management/project-management.component';
+import { AdminService } from './_services/admin.service';
+import { RolesModalComponent } from './admin/roles-modal/roles-modal.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -49,7 +56,12 @@ export function tokenGetter() {
     EditUserProfileComponent,
     UsersDetailedComponent,
     TimesheetIndividualComponent,
-    MytimesheetComponent
+    MytimesheetComponent,
+    AdminPanelComponent,
+    HasRoleDirective,
+    UserManagementComponent,
+    ProjectManagementComponent,
+    RolesModalComponent
   ],
   imports: [
     BrowserModule,
@@ -73,7 +85,8 @@ export function tokenGetter() {
     MatCardModule,
     MatInputModule,
     MatTableModule,
-    TableModule
+    TableModule,
+    ModalModule.forRoot()
   ],
   providers: [
     AuthService,
@@ -81,7 +94,11 @@ export function tokenGetter() {
     UserEditResolver,
     PreventUnsavedChanges,
     UserDetailResolver,
-    TimesheetIndividualResolver
+    TimesheetIndividualResolver,
+    AdminService
+  ],
+  entryComponents: [
+    RolesModalComponent
   ],
   bootstrap: [AppComponent]
 })

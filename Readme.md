@@ -7,7 +7,7 @@ TODO List:
   - [x] JWT  
   - [x] Authentication and authorization
   - [x] Create user account system
-  - [ ] register new user as admin
+  - [x] role management system
   - [x] register as new user
   - [x] Expand registration form (Reactive Forms in Angular)
 
@@ -39,11 +39,11 @@ TODO List:
   - [x]  Edit User Details - individual by user
   - [ ] Add sorting, pagination and filtering to tables 
 
-- [ ] Roles and Identity Framework
-  - [ ] create roles 
-  - [ ] Implement roles
-  - [ ] admin dashboard
-  - [ ] Identity Framework
+- [x] Roles and Identity Framework
+  - [x] create roles 
+  - [x] Implement roles
+  - [x] admin dashboard
+  - [x] Identity Framework
 
 - [ ] Projects/Clients module 
   - [ ] Global projects/clients database (table) 

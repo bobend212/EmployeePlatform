@@ -2,7 +2,7 @@ import { Timesheet } from "./Timesheet";
 
 export interface User {
   id: number;
-  username: string;
+  userName: string;
   gender: string;
   hireDate: Date;
   createdDate: Date;
@@ -14,5 +14,5 @@ export interface User {
   timesheets?: Timesheet[];
   departmentName: string;
   departmentId: number;
-
+  roles?: string[];
 }

@@ -4,12 +4,14 @@ using AutoMapper;
 using EmpPlatform_API.Data;
 using EmpPlatform_API.Dtos;
 using EmpPlatform_API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmpPlatform_API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [AllowAnonymous]
     public class DepartmentsController : ControllerBase
     {
         private readonly IDepartmentRepository _repo;

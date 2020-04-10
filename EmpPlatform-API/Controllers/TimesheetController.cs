@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmpPlatform_API.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TimesheetController : ControllerBase

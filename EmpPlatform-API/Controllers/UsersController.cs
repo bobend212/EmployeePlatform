@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmpPlatform_API.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
@@ -63,18 +62,18 @@ namespace EmpPlatform_API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> RemoveUser(int id) 
+        public async Task<IActionResult> RemoveUser(int id)
         {
             if (id != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
-                 return Unauthorized();  
+                return Unauthorized();
 
             var userFromRepo = await _repo.GetUser(id);
 
             _repo.Delete(userFromRepo);
 
             if (await _repo.SaveAll())
-                 return NoContent();
-            
+                return NoContent();
+
             throw new Exception($"Error deleting user id: {id}");
         }
     }
